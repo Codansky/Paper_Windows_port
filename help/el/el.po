@@ -1,0 +1,4469 @@
+# Stylianos Papanastasiou <stelios@dcs.gla.ac.uk>, 2005.
+# Μάριος Ζηντίλης <m.zindilis@dmajor.org>, 2009.
+# Michael Kotsarinis <mk73628@gmail.com>, 2010.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2012, 2013.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: evince greek help 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-15 17:38+0000\n"
+"PO-Revision-Date: 2015-09-20 13:40+0300\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"Language-Team: Ελληνικά <opensuse-translation-el@opensuse.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα GNOME <team@gnome.gr>, 2005-2015\n"
+"Στυλιανός Παπαναστασίου <stelios@dcs.gla.ac.uk>, 2005\n"
+"Μιχάλης Κοτσαρίνης <mk73628@gmail.com>, 2010\n"
+"Δημήτρης Σπίγγος <dmtrs32@gmail.com>, 2012, 2013\n"
+"Θάνος Τρυφωνίδης <tomtryf@gmail.com>, 2014, 2015\n"
+"Mαρία Μαυρίδου <mavridou@gmail.com>, 2014"
+
+#. (itstool) path: info/desc
+#: C/annotation-properties.page:7
+msgid "How to customize the author, color, style or icon of an annotation."
+msgstr ""
+"Μπορείτε να προσαρμόσετε τον συγγραφέα, το χρώμα, το στυλ ή το εικονίδιο "
+"ενός σχολίου."
+
+#. (itstool) path: credit/name
+#: C/annotation-properties.page:11 C/duplex-6pages.page:12
+#: C/duplex-15pages.page:12 C/duplex-npages.page:12 C/bookmarks.page:14
+#: C/singlesided-9-12pages.page:12 C/duplex-11pages.page:12
+#: C/duplex-8pages.page:12 C/commandline.page:16 C/forms.page:11
+#: C/singlesided-17-20pages.page:12 C/develop.page:10
+#: C/annotations-disabled.page:11 C/duplex-13pages.page:12
+#: C/duplex-4pages.page:12 C/duplex-7pages.page:12 C/duplex-16pages.page:12
+#: C/singlesided-npages.page:12 C/translate.page:10 C/headerbar.page:14
+#: C/annotations.page:13 C/annotations-save.page:12
+#: C/annotations-navigate.page:12 C/print-booklet.page:12
+#: C/documentation.page:9 C/duplex-12pages.page:12
+#: C/singlesided-5-8pages.page:12 C/duplex-3pages.page:12
+#: C/introduction.page:12 C/index.page:18 C/duplex-9pages.page:12
+#: C/opening.page:15 C/duplex-10pages.page:12 C/singlesided-13-16pages.page:12
+#: C/openerror.page:13 C/singlesided-3-4pages.page:12 C/forms-saving.page:15
+#: C/duplex-14pages.page:12 C/bug-filing.page:11 C/duplex-5pages.page:12
+msgid "Tiffany Antopolski"
+msgstr "Tiffany Antopolski"
+
+#. (itstool) path: license/p
+#: C/annotation-properties.page:15 C/duplex-6pages.page:16
+#: C/print-2sided.page:16 C/duplex-15pages.page:16 C/duplex-npages.page:16
+#: C/bookmarks.page:23 C/singlesided-9-12pages.page:16 C/duplex-11pages.page:16
+#: C/convertSVG.page:20 C/duplex-8pages.page:16 C/invert-colors.page:24
+#: C/commandline.page:20 C/forms.page:15 C/reload.page:18
+#: C/presentations.page:21 C/singlesided-17-20pages.page:16 C/develop.page:15
+#: C/printing.page:22 C/textselection.page:15 C/annotations-disabled.page:15
+#: C/duplex-13pages.page:16 C/duplex-4pages.page:16 C/duplex-7pages.page:16
+#: C/duplex-16pages.page:16 C/singlesided-npages.page:16 C/print-order.page:16
+#: C/translate.page:19 C/headerbar.page:18 C/annotations.page:21
+#: C/print-select.page:15 C/annotations-save.page:20
+#: C/annotations-navigate.page:16 C/print-booklet.page:16 C/noprint.page:18
+#: C/documentation.page:14 C/duplex-12pages.page:16
+#: C/singlesided-5-8pages.page:16 C/duplex-3pages.page:16
+#: C/duplex-9pages.page:16 C/duplex-10pages.page:16
+#: C/singlesided-13-16pages.page:16 C/openerror.page:17
+#: C/singlesided-3-4pages.page:16 C/forms-saving.page:23 C/formats.page:20
+#: C/duplex-14pages.page:16 C/bug-filing.page:15 C/duplex-5pages.page:16
+#: C/editing.page:16
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#. (itstool) path: page/title
+#: C/annotation-properties.page:20
+msgid "Customize annotations"
+msgstr "Προσαρμογή σχολίων"
+
+#. (itstool) path: item/p
+#: C/annotation-properties.page:24
+msgid "Right click on the annotation icon in the document."
+msgstr "Δεξί κλικ στο εικονίδιο σχολίου στο έγγραφο."
+
+#. (itstool) path: item/p
+#: C/annotation-properties.page:29
+msgid "Select <gui>Annotation Properties…</gui>."
+msgstr "Επιλέξτε <gui>Ιδιότητες σχολίου…</gui>."
+
+#. (itstool) path: item/p
+#: C/annotation-properties.page:34
+msgid ""
+"In the <gui>Annotation Properties</gui> window, you can change the author, "
+"color, style and icon of your note."
+msgstr ""
+"Στο παράθυρο <gui>Ιδιότητες σχολίου</gui>, μπορείτε να αλλάξετε τον "
+"συντάκτη, το χρώμα, το στυλ και το εικονίδιο της σημείωσής σας."
+
+#. (itstool) path: note/p
+#: C/annotation-properties.page:38
+msgid ""
+"The annotation properties will be applied to the note for which you made the "
+"changes only. Each note can have a different set of properties."
+msgstr ""
+"Οι ιδιότητες του σχολίου θα εφαρμοσθούν μόνο στη σημείωση για την οποία "
+"κάνατε τις αλλαγές. Κάθε σημείωση μπορεί να έχει διαφορετικό σύνολο "
+"ιδιοτήτων."
+
+#. (itstool) path: section/title
+#: C/annotation-properties.page:47
+msgid "Can I permanently change the default annotation properties?"
+msgstr "Μπορώ να αλλάξω τις προεπιλεγμένες ιδιότητες των σχολίων μόνιμα;"
+
+#. (itstool) path: section/p
+#: C/annotation-properties.page:48
+msgid ""
+"The default annotation properties (author, colour, style and icon) can only "
+"be changed on a particular note as stated above. So if you want all icons "
+"for your notes to be <gui>red</gui> instead of <gui>yellow</gui>, you will "
+"have to change the default from <gui>yellow</gui> to <gui>red</gui> "
+"individually on each note. There is no way to save different default "
+"settings for annotation properties, at this time."
+msgstr ""
+"Οι προεπιλεγμένες ιδιότητες των σχολίων (συγγραφέας, χρώμα, στυλ και "
+"εικονίδιο) μπορούν να αλλαχθούν μόνο σε συγκεκριμένη σημείωση όπως έχει "
+"ειπωθεί παραπάνω. Έτσι, αν θέλετε όλα τα εικονίδια των σημειώσεών σας να "
+"είναι <gui>κόκκινα</gui> αντί για <gui>κίτρινα</gui>, θα πρέπει να αλλάξετε "
+"την προεπιλογή από <gui>κίτρινο</gui> σε <gui>κόκκινο</gui> ξεχωριστά για "
+"κάθε σημείωση. Δεν υπάρχει προς το παρόν τρόπος να αποθηκεύονται "
+"διαφορετικές προεπιλεγμένες ρυθμίσεις για τις ιδιότητες των σχολίων."
+
+#. (itstool) path: info/title
+#: C/duplex-6pages.page:7
+msgctxt "sort"
+msgid "06-Page Booklet"
+msgstr "06-σέλιδο φυλλάδιο"
+
+#. (itstool) path: info/desc
+#: C/duplex-6pages.page:8
+msgid "Print a 6 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 6 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-6pages.page:21
+msgid "6-page booklet"
+msgstr "6-σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/p
+#: C/duplex-6pages.page:25 C/duplex-6pages.page:68 C/print-2sided.page:29
+msgid ""
+"Press the menu button in the top-right corner of the window and press the "
+"<gui style=\"button\">Print</gui> button."
+msgstr ""
+"Πατήστε το κουμπί μενού στην πάνω δεξιά γωνία του παραθύρου και πατήστε το "
+"κουμπί <gui style=\"button\">Εκτύπωση</gui>."
+
+#. (itstool) path: item/p
+#: C/duplex-6pages.page:46 C/duplex-npages.page:71 C/duplex-11pages.page:46
+msgid ""
+"Under <em>Layout</em>, in the <gui>Two-sided</gui> menu, select <gui>Short "
+"Edge (Flip)</gui>."
+msgstr ""
+"Στη <em>Διάταξη</em>, στο μενού <gui>Διπλή όψη</gui>, επιλέξτε <gui>Βραχεία "
+"πλευρά (αναστροφή)</gui>."
+
+#. (itstool) path: item/p
+#: C/movingaround.page:88
+msgid ""
+"Type a page number in <gui style=\"input\">Select Page</gui> on the <link "
+"xref=\"headerbar\">header bar</link> and press <key>Enter</key>."
+msgstr ""
+"Πληκτρολογήστε έναν αριθμό σελίδας στην <gui style=\"input\">Επιλογή "
+"σελίδας</gui> στη <link xref=\"headerbar\">γραμμή τίτλου</link> και πατήστε "
+"<key>Enter</key>."
+
+#. (itstool) path: item/p
+#: C/movingaround.page:95
+msgid "Press <keyseq><key>Ctrl</key><key>Home</key></keyseq> on your keyboard."
+msgstr ""
+"Πατήστε <keyseq><key>Ctrl</key><key>Home</key></keyseq> στο πληκτρολόγιό σας."
+
+#. (itstool) path: item/p
+#: C/movingaround.page:99
+msgid "Press <keyseq><key>Ctrl</key><key>End</key></keyseq> on your keyboard."
+msgstr ""
+"Πατήστε <keyseq><key>Ctrl</key><key>End</key></keyseq> στο πληκτρολόγιό σας."
+
+#. (itstool) path: note/p
+#: C/movingaround.page:111
+msgid ""
+"You can only move around one page at a time, by default. If you want to move "
+"between pages just by scrolling or dragging, press the menu button in the "
+"top-right corner of the window and select <gui "
+"style=\"menuitem\">Continuous</gui>."
+msgstr ""
+"Από προεπιλογή, μπορείτε να μετακινηθείτε μόνο μία σελίδα τη φορά. Αν θέλετε "
+"να μετακινείστε μεταξύ των σελίδων απλώς με κύλιση ή σύρσιμο, πατήστε το "
+"κουμπί μενού στην πάνω δεξιά γωνία του παραθύρου και επιλέξτε <gui "
+"style=\"menuitem\">Συνεχής</gui>."
+
+#. (itstool) path: section/p
+#: C/movingaround.page:124 C/bookmarks.page:34 C/annotations.page:30
+msgid ""
+"When you open a file, you should have a side pane on the left side of the "
+"window. If you do not have a visible side pane, click the <gui "
+"style=\"button\">Side pane</gui> button in the top-left corner, or press the "
+"<key>F9</key> key on the keyboard."
+msgstr ""
+"Όταν ανοίγετε ένα αρχείο, θα πρέπει να υπάρχει μια πλευρική στήλη στην "
+"αριστερή πλευρά του παραθύρου. Αν δεν υπάρχει ορατή πλευρική στήλη, κάντε "
+"κλικ στο κουμπί <gui style=\"button\">Πλευρική στήλη</gui> στην πάνω "
+"αριστερή γωνία ή πατήστε το πλήκτρο <key>F9</key> στο πληκτρολόγιο."
+
+#. (itstool) path: section/p
+#: C/movingaround.page:128
+msgid "The side pane shows a preview of all of the pages in the document."
+msgstr ""
+"Η πλευρική στήλη εμφανίζει μια προεπισκόπηση όλων των σελίδων του εγγράφου."
+
+#. (itstool) path: note/p
+#: C/movingaround.page:133
+msgid ""
+"Some documents have an index or table of contents, which you can display in "
+"the side pane. Select the <gui>Outline</gui> button at the bottom of the "
+"side pane to view it."
+msgstr ""
+"Ορισμένα έγγραφα διαθέτουν ευρετήριο ή πίνακα περιεχομένων, τα οποία "
+"μπορείτε να εμφανίσετε στην πλευρική στήλη. Επιλέξτε το κουμπί <gui>Δομή</"
+"gui> στο κάτω μέρος της πλευρικής στήλης για να τα προβάλετε."
+
+#. (itstool) path: note/p
+#: C/movingaround.page:137
+msgid ""
+"Most documents don't use this feature, so you won't be able to view their "
+"index in the side pane."
+msgstr ""
+"Τα περισσότερα έγγραφα δεν χρησιμοποιούν αυτή τη λειτουργία, έτσι δεν θα "
+"μπορέσετε να προβάλετε το ευρετήριο τους στην πλευρική στήλη."
+
+#. (itstool) path: section/title
+#: C/movingaround.page:145
+msgid "Zooming in and out"
+msgstr "Μεγέθυνση και σμίκρυνση"
+
+#. (itstool) path: section/p
+#: C/movingaround.page:147
+msgid "To adjust the zoom level:"
+msgstr "Για να ρυθμίσετε το επίπεδο εστίασης:"
+
+#. (itstool) path: item/p
+#: C/movingaround.page:151
+msgid ""
+"Select the desired zoom percentage from the drop-down menu in the top-right "
+"corner."
+msgstr ""
+"Επιλέξτε το επιθυμητό ποσοστό εστίασης από το αναπτυσσόμενο μενού στην πάνω "
+"δεξιά γωνία."
+
+#. (itstool) path: item/p
+#: C/movingaround.page:155
+msgid ""
+"Alternatively, use the keyboard shortcuts <keyseq><key>Ctrl</key><key>+</"
+"key></keyseq> to zoom in, or <keyseq><key>Ctrl</key><key>-</key></keyseq> to "
+"zoom out."
+msgstr ""
+"Εναλλακτικά, χρησιμοποιήστε τις συντομεύσεις πληκτρολογίου "
+"<keyseq><key>Ctrl</key><key>+</key></keyseq> για μεγέθυνση, ή "
+"<keyseq><key>Ctrl</key><key>-</key></keyseq> για σμίκρυνση."
+
+#. (itstool) path: item/p
+#: C/movingaround.page:159
+msgid ""
+"Alternatively, hold down <key>Ctrl</key> and use your mouse scroll wheel to "
+"zoom."
+msgstr ""
+"Εναλλακτικά, κρατήστε πατημένο το <key>Ctrl</key> και χρησιμοποιήστε τον "
+"τροχό του ποντικιού για εστίαση."
+
+#. (itstool) path: note/p
+#: C/movingaround.page:164
+msgid ""
+"The <gui>Fit Page</gui> option will make a document page fit the whole "
+"<em>height</em> of the window."
+msgstr ""
+"Η επιλογή <gui>Προσαρμογή στη σελίδα</gui> θα κάνει τη σελίδα του εγγράφου "
+"να προσαρμοστεί σε όλο το <em>ύψος</em> του παραθύρου."
+
+#. (itstool) path: note/p
+#: C/movingaround.page:166
+msgid ""
+"The <gui>Fit Width</gui> option will make a document page fill the whole "
+"<em>width</em> of the window."
+msgstr ""
+"Η επιλογή <gui>Προσαρμογή στο πλάτος</gui> θα κάνει τη σελίδα του εγγράφου "
+"να γεμίσει όλο το <em>πλάτος</em> του παραθύρου."
+
+#. (itstool) path: note/p
+#: C/movingaround.page:168
+msgid ""
+"If you want to see two pages at once, side by side, like in a book, press "
+"the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Dual</gui>."
+msgstr ""
+"Αν θέλετε να βλέπετε δύο σελίδες ταυτόχρονα, τη μία δίπλα στην άλλη, όπως σε "
+"ένα βιβλίο, πατήστε το κουμπί μενού στην πάνω δεξιά γωνία του παραθύρου και "
+"επιλέξτε <gui style=\"menuitem\">Διπλή</gui>."
+
+#. (itstool) path: note/p
+#: C/movingaround.page:171
+msgid ""
+"If the allow-links-change-zoom gsetting is set to false, links are blocked "
+"from changing your zoom level."
+msgstr ""
+"Εάν η ρύθμιση allow-links-change-zoom του gsettings έχει οριστεί σε ψευδή "
+"(false), οι σύνδεσμοι εμποδίζονται από το να αλλάξουν το επίπεδο εστίασης."
+
+#. (itstool) path: section/p
+#: C/movingaround.page:175
+msgid "You can use the whole of your screen to view the document:"
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε ολόκληρη την οθόνη σας για να προβάλετε το "
+"έγγραφο:"
+
+#. (itstool) path: item/p
+#: C/movingaround.page:179
+msgid "Press <key>F11</key>."
+msgstr "Πατήστε το <key>F11</key>."
+
+#. (itstool) path: item/p
+#: C/movingaround.page:182
+msgid "To exit the full screen mode:"
+msgstr "Για έξοδο από τη λειτουργία πλήρους οθόνης:"
+
+#. (itstool) path: item/p
+#: C/movingaround.page:183
+msgid "Press <key>F11</key> or <key>Escape</key>"
+msgstr "Πατήστε το <key>F11</key> ή το <key>Escape</key>"
+
+#. (itstool) path: credit/name
+#: C/bookmarks.page:18 C/finding.page:23 C/password.page:16
+#: C/print-pagescaling.page:12 C/opening.page:19 C/formats.page:16
+#: C/print-differentsize.page:17
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: info/desc
+#: C/bookmarks.page:26
+msgid "You can use annotations like bookmarks."
+msgstr "Μπορείτε να χρησιμοποιήσετε σχόλια όπως σελιδοδείκτες."
+
+#. (itstool) path: page/title
+#: C/bookmarks.page:29
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+#. (itstool) path: page/p
+#: C/bookmarks.page:31
+msgid ""
+"You can add, rename and delete bookmarks using <app>Document Viewer</app>."
+msgstr ""
+"Μπορείτε να προσθέσετε, να μετονομάσετε και να διαγράψετε σελιδοδείκτες "
+"χρησιμοποιώντας την <app>Προβολή εγγράφων</app>."
+
+#. (itstool) path: page/p
+#: C/bookmarks.page:38
+msgid ""
+"At the bottom of this side pane, select the <gui style=\"button\">Bookmarks</"
+"gui> button."
+msgstr ""
+"Στο κάτω μέρος αυτής της πλευρικής στήλης, επιλέξτε το κουμπί <gui "
+"style=\"button\">Σελιδοδείκτες</gui>."
+
+#. (itstool) path: section/title
+#: C/bookmarks.page:44
+msgid "Create a bookmark"
+msgstr "Δημιουργία σελιδοδείκτη"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:48
+msgid ""
+"In the PDF document itself, navigate to the page to which you would like to "
+"add the bookmark."
+msgstr ""
+"Στο ίδιο το έγγραφο PDF, μεταβείτε στη σελίδα στην οποία θα θέλατε να "
+"προσθέσετε τον σελιδοδείκτη."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:52 C/bookmarks.page:71 C/bookmarks.page:85
+msgid ""
+"In the side pane, select the <gui style=\"button\">Bookmarks</gui> button at "
+"the bottom."
+msgstr ""
+"Στην πλευρική στήλη, επιλέξτε το κουμπί <gui style=\"button\">Σελιδοδείκτες</"
+"gui> στο κάτω μέρος."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:56
+msgid ""
+"Press the <gui style=\"button\">+</gui> button at the bottom of the side "
+"pane. The default name of the bookmark you just added is the page number of "
+"the document."
+msgstr ""
+"Πατήστε το κουμπί <gui style=\"button\">+</gui> στο κάτω μέρος της πλευρικής "
+"στήλης. Το προεπιλεγμένο όνομα του σελιδοδείκτη που μόλις προσθέσατε είναι ο "
+"αριθμός σελίδας του εγγράφου."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:61
+msgid "The bookmark is now listed in the bookmarks list."
+msgstr "Ο σελιδοδείκτης είναι τώρα καταχωρημένος στην λίστα σελιδοδεικτών."
+
+#. (itstool) path: section/title
+#: C/bookmarks.page:68
+msgid "Rename a bookmark"
+msgstr "Μετονομασία σελιδοδείκτη"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:73
+msgid "Select the bookmark in the side pane."
+msgstr "Επιλέξτε τον σελιδοδείκτη στην πλευρική στήλη."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:74
+msgid "Click on the bookmark name."
+msgstr "Πατήστε στο όνομα του σελιδοδείκτη."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:75
+msgid "Enter the new name."
+msgstr "Εισάγετε το νέο όνομα."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:76
+msgid "Press <key>Enter</key>."
+msgstr "Πατήστε το πλήκτρο <key>Enter</key>."
+
+#. (itstool) path: section/title
+#: C/bookmarks.page:82
+msgid "Delete a bookmark"
+msgstr "Διαγραφή ενός σελιδοδείκτη"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:87
+msgid ""
+"Press the <gui style=\"button\">-</gui> button at the bottom of the side "
+"pane."
+msgstr ""
+"Πατήστε το κουμπί <gui style=\"button\">-</gui> στο κάτω μέρος της πλευρικής "
+"στήλης."
+
+#. (itstool) path: info/title
+#: C/singlesided-9-12pages.page:7
+msgctxt "sort"
+msgid "09-Page or 12-Page Booklet"
+msgstr "09-σέλιδο ή 12-σέλιδο φυλλάδιο"
+
+#. (itstool) path: info/desc
+#: C/singlesided-9-12pages.page:8
+msgid "Print a 9, 10, 11 or 12 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 9, 10, 11 ή 12 σελίδων."
+
+#. (itstool) path: page/title
+#: C/singlesided-9-12pages.page:21
+msgid "9-page to 12-page booklet"
+msgstr "Φυλλάδιο 9 έως 12 σελίδων"
+
+#. (itstool) path: page/p
+#: C/singlesided-9-12pages.page:23
+msgid ""
+"If you have a 9, 10 or 11 page PDF document you should add the appropriate "
+"number of blank pages to make it 12-pages. To do so, you can:"
+msgstr ""
+"Εάν έχετε ένα έγγραφο 9, 10 ή 11 σελίδων πρέπει να προσθέσετε τον κατάλληλο "
+"αριθμό κενών σελίδων για να γίνει 12-σέλιδο. Για να γίνει αυτό, μπορείτε:"
+
+#. (itstool) path: page/p
+#: C/singlesided-9-12pages.page:39 C/singlesided-17-20pages.page:39
+#: C/singlesided-npages.page:44 C/singlesided-5-8pages.page:39
+#: C/singlesided-13-16pages.page:39 C/singlesided-3-4pages.page:39
+msgid "To print:"
+msgstr "Για εκτύπωση:"
+
+#. (itstool) path: item/p
+#: C/singlesided-9-12pages.page:57 C/duplex-12pages.page:36
+msgid ""
+"Type the numbers of the pages in this order: 12, 1, 2, 11, 10, 3, 4, 9, 8, "
+"5, 6, 7"
+msgstr ""
+"Να πληκτρολογήσετε τους αριθμούς των σελίδων με αυτήν τη σειρά: 12, 1, 2, "
+"11, 10, 3, 4, 9, 8, 5, 6, 7"
+
+#. (itstool) path: item/p
+#: C/singlesided-9-12pages.page:65 C/singlesided-17-20pages.page:66
+#: C/singlesided-npages.page:72 C/singlesided-5-8pages.page:65
+#: C/singlesided-13-16pages.page:68 C/singlesided-3-4pages.page:65
+#| msgid ""
+#| "Under <em>Layout</em>, in the <gui>Two-side</gui> menu, select <gui>One "
+#| "Sided</gui>."
+msgid ""
+"Under <em>Layout</em>, in the <gui>Two-sided</gui> menu, select <gui>One "
+"Sided</gui>."
+msgstr ""
+"Στη <em>Διάταξη</em>, στο μενού <gui>Διπλή όψη</gui>, επιλέξτε <gui>Μονή "
+"όψη</gui>."
+
+#. (itstool) path: item/p
+#: C/singlesided-9-12pages.page:68 C/singlesided-17-20pages.page:69
+#: C/singlesided-npages.page:75 C/singlesided-5-8pages.page:68
+#: C/singlesided-13-16pages.page:71 C/singlesided-3-4pages.page:68
+msgid "In the <gui>Pages per side</gui> menu, select <gui>2</gui>."
+msgstr "Στο μενού <gui>Σελίδες ανά φύλλο</gui>, επιλέξτε <gui>2</gui>."
+
+#. (itstool) path: item/p
+#: C/singlesided-9-12pages.page:74 C/singlesided-17-20pages.page:75
+#: C/singlesided-npages.page:81 C/singlesided-5-8pages.page:74
+#: C/singlesided-13-16pages.page:77 C/singlesided-3-4pages.page:74
+msgid "In the <gui>Only print</gui> menu, select <gui>Odd sheets</gui>."
+msgstr ""
+"Στο μενού <gui>Εκτύπωση μόνο για</gui>, επιλέξτε <gui>Μονές σελίδες</gui>."
+
+#. (itstool) path: item/p
+#: C/singlesided-9-12pages.page:84 C/singlesided-17-20pages.page:85
+#: C/singlesided-npages.page:91 C/singlesided-5-8pages.page:84
+#: C/singlesided-13-16pages.page:87 C/singlesided-3-4pages.page:84
+msgid ""
+"When all the pages have printed, flip the pages over and place them back in "
+"the printer."
+msgstr ""
+"Όταν εκτυπωθούν όλες οι σελίδες, αναστρέψτε τις σελίδες και τοποθετήστε τις "
+"πίσω στον εκτυπωτή."
+
+#. (itstool) path: item/p
+#: C/singlesided-9-12pages.page:97 C/singlesided-17-20pages.page:98
+#: C/singlesided-npages.page:104 C/singlesided-5-8pages.page:97
+#: C/singlesided-13-16pages.page:100 C/singlesided-3-4pages.page:97
+msgid "In the <gui>Only print</gui> menu, select <gui>Even sheets</gui>."
+msgstr ""
+"Στο μενού <gui>Εκτύπωση μόνο για</gui>, επιλέξτε <gui>Ζυγές σελίδες</gui>."
+
+#. (itstool) path: info/desc
+#: C/duplex-11pages.page:8
+msgid "Print a 11 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 11 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-11pages.page:21
+msgid "11-page booklet"
+msgstr "11σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/p
+#: C/duplex-11pages.page:37
+msgid "Type the numbers of the pages in this order: 11, 2, 1"
+msgstr "Πληκτρολογήστε τους αριθμούς των σελίδων με αυτή τη σειρά: 11, 2, 1"
+
+#. (itstool) path: item/p
+#: C/duplex-11pages.page:70
+msgid ""
+"Type the numbers of the remaining pages in this order: 10, 3, 4, 9, 8, 5, 6, "
+"7"
+msgstr ""
+"Πληκτρολογήσετε τους αριθμούς των υπόλοιπων σελίδων με αυτήν τη σειρά: 10, "
+"3, 4, 9, 8, 5, 6, 7"
+
+#. (itstool) path: note/p
+#: C/duplex-11pages.page:87
+msgid ""
+"It is easier to print a 12-page booklet. You may wish to add a blank page to "
+"your PDF document to make it 12-pages. To do so, you can:"
+msgstr ""
+"Είναι ευκολότερο να εκτυπώσετε ένα φυλλάδιο 12 σελίδων. Μπορεί να θέλετε να "
+"προσθέσετε μια κενή σελίδα στο PDF έγγραφό σας για να το κάνετε 12σέλιδο. "
+"Για να γίνει αυτό, μπορείτε να:"
+
+#. (itstool) path: item/p
+#: C/duplex-11pages.page:92 C/duplex-7pages.page:94
+msgid "Create a blank PDF document using <app>LibreOffice Writer</app>."
+msgstr ""
+"Να δημιουργήσετε ένα κενό έγγραφο PDF χρησιμοποιώντας <app>LibreOffice "
+"Writer</app>."
+
+#. (itstool) path: item/p
+#: C/duplex-11pages.page:97 C/duplex-7pages.page:99
+msgid ""
+"Merge the blank PDF with your PDF document using <app>PDF-Shuffler</app> "
+"placing the blank page at the end."
+msgstr ""
+"Να συγχωνεύσετε το κενό PDF με το PDF έγγραφό σας, με χρήση του <app>PDF-"
+"Shuffler</app> τοποθετώντας την κενή σελίδα στο τέλος."
+
+#. (itstool) path: item/p
+#: C/duplex-11pages.page:103 C/duplex-9pages.page:161 C/duplex-10pages.page:110
+msgid ""
+"Follow the steps for printing a <link xref=\"duplex-12page\">12-page "
+"booklet</link>."
+msgstr ""
+"Ακολουθήστε τα βήματα για εκτύπωση ενός <link "
+"xref=\"duplex-12page\">φυλλαδίου 12 σελίδων</link>."
+
+#. (itstool) path: info/desc
+#: C/convertSVG.page:7
+msgid "You can convert a document to SVG by \"printing\" it to a file."
+msgstr ""
+"Μπορείτε να μετατρέψετε ένα έγγραφο σε SVG \"εκτυπώνοντας\" το σε αρχείο."
+
+#. (itstool) path: page/title
+#: C/convertSVG.page:25
+msgid "Converting a document to SVG"
+msgstr "Μετατροπή εγγράφου σε SVG"
+
+#. (itstool) path: page/p
+#: C/convertSVG.page:26
+msgid "You can convert documents of the following format types to SVG files:"
+msgstr "Μπορείτε να μετατρέψετε έγγραφα των ακόλουθων μορφών σε αρχεία SVG:"
+
+#. (itstool) path: item/p
+#: C/convertSVG.page:30 C/presentations.page:80 C/printing.page:50
+#: C/formats.page:33
+msgid "Portable Document Format (.pdf)"
+msgstr "Portable Document Format (.pdf)"
+
+#. (itstool) path: page/p
+#: C/convertSVG.page:32
+msgid ""
+"This works by opening the file in <app>Document Viewer</app> and "
+"\"printing\" the document as an SVG file."
+msgstr ""
+"Αυτό γίνεται ανοίγοντας το αρχείο στην <app>Προβολή εγγράφων</app> και "
+"\"εκτυπώνοντας\" το έγγραφο ως αρχείο SVG."
+
+#. (itstool) path: item/p
+#: C/convertSVG.page:37 C/printing.page:33
+msgid ""
+"Click the <gui>File options</gui> menu in the top right corner and select "
+"<gui>Print</gui> or press <keyseq><key>Ctrl</key><key>P</key></keyseq>."
+msgstr ""
+"Κάντε κλικ στο μενού <gui>Επιλογές αρχείου</gui> στην πάνω δεξιά γωνία και "
+"επιλέξτε <gui>Εκτύπωση</gui> ή πατήστε <keyseq><key>Ctrl</key><key>P</key></"
+"keyseq>."
+
+#. (itstool) path: item/p
+#: C/convertSVG.page:42
+msgid ""
+"Select <gui>Print to File</gui> and choose SVG as the <gui>Output format</"
+"gui>."
+msgstr ""
+"Επιλέξτε <gui>Εκτύπωση σε αρχείο</gui> και επιλέξτε SVG ως <gui>Μορφή "
+"εξόδου</gui>."
+
+#. (itstool) path: item/p
+#: C/convertSVG.page:48
+msgid ""
+"Choose a name and folder in which to save the file, then click <gui>Print</"
+"gui>. The SVG file will be saved in the folder you chose."
+msgstr ""
+"Επιλέξτε ένα όνομα και φάκελο για να αποθηκεύσετε το αρχείο, μετά πατήστε "
+"<gui>Εκτύπωση</gui>. Το αρχείο SVG θα αποθηκευτεί στο φάκελο που επιλέξατε."
+
+#. (itstool) path: info/title
+#: C/duplex-8pages.page:7
+msgctxt "sort"
+msgid "08-Page Booklet"
+msgstr "08-σέλιδο φυλλάδιο"
+
+#. (itstool) path: info/desc
+#: C/duplex-8pages.page:8
+msgid "Print an 8 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 8 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-8pages.page:21
+msgid "8-page booklet"
+msgstr "8-σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/p
+#: C/duplex-8pages.page:36 C/singlesided-5-8pages.page:57
+msgid "Type the numbers of the pages in this order: 8, 1, 2, 7, 6, 3, 4, 5"
+msgstr ""
+"Πληκτρολογήσετε τους αριθμούς των σελίδων με αυτήν τη σειρά: 8, 1, 2, 7, 6, "
+"3, 4, 5"
+
+#. (itstool) path: info/desc
+#: C/invert-colors.page:8
+msgid "Inverting the colors can make it easier to read some text."
+msgstr ""
+"Η αντιστροφή χρωμάτων μπορεί να διευκολύνει την ανάγνωση μερικών κειμένων."
+
+#. (itstool) path: page/title
+#: C/invert-colors.page:29
+msgid "Invert colors on a page"
+msgstr "Αντιστροφή χρωμάτων σε μια σελίδα"
+
+#. (itstool) path: page/p
+#: C/invert-colors.page:32
+msgid ""
+"To swap black for white, white for black, and so on, press the menu button "
+"in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Night Mode</gui>."
+msgstr ""
+"Για να αντιστρέψετε το μαύρο με το λευκό, το λευκό με το μαύρο κ.ο.κ., "
+"πατήστε το κουμπί μενού στην πάνω δεξιά γωνία του παραθύρου και επιλέξτε "
+"<gui style=\"menuitem\">Νυχτερινή λειτουργία</gui>."
+
+#. (itstool) path: note/p
+#: C/invert-colors.page:37
+msgid ""
+"Doing this can make it easier to read text, especially in the case of "
+"certain kinds of visual impairment."
+msgstr ""
+"Αυτή η ενέργεια μπορεί να διευκολύνει την ανάγνωση κειμένου, ειδικά σε "
+"περιπτώσεις ορισμένων προβλημάτων όρασης."
+
+#. (itstool) path: info/title
+#: C/commandline.page:7
+msgctxt "sort"
+msgid "Command line"
+msgstr "Γραμμή εντολών"
+
+#. (itstool) path: info/desc
+#: C/commandline.page:8
+msgid ""
+"The <cmd>papers</cmd> command can open any number of files, at specific "
+"pages and in various modes."
+msgstr ""
+"Η εντολή <cmd>papers</cmd> μπορεί να ανοίξει οποιονδήποτε αριθμό αρχείων, σε "
+"συγκεκριμένες σελίδες και σε ποικίλες λειτουργίες."
+
+#. (itstool) path: page/title
+#: C/commandline.page:24
+msgid "The command line"
+msgstr "Η γραμμή εντολών"
+
+#. (itstool) path: page/p
+#: C/commandline.page:25
+msgid ""
+"To start <app>Document Viewer</app> from the command line, type <cmd>papers</"
+"cmd>. You can open a specific file by typing the filename after the papers "
+"command:"
+msgstr ""
+"Για να εκκινήσετε την <app>Προβολή εγγράφων</app> από τη γραμμή εντολών, "
+"πληκτρολογήστε <cmd>papers</cmd>. Μπορείτε να ανοίξετε ένα συγκεκριμένο "
+"αρχείο πληκτρολογώντας το όνομα του αρχείου μετά την εντολή papers:"
+
+#. (itstool) path: page/screen
+#: C/commandline.page:30
+#, no-wrap
+msgid "papers file.pdf"
+msgstr "papers file.pdf"
+
+#. (itstool) path: page/p
+#: C/commandline.page:31
+msgid ""
+"You can open multiple files by typing the filenames after the papers "
+"command, separating the filenames by a space:"
+msgstr ""
+"Μπορείτε να ανοίξετε πολλαπλά αρχεία πληκτρολογώντας τα ονόματα των αρχείων "
+"μετά την εντολή papers, διαχωρίζοντάς τα με ένα κενό διάστημα:"
+
+#. (itstool) path: page/screen
+#: C/commandline.page:34
+#, no-wrap
+msgid "papers file1.pdf file2.pdf"
+msgstr "papers file1.pdf file2.pdf"
+
+#. (itstool) path: page/p
+#: C/commandline.page:35
+msgid ""
+"<app>Document Viewer</app> also supports the handling of files on the web. "
+"For example, after the papers command you can give the location of a file on "
+"the web:"
+msgstr ""
+"Η <app>Προβολή εγγράφων</app> υποστηρίζει επίσης τον χειρισμό αρχείων στον "
+"ιστό. Για παράδειγμα, μετά την εντολή papers μπορείτε να δώσετε την "
+"τοποθεσία ενός αρχείου στον ιστό:"
+
+#. (itstool) path: page/screen
+#: C/commandline.page:38
+#, no-wrap
+msgid "papers http://www.claymath.org/millennium/P_vs_NP/pvsnp.pdf"
+msgstr "papers http://www.claymath.org/millennium/P_vs_NP/pvsnp.pdf"
+
+#. (itstool) path: section/title
+#: C/commandline.page:40
+msgid "Opening a document at a specific page"
+msgstr "Άνοιγμα εγγράφου σε συγκεκριμένη σελίδα"
+
+#. (itstool) path: section/p
+#: C/commandline.page:41
+msgid ""
+"You can use the <cmd>--page-label</cmd> switch to open a document at a "
+"specific page. For example, to open a document to page 3, you would type:"
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε το διακόπτη <cmd>--page-label</cmd> για να "
+"ανοίξετε ένα έγγραφο σε συγκεκριμένη σελίδα. Για παράδειγμα, να ανοίξετε ένα "
+"έγγραφο στη σελίδα 3, θα πληκτρολογούσατε:"
+
+#. (itstool) path: section/screen
+#: C/commandline.page:45
+#, no-wrap
+msgid "papers --page-label=3 file.pdf"
+msgstr "papers --page-label=3 file.pdf"
+
+#. (itstool) path: section/p
+#: C/commandline.page:46
+msgid ""
+"The page label should be in the same format as the page number displayed in "
+"the <app>Document Viewer</app> header bar."
+msgstr ""
+"Η ετικέτα σελίδας θα πρέπει να είναι στην ίδια μορφή με τον αριθμό σελίδας "
+"που εμφανίζεται στη γραμμή τίτλου της <app>Προβολής εγγράφων</app>."
+
+#. (itstool) path: section/title
+#: C/commandline.page:52
+msgid "Opening a document in fullscreen mode"
+msgstr "Άνοιγμα εγγράφου σε λειτουργία πλήρους οθόνης"
+
+#. (itstool) path: section/screen
+#: C/commandline.page:53
+#, no-wrap
+msgid "papers --fullscreen file.pdf"
+msgstr "papers --fullscreen file.pdf"
+
+#. (itstool) path: section/title
+#: C/commandline.page:56
+msgid "Opening a document in presentation mode"
+msgstr "Άνοιγμα εγγράφου σε λειτουργία παρουσίασης"
+
+#. (itstool) path: section/screen
+#: C/commandline.page:57
+#, no-wrap
+msgid "papers --presentation file.pdf"
+msgstr "papers --presentation file.pdf"
+
+#. (itstool) path: section/title
+#: C/commandline.page:60
+msgid "Opening a document in preview mode"
+msgstr "Άνοιγμα εγγράφου σε λειτουργία προεπισκόπησης"
+
+#. (itstool) path: section/screen
+#: C/commandline.page:61
+#, no-wrap
+msgid "papers --preview file.pdf"
+msgstr "papers --preview file.pdf"
+
+#. (itstool) path: info/desc
+#: C/forms.page:7
+msgid "Working with fillable forms."
+msgstr "Εργασία με έντυπα που μπορούν να συμπληρωθούν."
+
+#. (itstool) path: page/title
+#: C/forms.page:20
+msgid "Forms"
+msgstr "Έντυπα"
+
+#. (itstool) path: page/p
+#: C/forms.page:21
+msgid ""
+"When filling out an interactive form, you can navigate from field to field "
+"by clicking on a field with your mouse. When you are finished filling out a "
+"text field, press <key>Enter</key>."
+msgstr ""
+"Όταν συμπληρώνετε ένα διαδραστικό έντυπο, μπορείτε να περιηγηθείτε από πεδίο "
+"σε πεδίο με κλικ σε ένα πεδίο με το ποντίκι σας. Όταν τελειώσετε τη "
+"συμπλήρωση ενός πεδίου κειμένου, πατήστε <key>Εισαγωγή</key>."
+
+#. (itstool) path: page/p
+#: C/forms.page:25
+msgid ""
+"You can make a selection in a scrollable list box by clicking on the list "
+"box and scrolling to your choice with your mouse."
+msgstr ""
+"Μπορείτε να επιλέξετε σε ένα πλαίσιο κυλιόμενης λίστας με κλικ στο πλαίσιο "
+"λίστας και κύλιση στην επιλογή σας με το ποντίκι."
+
+#. (itstool) path: note/p
+#: C/forms.page:29
+msgid ""
+"There may be some parts of a form that you may need to fill out by hand "
+"<em>after</em> you print the form. For example, you might have to circle "
+"certain things, or sign the form in one or more places. If you wish to do "
+"this electronically, you may want to try <link href=\"http://www.g-loaded.eu/"
+"2008/05/03/how-to-annotate-pdf-files-in-linux-using-xournal/\">Xournal</"
+"link>."
+msgstr ""
+"Ίσως υπάρχουν μερικά μέρη ενός εντύπου που μπορεί να χρειαστεί να "
+"συμπληρώσετε χειρόγραφα <em>μετά</em> την εκτύπωση του εντύπου. Για "
+"παράδειγμα, μπορεί να πρέπει να κυκλώσετε συγκεκριμένα πράγματα, ή να "
+"υπογράψετε το έντυπο σε μία ή περισσότερες θέσεις. Εάν θέλετε να το κάνετε "
+"ηλεκτρονικά, μπορεί να θελήσετε να δοκιμάσετε το <link href=\"http://www.g-"
+"loaded.eu/2008/05/03/how-to-annotate-pdf-files-in-linux-using-xournal/"
+"\">Xournal</link>."
+
+#. (itstool) path: info/desc
+#: C/reload.page:8
+msgid ""
+"Your document will be automatically reloaded if another program changes it "
+"while you're viewing it."
+msgstr ""
+"Το έγγραφό σας θα επαναφορτωθεί αυτόματα εάν ένα άλλο πρόγραμμα το αλλάξει, "
+"ενώ το βλέπετε."
+
+#. (itstool) path: page/title
+#: C/reload.page:23
+msgid "Why does the document keep reloading?"
+msgstr "Γιατί το έγγραφο επαναφορτώνεται συνέχεια;"
+
+#. (itstool) path: page/p
+#: C/reload.page:25
+msgid ""
+"If <app>Document Viewer</app> detects that the document you have open has "
+"changed (perhaps because another program has modified it), it will "
+"automatically reload the document and display the most recent version for "
+"you."
+msgstr ""
+"Αν η <app>Προβολή εγγράφων</app> ανιχνεύσει ότι το έγγραφο που έχετε ανοιχτό "
+"έχει αλλάξει (ίσως επειδή κάποιο άλλο πρόγραμμα το έχει τροποποιήσει), θα "
+"επαναφορτώσει αυτόματα το έγγραφο και θα εμφανίσει την πιο πρόσφατη έκδοση "
+"για εσάς."
+
+#. (itstool) path: page/p
+#: C/reload.page:29
+msgid ""
+"If the document is deleted while you are still viewing it, it will still "
+"remain open."
+msgstr ""
+"Αν το έγγραφο διαγραφεί ενώ το προβάλλετε, αυτό θα παραμείνει ανοιχτό."
+
+#. (itstool) path: info/desc
+#: C/presentations.page:7
+msgid "How to play presentations."
+msgstr "Πως να αναπαράγετε παρουσιάσεις."
+
+#. (itstool) path: page/title
+#: C/presentations.page:26
+msgid "Presentations"
+msgstr "Παρουσιάσεις"
+
+#. (itstool) path: section/title
+#: C/presentations.page:28
+msgid "Starting a presentation"
+msgstr "Εκκίνηση παρουσίασης"
+
+#. (itstool) path: section/p
+#: C/presentations.page:29
+msgid "To start a presentation:"
+msgstr "Για να αρχίσετε μια παρουσίαση:"
+
+#. (itstool) path: item/p
+#: C/presentations.page:32
+msgid "<link xref=\"opening\">Open a file</link>"
+msgstr "<link xref=\"opening\">Άνοιγμα ενός αρχείου</link>"
+
+#. (itstool) path: item/p
+#: C/presentations.page:35
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Present as Slideshow</gui> (or press <key>F5</key>)."
+msgstr ""
+"Πατήστε το κουμπί μενού στην πάνω δεξιά γωνία του παραθύρου και επιλέξτε "
+"<gui style=\"menuitem\">Παρουσίαση ως προβολή διαφανειών</gui> (ή πατήστε "
+"<key>F5</key>)."
+
+#. (itstool) path: item/p
+#: C/presentations.page:37
+msgid "The presentation will be displayed full screen."
+msgstr "Η παρουσίαση θα προβληθεί σε πλήρη οθόνη."
+
+#. (itstool) path: section/title
+#: C/presentations.page:44
+msgid "Moving through a presentation"
+msgstr "Μετακίνηση μέσα σε μια παρουσίαση"
+
+#. (itstool) path: section/p
+#: C/presentations.page:47
+msgid ""
+"Use the <key>spacebar</key>, <key>→</key>, <key>↓</key>, or left mouse click "
+"to go to the next slide."
+msgstr ""
+"Χρησιμοποιήστε το <key>πλήκτρο διαστήματος</key>, <key>→</key>, <key>↓</"
+"key>, ή το αριστερό κλικ για μετάβαση στην επόμενη διαφάνεια."
+
+#. (itstool) path: section/p
+#: C/presentations.page:50
+msgid ""
+"Use the <key>←</key>, <key>↑</key> or right mouse click to go to the "
+"previous slide."
+msgstr ""
+"Χρησιμοποιήστε <key>←</key>, <key>↑</key> ή το δεξί κλικ για μετάβαση στην "
+"προηγούμενη διαφάνεια."
+
+#. (itstool) path: note/p
+#: C/presentations.page:54
+msgid ""
+"You can also use the scroll wheel to move back and forth through the "
+"presentation."
+msgstr ""
+"Μπορείτε επίσης να χρησιμοποιήσετε τη ροδέλα για να μετακινηθείτε μπροστά "
+"και πίσω στην παρουσίαση."
+
+#. (itstool) path: section/p
+#: C/presentations.page:58
+msgid "Use <key>Esc</key> to exit the presentation."
+msgstr "Χρησιμοποιήστε το <key>Esc</key> για έξοδο από την παρουσίαση."
+
+#. (itstool) path: section/title
+#: C/presentations.page:64
+msgid "Showing a blank screen"
+msgstr "Εμφάνιση κενής οθόνης"
+
+#. (itstool) path: section/p
+#: C/presentations.page:65
+msgid "Press <key>B</key> or <key>.</key> to show a black screen."
+msgstr "Πατήστε το <key>B</key> ή το <key>.</key> για να εμφανίσετε μια μαύρη οθόνη."
+
+#. (itstool) path: section/p
+#: C/presentations.page:66
+msgid "Press <key>W</key> to show a white screen."
+msgstr "Πατήστε το <key>W</key> για να εμφανίσετε μια λευκή οθόνη."
+
+#. (itstool) path: section/p
+#: C/presentations.page:67
+msgid ""
+"Press <key>B</key>, <key>.</key>, or <key>W</key> again to show the slide."
+msgstr ""
+"Πατήστε ξανά το <key>B</key>, το <key>.</key> ή το <key>W</key> για να "
+"εμφανίσετε τη διαφάνεια."
+
+#. (itstool) path: section/title
+#: C/presentations.page:72
+msgid "Supported presentation file formats"
+msgstr "Υποστηριζόμενες μορφές αρχείου παρουσίασης"
+
+#. (itstool) path: section/p
+#: C/presentations.page:73
+msgid "The following file formats can be used for presentations:"
+msgstr ""
+"Οι ακόλουθες μορφές αρχείων μπορούν να χρησιμοποιηθούν για παρουσιάσεις:"
+
+#. (itstool) path: item/p
+#: C/presentations.page:77
+msgid "Comic Book Archive (.cbr and .cbz)"
+msgstr "Comic Book Archive (.cbr και .cbz)"
+
+#. (itstool) path: item/p
+#: C/presentations.page:78 C/printing.page:49 C/formats.page:32
+msgid "DjVu (.djvu, .djv)"
+msgstr "DjVu (.djvu, .djv)"
+
+#. (itstool) path: item/p
+#: C/presentations.page:79
+msgid "Open Document Presentation (.odp)"
+msgstr "Παρουσίαση Open Document (.odp)"
+
+#. (itstool) path: info/desc
+#: C/singlesided-17-20pages.page:8
+msgid "Print a 17, 18, 19 or 20 page booklet."
+msgstr "Εκτυπώστε ένα φυλλάδιο 17, 18, 19 ή 20 σελίδων."
+
+#. (itstool) path: page/title
+#: C/singlesided-17-20pages.page:21
+msgid "17-page to 20-page booklet"
+msgstr "Φυλλάδιο 17 έως 20 σελίδων"
+
+#. (itstool) path: page/p
+#: C/singlesided-17-20pages.page:23
+msgid ""
+"If you have a 17, 18 or 19 page PDF document you should add the appropriate "
+"number of blank pages to make it 20-pages. To do so, you can:"
+msgstr ""
+"Εάν έχετε ένα έγγραφο PDF 17, 18 ή 19 σελίδων πρέπει να προσθέσετε τον "
+"κατάλληλο αριθμό κενών σελίδων για να γίνει 20-σέλιδο. Για να γίνει αυτό, "
+"μπορείτε:"
+
+#. (itstool) path: item/item
+#: C/singlesided-17-20pages.page:58
+msgid "20, 1, 2, 19, 18, 3, 4, 17, 16, 5, 6, 15, 14, 7, 8, 13, 12, 9, 10, 11"
+msgstr "20, 1, 2, 19, 18, 3, 4, 17, 16, 5, 6, 15, 14, 7, 8, 13, 12, 9, 10, 11"
+
+#. (itstool) path: tree/item
+#: C/singlesided-17-20pages.page:56 C/duplex-16pages.page:36
+#: C/singlesided-13-16pages.page:58
+msgid "Type the numbers of the pages in this order: <_:item-1/>"
+msgstr "Πληκτρολογήστε τους αριθμούς των σελίδων με αυτή τη σειρά: <_:item-1/>"
+
+#. (itstool) path: info/desc
+#: C/develop.page:7
+msgid "Improve <app>Document Viewer</app>."
+msgstr "Βελτιώστε την <app>Προβολή εγγράφων</app>."
+
+#. (itstool) path: credit/years
+#: C/develop.page:12 C/translate.page:12 C/documentation.page:11
+msgid "2011"
+msgstr "2011"
+
+#. (itstool) path: page/title
+#: C/develop.page:19
+msgid "Help develop"
+msgstr "Βοήθεια στην ανάπτυξη"
+
+#. (itstool) path: page/p
+#: C/develop.page:20
+msgid ""
+"<app>Document Viewer</app> is developed and maintained by a volunteer "
+"community. You are welcome to participate."
+msgstr ""
+"Η <app>Προβολή εγγράφων</app> αναπτύσσεται και συντηρείται από μια "
+"εθελοντική κοινότητα. Είστε ευπρόσδεκτοι να συμμετάσχετε."
+
+#. (itstool) path: page/p
+#: C/develop.page:23
+msgid ""
+"If you would like to <link href=\"https://wiki.gnome.org/Apps/Papers\">help "
+"develop</link> <app>Document Viewer</app>, you can get in touch with the "
+"developers at <link href=\"https://matrix.to/#/"
+"#papers:gnome.org\">#papers:gnome.org</link> on <link xref=\"help:gnome-help/"
+"help-matrix\">Matrix</link> or <link href=\"https://web.libera.chat/#gnome-"
+"papers\">#gnome-papers</link> on irc.libera.chat, or via <link "
+"href=\"https://discourse.gnome.org/tag/papers\">GNOME Discourse</link>."
+msgstr ""
+"Αν θα θέλατε να <link href=\"https://wiki.gnome.org/Apps/Papers\">βοηθήσετε "
+"στην ανάπτυξη</link> της <app>Προβολής εγγράφων</app>, μπορείτε να έρθετε σε "
+"επαφή με τους προγραμματιστές στο <link href=\"https://matrix.to/#/"
+"#papers:gnome.org\">#papers:gnome.org</link> στο <link xref=\"help:gnome-help/"
+"help-matrix\">Matrix</link> ή στο <link href=\"https://web.libera.chat/"
+"#gnome-papers\">#gnome-papers</link> στο irc.libera.chat, ή μέσω του <link "
+"href=\"https://discourse.gnome.org/tag/papers\">GNOME Discourse</link>."
+
+#. (itstool) path: info/desc
+#: C/finding.page:29
+msgid "Search for a word or phrase in a document."
+msgstr "Εύρεση λέξης ή φράσης μέσα στο έγγραφο."
+
+#. (itstool) path: page/title
+#: C/finding.page:32
+msgid "Find text in a document"
+msgstr "Εύρεση κειμένου σε έγγραφο"
+
+#. (itstool) path: item/p
+#: C/finding.page:36
+msgid ""
+"Click the <gui>Magnifying glass button</gui> or press <keyseq><key>Ctrl</"
+"key><key>F</key></keyseq> or <key>/</key> to display a search box."
+msgstr ""
+"Κάντε κλικ στο κουμπί με τον <gui>Μεγεθυντικό φακό</gui> ή πατήστε "
+"<keyseq><key>Ctrl</key><key>F</key></keyseq> ή <key>/</key> για να "
+"εμφανίσετε ένα πλαίσιο αναζήτησης."
+
+#. (itstool) path: item/p
+#: C/finding.page:41
+msgid ""
+"Start typing into the search box and the search will start automatically."
+msgstr ""
+"Πληκτρολογήστε στο πλαίσιο αναζήτησης και η αναζήτηση θα ξεκινήσει αυτόματα."
+
+#. (itstool) path: item/p
+#: C/finding.page:45
+msgid ""
+"Use the <gui>∧</gui> and <gui>∨</gui> buttons to move to the previous or "
+"next search result."
+msgstr ""
+"Χρησιμοποιήστε τα κουμπιά <gui>∧</gui> και <gui>∨</gui> για να μεταβείτε από "
+"το ένα αποτέλεσμα στο άλλο."
+
+#. (itstool) path: item/p
+#: C/finding.page:49
+msgid ""
+"To hide the search bar, click the <gui>Magnifying glass button</gui> again "
+"or press <key>Esc</key>."
+msgstr ""
+"Για να κρύψετε τη μπάρα αναζήτησης, κάντε κλικ ξανά στο εικονίδιο του "
+"<gui>Μεγεθυντικού φακού</gui> ή πατήστε το <key>Esc</key>."
+
+#. (itstool) path: note/p
+#: C/finding.page:55
+msgid ""
+"To filter words by case or completion, you can right click on the search box "
+"and select <gui>Case Sensitive</gui> or <gui>Whole Words Only</gui>."
+msgstr ""
+"Για να φιλτράρετε τις λέξεις κατά διάκριση πεζών/κεφαλαίων ή συμπλήρωσης, "
+"μπορείτε να κάνετε δεξί κλικ στο πλαίσιο αναζήτησης και να επιλέξετε "
+"<gui>Διάκριση πεζών/κεφαλαίων</gui> or <gui>Μόνο ολόκληρες λέξεις</gui>."
+
+#. (itstool) path: page/p
+#: C/finding.page:60
+msgid ""
+"If the word or phrase that you searched for is not found in the document, "
+"you will see <_:media-1/> in the search box. However, if it appears in the "
+"document at least once, you will be shown how many times the search result "
+"appears on the current page."
+msgstr ""
+"Εάν η λέξη ή η φράση που αναζητήσατε δεν βρεθεί στο έγγραφο, θα δείτε το <_:"
+"media-1/> μέσα στο πλαίσιο αναζήτησης. Ωστόσο, εάν εμφανίζεται στο έγγραφο "
+"τουλάχιστον μία φορά, θα εμφανιστεί ο αριθμός των φορών που το αποτέλεσμα "
+"της αναζήτησης εμφανίζεται στην τρέχουσα σελίδα."
+
+#. (itstool) path: note/p
+#: C/finding.page:66
+msgid ""
+"Only PDF documents are searchable. Some PDF documents are not searchable "
+"because their text is encoded in the document as an image."
+msgstr ""
+"Μόνο τα έγγραφα PDF είναι αναζητήσιμα. Ορισμένα έγγραφα PDF δεν είναι "
+"αναζητήσιμα επειδή το κείμενό τους είναι ενσωματωμένο στο έγγραφο ως εικόνα."
+
+#. (itstool) path: info/desc
+#: C/printing.page:9
+msgid "How to print, and common questions about printing."
+msgstr "Πως να εκτυπώσετε και συνήθεις ερωτήσεις για την εκτύπωση."
+
+#. (itstool) path: page/title
+#: C/printing.page:27
+msgid "Printing a document"
+msgstr "Εκτύπωση εγγράφου"
+
+#. (itstool) path: item/p
+#: C/printing.page:30
+msgid "To print a document:"
+msgstr "Για να εκτυπώσετε ένα έγγραφο:"
+
+#. (itstool) path: item/p
+#: C/printing.page:38
+msgid "Choose your printer from the list."
+msgstr "Επιλέξτε τον εκτυπωτή σας από τη λίστα."
+
+#. (itstool) path: item/p
+#: C/printing.page:47
+msgid "Printing is enabled for the following file formats:"
+msgstr "Η εκτύπωση είναι ενεργοποιημένη για τις ακόλουθες μορφές αρχείων:"
+
+#. (itstool) path: item/p
+#: C/printing.page:51
+msgid "Tagged Image File Format (.tiff, .tif)"
+msgstr "Tagged Image File Format (.tiff, .tif)"
+
+#. (itstool) path: info/desc
+#: C/textselection.page:7
+msgid ""
+"When you copy text, the text that is pasted might be different from what you "
+"had selected."
+msgstr ""
+"Όταν αντιγράφετε κείμενο, το κείμενο που επικολλάται μπορεί να είναι "
+"διαφορετικό από αυτό που είχατε επιλέξει."
+
+#. (itstool) path: page/title
+#: C/textselection.page:20
+msgid "Why didn't the text I selected copy properly?"
+msgstr "Γιατί δεν αντιγράφηκε σωστά το κείμενο που επέλεξα;"
+
+#. (itstool) path: page/p
+#: C/textselection.page:23
+msgid ""
+"If you highlight and copy text from a document using <app>Document Viewer</"
+"app> and then paste it into another application, the formatting may alter. "
+"It may also contain different characters than the original selection. This "
+"often happens when copying text from a PDF document with multiple columns."
+msgstr ""
+"Αν επισημάνετε και αντιγράψετε κείμενο από ένα έγγραφο χρησιμοποιώντας την "
+"<app>Προβολή εγγράφων</app> και στη συνέχεια το επικολλήσετε σε μια άλλη "
+"εφαρμογή, η μορφοποίηση ενδέχεται να αλλάξει. Μπορεί επίσης να περιέχει "
+"διαφορετικούς χαρακτήρες από την αρχική επιλογή. Αυτό συμβαίνει συχνά κατά "
+"την αντιγραφή κειμένου από ένα έγγραφο PDF με πολλαπλές στήλες."
+
+#. (itstool) path: page/p
+#: C/textselection.page:29
+msgid ""
+"This problem happens because of how some document formats handle text. The "
+"actual text in the document is stored differently from the way it is "
+"displayed. This may result in a copy that does not appear as expected."
+msgstr ""
+"Αυτό το πρόβλημα παρουσιάζεται λόγω του τρόπου με τον οποίο ορισμένες μορφές "
+"εγγράφων διαχειρίζονται το κείμενο. Το πραγματικό κείμενο στο έγγραφο "
+"αποθηκεύεται με διαφορετικό τρόπο από αυτόν που εμφανίζεται. Αυτό μπορεί να "
+"έχει ως αποτέλεσμα μια αντιγραφή που δεν φαίνεται όπως αναμενόταν."
+
+#. (itstool) path: page/p
+#: C/textselection.page:35
+msgid ""
+"Unfortunately, there is no real way of fixing this problem. Copying less "
+"text at a time, or copying the text into a text editor (like <app>gedit</"
+"app>) may minimize the problem."
+msgstr ""
+"Δυστυχώς, δεν υπάρχει ουσιαστικός τρόπος επίλυσης αυτού του προβλήματος. Η "
+"αντιγραφή λιγότερου κειμένου κάθε φορά ή η αντιγραφή του κειμένου σε έναν "
+"επεξεργαστή κειμένου (όπως το <app>gedit</app>) μπορεί να ελαχιστοποιήσει το "
+"πρόβλημα."
+
+#. (itstool) path: info/desc
+#: C/annotations-disabled.page:7
+msgid "Annotations can only be added to PDF files."
+msgstr "Σχόλια μπορούν να προστεθούν μόνο σε αρχεία PDF."
+
+#. (itstool) path: page/title
+#: C/annotations-disabled.page:18
+msgid "Can't add annotations?"
+msgstr "Αδυναμία προσθήκης σχολίων;"
+
+#. (itstool) path: page/p
+#: C/annotations-disabled.page:19
+msgid ""
+"Annotations can only be added to PDF files. If your file is of a format "
+"other than PDF, the option to add annotations will be greyed out (disabled)."
+msgstr ""
+"Σχόλια μπορούν να προστεθούν μόνο σε αρχεία PDF. Εάν το αρχείο σας είναι "
+"μορφής άλλης από PDF, η επιλογή για προσθήκη σχολίων θα γίνει αχνή "
+"(ανενεργή)."
+
+#. (itstool) path: info/desc
+#: C/duplex-13pages.page:8
+msgid "Print a 13 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 13 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-13pages.page:21
+msgid "13-page booklet"
+msgstr "13σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/p
+#: C/duplex-13pages.page:32 C/duplex-9pages.page:34 C/duplex-5pages.page:34
+msgid "Under <em>Range</em>, select <gui>Pages</gui> and type: 1"
+msgstr "Στο <em>Εύρος</em>, επιλέξτε <gui>Σελίδες</gui> και πληκτρολογήστε: 1"
+
+#. (itstool) path: item/p
+#: C/duplex-13pages.page:57 C/duplex-9pages.page:59 C/duplex-5pages.page:59
+msgid ""
+"Once the page has printed, take the paper and place it back in the printer, "
+"taking care to orient it correctly (page 2 will be printed on the other "
+"side)."
+msgstr ""
+"Μόλις εκτυπωθεί η σελίδα, πάρτε το χαρτί και τοποθετήστε το πίσω στον "
+"εκτυπωτή, λαμβάνοντας υπόψη τον σωστό προσανατολισμό (η σελίδα 2 θα τυπωθεί "
+"στην άλλη πλευρά)."
+
+#. (itstool) path: item/p
+#: C/duplex-13pages.page:68 C/duplex-9pages.page:70 C/duplex-5pages.page:70
+msgid "Under <em>Range</em>, select <gui>Pages</gui> and type: 2"
+msgstr "Στο <em>Εύρος</em>, επιλέξτε <gui>Σελίδες</gui> και πληκτρολογήστε: 2"
+
+#. (itstool) path: item/p
+#: C/duplex-13pages.page:84 C/duplex-5pages.page:87
+msgid ""
+"To print page 3, press the menu button in the top-right corner of the window "
+"and press the <gui style=\"button\">Print</gui> button."
+msgstr ""
+"Για να εκτυπώσετε τη σελίδα 3, πατήστε το κουμπί μενού στην πάνω δεξιά γωνία "
+"του παραθύρου και πατήστε το κουμπί <gui style=\"button\">Εκτύπωση</gui>."
+
+#. (itstool) path: item/p
+#: C/duplex-13pages.page:87
+msgid ""
+"In the <gui>General</gui> tab, enter 3 in the <gui>Pages</gui> selection."
+msgstr ""
+"Στην καρτέλα <gui>Γενικά</gui>, εισαγάγετε 3 στην επιλογή <gui>Σελίδες</gui>."
+
+#. (itstool) path: item/p
+#: C/duplex-13pages.page:101
+msgid ""
+"Once page 3 has printed, place the paper back in the printer taking care to "
+"orient it correctly (pages 4 and 13 will be printed on the other side)."
+msgstr ""
+"Μόλις εκτυπωθεί η σελίδα 3, τοποθετήστε το χαρτί πίσω στον εκτυπωτή, "
+"λαμβάνοντας υπόψη τον σωστό προσανατολισμό (οι σελίδες 4 και 13 θα τυπωθούν "
+"στην άλλη πλευρά)."
+
+#. (itstool) path: item/p
+#: C/duplex-13pages.page:109
+msgid ""
+"In the <gui>General</gui> tab enter pages 4, 13 in the <gui>Pages</gui> "
+"selection."
+msgstr ""
+"Στην καρτέλα <gui>Γενικά</gui> εισάγετε τις σελίδες 4, 13 στην επιλογή "
+"<gui>Σελίδες</gui>."
+
+#. (itstool) path: item/p
+#: C/duplex-13pages.page:126
+msgid ""
+"Enter pages 8, 9, 10, 7, 6, 11, 12, 5 in the <gui>Pages</gui> selection menu."
+msgstr ""
+"Εισαγάγετε τις σελίδες 8, 9, 10, 7, 6, 11, 12, 5 στο μενού επιλογής "
+"<gui>Σελίδες</gui>."
+
+#. (itstool) path: note/p
+#: C/duplex-13pages.page:138
+msgid ""
+"It is easier to print a 16-page booklet. You may wish to add 3 blank pages "
+"to your PDF document to make it 16-pages. To do so, you can:"
+msgstr ""
+"Είναι ευκολότερο να εκτυπώσετε ένα 16σέλιδο φυλλάδιο. Μπορεί να θέλετε να "
+"προσθέσετε 3 κενές σελίδες στο έγγραφο PDF σας για να το κάνετε 16σέλιδο. "
+"Για να το κάνετε αυτό, μπορείτε:"
+
+#. (itstool) path: item/p
+#: C/duplex-13pages.page:143 C/duplex-9pages.page:150 C/duplex-5pages.page:134
+msgid ""
+"Create a blank PDF document 3-pages long using <app>LibreOffice Writer</app>."
+msgstr ""
+"Δημιουργία κενού εγγράφου PDF 3 σελίδων χρησιμοποιώντας <app>LibreOffice "
+"Writer</app>."
+
+#. (itstool) path: info/desc
+#: C/password.page:22
+msgid "Handling password protected PDFs."
+msgstr "Χειρισμός PDF προστατευμένων με κωδικό πρόσβασης."
+
+#. (itstool) path: page/title
+#: C/password.page:25
+msgid "Password-protected documents"
+msgstr "Έγγραφα προστατευμένα με κωδικό πρόσβασης"
+
+#. (itstool) path: page/p
+#: C/password.page:27
+msgid ""
+"If you try to open a PDF document that is protected with a password, a "
+"window will appear asking you to enter the document password. Enter the "
+"password and click <gui>Unlock Document</gui>."
+msgstr ""
+"Αν προσπαθήσετε να ανοίξετε ένα έγγραφο PDF που είναι προστατευμένο με "
+"κωδικό πρόσβασης, θα εμφανιστεί ένα παράθυρο που θα σας ζητά να εισάγετε τον "
+"κωδικό του εγγράφου. Εισάγετε τον κωδικό πρόσβασης και κάντε κλικ στο "
+"<gui>Ξεκλείδωμα εγγράφου</gui>."
+
+#. (itstool) path: note/p
+#: C/password.page:50
+msgid "Passwords can be set by the person who created or edited the document."
+msgstr ""
+"Αυτοί οι κωδικοί πρόσβασης μπορούν να οριστούν από το άτομο που δημιούργησε "
+"ή επεξεργάστηκε το έγγραφο."
+
+#. (itstool) path: info/desc
+#: C/license.page:8
+msgid "Legal information."
+msgstr "Νομικές πληροφορίες."
+
+#. (itstool) path: page/title
+#: C/license.page:11
+msgid "License"
+msgstr "Άδεια"
+
+#. (itstool) path: page/p
+#: C/license.page:12
+msgid ""
+"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+msgstr ""
+"Αυτό το έργο διανέμεται υπό την άδεια CreativeCommons Attribution-Share "
+"Alike 3.0 Unported."
+
+#. (itstool) path: page/p
+#: C/license.page:20
+msgid "You are free:"
+msgstr "Είσαστε ελεύθεροι:"
+
+#. (itstool) path: item/title
+#: C/license.page:25
+msgid "<em>To share</em>"
+msgstr "<em>Να μοιραστείτε</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:26
+msgid "To copy, distribute and transmit the work."
+msgstr "Να αντιγράψετε, να διανείμετε και να μεταφέρετε την εργασία."
+
+#. (itstool) path: item/title
+#: C/license.page:29
+msgid "<em>To remix</em>"
+msgstr "<em>Να διασκευάσετε</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:30
+msgid "To adapt the work."
+msgstr "Να τροποποιήσετε το έργο."
+
+#. (itstool) path: page/p
+#: C/license.page:33
+msgid "Under the following conditions:"
+msgstr "Κάτω από τους παρακάτω όρους:"
+
+#. (itstool) path: item/title
+#: C/license.page:38
+msgid "<em>Attribution</em>"
+msgstr "<em>Απόδοση</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:39
+msgid ""
+"You must attribute the work in the manner specified by the author or "
+"licensor (but not in any way that suggests that they endorse you or your use "
+"of the work)."
+msgstr ""
+"Πρέπει να αποδώσετε την εργασία κατά τον καθορισμένο τρόπο από τον συγγραφέα "
+"ή αδειοδότη (αλλά όχι με οποιοδήποτε τρόπο που προτείνει ότι υποστηρίζουν "
+"εσάς ή τη χρήση της εργασίας)."
+
+#. (itstool) path: item/title
+#: C/license.page:46
+msgid "<em>Share Alike</em>"
+msgstr "<em>Παρόμοια διανομή</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:47
+msgid ""
+"If you alter, transform, or build upon this work, you may distribute the "
+"resulting work only under the same, similar or a compatible license."
+msgstr ""
+"Εάν αλλάξετε, μετασχηματίσετε ή δημιουργήσετε με βάση αυτήν την εργασία, "
+"μπορείτε να διανείμετε την τελική εργασία κάτω από την ίδια, παρόμοια ή "
+"συμβατή άδεια."
+
+#. (itstool) path: page/p
+#: C/license.page:53
+msgid ""
+"For the full text of the license, see the <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
+"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\">Commons Deed</link>."
+msgstr ""
+"Για το πλήρες κείμενο της άδειας, δείτε τον <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">ιστότοπο CreativeCommons</"
+"link>, ή διαβάστε όλη την <link href=\"http://creativecommons.org/licenses/"
+"by-sa/3.0/\">Πράξη Commons</link>."
+
+#. (itstool) path: info/title
+#: C/duplex-4pages.page:7
+msgctxt "sort"
+msgid "04-Page Booklet"
+msgstr "04-σέλιδο φυλλάδιο"
+
+#. (itstool) path: info/desc
+#: C/duplex-4pages.page:8
+msgid "Print a 4 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 4 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-4pages.page:21
+msgid "4-page booklet"
+msgstr "4-σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/p
+#: C/duplex-4pages.page:37 C/singlesided-3-4pages.page:57
+msgid "Type the numbers of the pages in this order: 4, 1, 2, 3"
+msgstr ""
+"Πληκτρολογήσετε τους αριθμούς των σελίδων με αυτήν τη σειρά: 4, 1, 2, 3"
+
+#. (itstool) path: info/title
+#: C/duplex-7pages.page:7
+msgctxt "sort"
+msgid "07-Page Booklet"
+msgstr "07-σέλιδο φυλλάδιο"
+
+#. (itstool) path: info/desc
+#: C/duplex-7pages.page:8
+msgid "Print a 7 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 7 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-7pages.page:21
+msgid "7-page booklet"
+msgstr "7-σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/p
+#: C/duplex-7pages.page:38
+msgid "Type the numbers of the pages in this order: 7, 2, 1"
+msgstr "Πληκτρολογήστε τους αριθμούς των σελίδων με αυτή τη σειρά: 7, 2, 1"
+
+#. (itstool) path: item/p
+#: C/duplex-7pages.page:47 C/duplex-12pages.page:45 C/duplex-3pages.page:42
+#: C/duplex-9pages.page:43 C/duplex-10pages.page:45 C/duplex-14pages.page:44
+#: C/duplex-5pages.page:43
+msgid ""
+"Under <em>Layout</em>, in the <gui>Two-sided</gui> option, select <gui>Short "
+"Edge (Flip)</gui>."
+msgstr ""
+"Στη <em>Διάταξη</em>, στην επιλογή <gui>Διπλή όψη</gui>, επιλέξτε <gui>Βραχεία "
+"πλευρά (αναστροφή)</gui>."
+
+#. (itstool) path: item/p
+#: C/duplex-7pages.page:70
+msgid "Type the numbers of the remaining pages in this order: 6, 3, 4, 5"
+msgstr ""
+"Πληκτρολογήστε τους αριθμούς των υπόλοιπων σελίδων με αυτήν τη σειρά: 6, 3, "
+"4, 5"
+
+#. (itstool) path: note/p
+#: C/duplex-7pages.page:89
+msgid ""
+"It is easier to print a 8-page booklet. You may wish to add a blank page to "
+"your PDF document to make it 8-pages. To do so, you can:"
+msgstr ""
+"Είναι ευκολότερο να εκτυπώσετε ένα 8-σέλιδο φυλλάδιο. Μπορεί να θέλετε να "
+"προσθέσετε μια κενή σελίδα στο PDF έγγραφό σας για να το κάνετε 8σέλιδο. Για "
+"να γίνει αυτό, μπορείτε:"
+
+#. (itstool) path: info/desc
+#: C/duplex-16pages.page:8
+msgid "Print a 16 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 16 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-16pages.page:21
+msgid "16-page booklet"
+msgstr "16σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/item
+#: C/duplex-16pages.page:38 C/singlesided-13-16pages.page:60
+msgid "16, 1, 2, 15, 14, 3, 4, 13, 12, 5, 6, 11, 10, 7, 8, 9"
+msgstr "16, 1, 2, 15, 14, 3, 4, 13, 12, 5, 6, 11, 10, 7, 8, 9"
+
+#. (itstool) path: info/desc
+#: C/singlesided-npages.page:8
+msgid "Print a booklet over 20 pages."
+msgstr "Εκτύπωση φυλλαδίου πάνω από 20 σελίδες."
+
+#. (itstool) path: page/p
+#: C/singlesided-npages.page:27
+msgid ""
+"If the number of pages in your PDF document is not a multiple of 4, you "
+"should add the appropriate number of blank pages (1, 2 or 3) to make it a "
+"multiple of 4. To do so, you can:"
+msgstr ""
+"Εάν ο αριθμός των σελίδων στο έγγραφό σας PDF δεν είναι πολλαπλάσιο του 4, "
+"θα πρέπει να προσθέσετε τον κατάλληλο αριθμό κενών σελίδων (1, 2 ή 3) για να "
+"γίνει πολλαπλάσιο του 4. Για να γίνει αυτό, μπορείτε:"
+
+#. (itstool) path: info/desc
+#: C/print-order.page:8
+msgid "Use the Collate and Reverse options to make pages print in order."
+msgstr ""
+"Χρησιμοποιήστε τις επιλογές συρραφή και αντιστροφή σειρά για να κάνετε τις "
+"σελίδες να εκτυπωθούν με τη σειρά."
+
+#. (itstool) path: page/title
+#: C/print-order.page:20
+msgid "Getting copies to print in the correct order"
+msgstr "Λήψη αντιγράφων για εκτύπωση με τη σωστή σειρά"
+
+#. (itstool) path: page/p
+#: C/print-order.page:22
+msgid ""
+"Please see <link xref=\"help:gnome-help/printing-order\" href=\"https://"
+"help.gnome.org/users/gnome-help/stable/printing-order\">the GNOME Desktop "
+"Help</link>."
+msgstr ""
+"Παρακαλούμε δείτε τη <link xref=\"help:gnome-help/printing-order\" href="
+"\"https://help.gnome.org/users/gnome-help/stable/printing-order\">Βοήθεια "
+"επιφάνειας εργασίας GNOME</link>."
+
+#. (itstool) path: info/desc
+#: C/translate.page:7
+msgid "Localize <app>Document Viewer</app>."
+msgstr "Τοπικοποιήστε την <app>Προβολή εγγράφων</app>."
+
+#. (itstool) path: credit/name
+#: C/translate.page:15
+msgid "Michael Hill"
+msgstr "Michael Hill"
+
+#. (itstool) path: page/title
+#: C/translate.page:23
+msgid "Help translate"
+msgstr "Βοήθεια στη μετάφραση"
+
+#. (itstool) path: page/p
+#: C/translate.page:24
+msgid ""
+"The <app>Document Viewer</app> user interface and documentation is being "
+"translated by a world-wide volunteer community. You are welcome to "
+"participate."
+msgstr ""
+"Η διεπαφή χρήστη και η τεκμηρίωση της <app>Προβολής εγγράφων</app> "
+"μεταφράζονται από μια παγκόσμια εθελοντική κοινότητα. Είσαστε καλοδεχούμενοι "
+"να συμμετάσχετε."
+
+#. (itstool) path: page/p
+#: C/translate.page:27
+msgid ""
+"There are <link href=\"https://l10n.gnome.org/module/papers/\">many "
+"languages</link> for which translations are still needed."
+msgstr ""
+"Υπάρχουν <link href=\"https://l10n.gnome.org/module/papers/\">πολλές γλώσσες</"
+"link> για τις οποίες χρειάζονται ακόμη μεταφράσεις."
+
+#. (itstool) path: page/p
+#: C/translate.page:30
+msgid ""
+"To start translating you will need to <link href=\"https://"
+"l10n.gnome.org\">create an account</link> and join the <link href=\"https://"
+"l10n.gnome.org/teams/\">translation team</link> for your language. This will "
+"give you the ability to upload new translations."
+msgstr ""
+"Για να ξεκινήσετε τη μετάφραση θα πρέπει να <link href=\"https://"
+"l10n.gnome.org\">δημιουργήσετε έναν λογαριασμό</link> και να συμμετάσχετε "
+"στην <link href=\"https://l10n.gnome.org/teams/\">ομάδα μετάφρασης</link> "
+"της γλώσσας σας. Αυτό θα σας δώσει τη δυνατότητα να ανεβάζετε νέες "
+"μεταφράσεις."
+
+#. (itstool) path: page/p
+#: C/translate.page:34
+msgid ""
+"You can chat with GNOME translators in <link href=\"https://matrix.to/#/"
+"#i18n:gnome.org\">#i18n:gnome.org</link> on <link xref=\"help:gnome-help/"
+"help-matrix\">Matrix</link> or <link href=\"https://web.libera.chat/#gnome-"
+"i18n\">#gnome-i18n</link> on irc.libera.chat. People on the channel are "
+"located worldwide, so you may not get an immediate response as a result of "
+"timezone differences."
+msgstr ""
+"Μπορείτε να συνομιλήσετε με τους μεταφραστές του GNOME στο <link href=\"https://matrix.to/#/"
+"#i18n:gnome.org\">#i18n:gnome.org</link> στο <link xref=\"help:gnome-help/"
+"help-matrix\">Matrix</link> ή στο <link href=\"https://web.libera.chat/#gnome-"
+"i18n\">#gnome-i18n</link> στο irc.libera.chat. Οι συμμετέχοντες στο κανάλι "
+"βρίσκονται σε όλο τον κόσμο, επομένως ενδέχεται να μην λάβετε άμεση απάντηση "
+"λόγω των διαφορών στη ζώνη ώρας."
+
+#. (itstool) path: page/p
+#: C/translate.page:41
+msgid ""
+"Alternatively, you can contact the Internationalization Team using <link "
+"href=\"https://discourse.gnome.org/tag/i18n\">GNOME Discourse</link>."
+msgstr ""
+"Εναλλακτικά, μπορείτε να επικοινωνήσετε με την Ομάδα Διεθνοποίησης "
+"χρησιμοποιώντας το <link href=\"https://discourse.gnome.org/tag/i18n\">GNOME "
+"Discourse</link>."
+
+#. (itstool) path: info/desc
+#: C/headerbar.page:8
+msgid "Using the header bar."
+msgstr "Χρήση της γραμμής τίτλου."
+
+#. (itstool) path: page/title
+#: C/headerbar.page:23
+msgid "Header bar"
+msgstr "Γραμμή τίτλου"
+
+#. (itstool) path: page/p
+#: C/headerbar.page:25
+msgid "The header bar contains:"
+msgstr "Η γραμμή τίτλου περιέχει:"
+
+#. (itstool) path: item/p
+#: C/headerbar.page:28
+msgid "A button to show or hide the side pane."
+msgstr "Ένα κουμπί για την εμφάνιση ή απόκρυψη της πλευρικής στήλης."
+
+#. (itstool) path: item/p
+#: C/headerbar.page:31
+msgid ""
+"A text field to <link xref=\"movingaround#between-pages\">go to a certain "
+"page</link> or to <link xref=\"finding\">search</link> in the <link "
+"xref=\"movingaround#navigating\">index</link>."
+msgstr ""
+"Ένα πεδίο κειμένου για <link xref=\"movingaround#between-pages\">μετάβαση "
+"σε μια συγκεκριμένη σελίδα</link> ή για <link xref=\"finding\">αναζήτηση</"
+"link> στο <link xref=\"movingaround#navigating\">ευρετήριο</link>."
+
+#. (itstool) path: item/p
+#: C/headerbar.page:36
+msgid "A button to manage <link xref=\"annotations\">annotations</link>."
+msgstr "Ένα κουμπί για τη διαχείριση <link xref=\"annotations\">σχολίων</link>."
+
+#. (itstool) path: item/p
+#: C/headerbar.page:39
+msgid ""
+"A drop-down box to adjust the <link xref=\"movingaround#zoom\">zoom</link> "
+"level."
+msgstr ""
+"Ένα αναπτυσσόμενο πλαίσιο για τη ρύθμιση του επιπέδου <link "
+"xref=\"movingaround#zoom\">εστίασης</link>."
+
+#. (itstool) path: item/p
+#: C/headerbar.page:42
+msgid ""
+"A <gui>Magnifying glass button</gui> to <link xref=\"finding\">find a word "
+"or phrase in the document</link>."
+msgstr ""
+"Ένα <gui>κουμπί με μεγεθυντικό φακό</gui> για την <link xref=\"finding"
+"\">εύρεση μιας λέξης ή φράσης στο έγγραφο</link>."
+
+#. (itstool) path: item/p
+#: C/headerbar.page:46
+msgid "A button to open the main menu."
+msgstr "Ένα κουμπί για το άνοιγμα του κυρίως μενού."
+
+#. (itstool) path: page/p
+#: C/annotations.page:36
+msgid ""
+"At the bottom of the side pane, the buttons <gui>Thumbnails</gui>, "
+"<gui>Outline</gui>, <gui>Annotations</gui> and <gui>Bookmarks</gui> let you "
+"choose what to display in the side pane. (Some options may not be available "
+"for some documents)."
+msgstr ""
+"Στο κάτω μέρος της πλευρικής στήλης, τα κουμπιά <gui>Μικρογραφίες</gui>, "
+"<gui>Δομή</gui>, <gui>Σχόλια</gui> και <gui>Σελιδοδείκτες</gui> σάς επιτρέπουν "
+"να επιλέξετε τι θα εμφανίζεται στην πλευρική στήλη. (Ορισμένες επιλογές "
+"ενδέχεται να μην είναι διαθέσιμες για κάποια έγγραφα)."
+
+#. (itstool) path: item/p
+#: C/annotations.page:44
+msgid ""
+"Select the <gui style=\"button\">Annotate the document</gui> button from the "
+"header bar:"
+msgstr ""
+"Επιλέξτε το κουμπί <gui style=\"button\">Σχολιασμός του εγγράφου</gui> από "
+"τη γραμμή τίτλου:"
+
+#. (itstool) path: item/p
+#: C/annotations.page:50
+msgid ""
+"You should now see <gui style=\"button\">Note text</gui> and <gui "
+"style=\"button\">Highlight text</gui> buttons below the header bar."
+msgstr ""
+"Θα πρέπει τώρα να βλέπετε τα κουμπιά <gui style=\"button\">Σημείωση "
+"κειμένου</gui> και <gui style=\"button\">Επισήμανση κειμένου</gui> κάτω από "
+"τη γραμμή τίτλου."
+
+#. (itstool) path: item/p
+#: C/annotations.page:57
+msgid "Click on the first button to add a text annotation."
+msgstr "Κάντε κλικ στο πρώτο κουμπί για να προσθέσετε ένα σχόλιο κειμένου."
+
+#. (itstool) path: item/p
+#: C/annotations.page:62
+msgid ""
+"Click on the spot in the document window you would like to add the "
+"annotation to. Your <em>annotation</em> window will open."
+msgstr ""
+"Κάντε κλικ στο σημείο του παραθύρου του εγγράφου που θέλετε να προσθέσετε τη "
+"σημείωση. Το παράθυρο <em>σχολίων</em> σας θα ανοίξει."
+
+#. (itstool) path: item/p
+#: C/annotations.page:67
+msgid "Type your text into the <em>annotation</em> window."
+msgstr "Πληκτρολογήστε το κείμενό σας στο παράθυρο <em>σχολίου</em>."
+
+#. (itstool) path: note/p
+#: C/annotations.page:71
+msgid ""
+"You can resize the note by clicking and holding the left mouse button on one "
+"of the bottom corners of the note, and moving it around."
+msgstr ""
+"Μπορείτε να αυξομειώσετε τη σημείωση με πάτημα και κράτημα του αριστερού "
+"κουμπιού του ποντικιού σε μία από τις κάτω γωνίες του σχολίου και "
+"μετακινώντας τες."
+
+#. (itstool) path: item/p
+#: C/annotations.page:77
+msgid ""
+"Close the note by clicking on the <gui>x</gui> in the top corner of the note."
+msgstr ""
+"Κλείστε τη σημείωση με κλικ στο <gui>x</gui> στην πάνω γωνία της σημείωσης."
+
+#. (itstool) path: credit/name
+#: C/annotations-delete.page:14
+msgid "David King"
+msgstr "David King"
+
+#. (itstool) path: info/desc
+#: C/annotations-delete.page:20
+msgid "Delete annotations from a PDF document."
+msgstr "Διαγράψτε σχόλια από ένα έγγραφο PDF."
+
+#. (itstool) path: page/title
+#: C/annotations-delete.page:23
+msgid "Removing annotations"
+msgstr "Αφαίρεση σχολίων"
+
+#. (itstool) path: page/p
+#: C/annotations-delete.page:25
+msgid ""
+"An annotation is a note or comment added to a PDF document. You can remove "
+"annotations that you or other people have added."
+msgstr ""
+"Ένα σχόλιο είναι μια σημείωση ή επεξήγηση που προστίθεται σε ένα έγγραφο "
+"PDF. Μπορείτε να αφαιρέσετε σχόλια όπου εσείς ή άλλα άτομα προσθέσατε."
+
+#. (itstool) path: item/p
+#: C/annotations-delete.page:30
+msgid ""
+"View a page that has an annotation. If you are not sure which pages have "
+"annotations, find them in the <link xref=\"annotations-navigate\">annotation "
+"side pane</link>."
+msgstr ""
+"Προβάλετε μια σελίδα που έχει ένα σχόλιο. Αν δεν είστε σίγουροι ποιες "
+"σελίδες περιέχουν σχόλια, βρείτε τις στην <link xref=\"annotations-"
+"navigate\">πλευρική στήλη σχολίων</link>."
+
+#. (itstool) path: item/p
+#: C/annotations-delete.page:35
+msgid ""
+"Right-click on the annotation icon in the document, and click <gui "
+"style=\"menuitem\">Remove Annotation</gui>."
+msgstr ""
+"Κάντε δεξί κλικ στο εικονίδιο του σχολίου μέσα στο έγγραφο και κάντε κλικ "
+"στο <gui style=\"menuitem\">Αφαίρεση σχολίου</gui>."
+
+#. (itstool) path: item/p
+#: C/annotations-delete.page:39
+msgid ""
+"Save the changes to a new document by clicking the menu button in the top "
+"right, followed by <gui style=\"menuitem\">Save As…</gui>."
+msgstr ""
+"Αποθηκεύστε τις αλλαγές σε ένα νέο έγγραφο κάνοντας κλικ στο κουμπί μενού "
+"πάνω δεξιά και επιλέγοντας <gui style=\"menuitem\">Αποθήκευση ως…</gui>."
+
+#. (itstool) path: info/desc
+#: C/print-select.page:7
+msgid "Print only specific pages, or only a range of pages."
+msgstr "Εκτύπωση συγκεκριμένων μόνο σελίδων ή μόνο μιας περιοχής σελίδων."
+
+#. (itstool) path: page/title
+#: C/print-select.page:19
+msgid "Only printing certain pages"
+msgstr "Εκτύπωση συγκεκριμένων μόνο σελίδων"
+
+#. (itstool) path: page/p
+#: C/print-select.page:21
+msgid ""
+"Please see <link xref=\"help:gnome-help/printing-select\" href=\"https://"
+"help.gnome.org/users/gnome-help/stable/printing-select\">the GNOME Desktop "
+"Help</link>."
+msgstr ""
+"Παρακαλούμε δείτε τη <link xref=\"help:gnome-help/printing-select\" href="
+"\"https://help.gnome.org/users/gnome-help/stable/printing-select\">Βοήθεια "
+"επιφάνειας εργασίας GNOME</link>."
+
+#. (itstool) path: info/desc
+#: C/annotations-save.page:7
+msgid "How to save your annotations."
+msgstr "Πώς να αποθηκεύσετε τα σχόλιά σας."
+
+#. (itstool) path: page/title
+#: C/annotations-save.page:23
+msgid "Save a copy of an annotated PDF"
+msgstr "Αποθήκευση αντιγράφου ενός σχολιασμένου PDF"
+
+#. (itstool) path: page/p
+#: C/annotations-save.page:24
+msgid ""
+"To save a copy of your annotated PDF for future viewing using the "
+"<app>Document Viewer</app> or any other PDF viewer <em>that supports "
+"annotations</em>:"
+msgstr ""
+"Για να αποθηκεύσετε ένα αντίγραφο του σχολιασμένου PDF σας για μελλοντική "
+"προβολή χρησιμοποιώντας την <app>Προβολή εγγράφων</app> ή οποιοδήποτε άλλο "
+"πρόγραμμα προβολής PDF <em>που υποστηρίζει σχόλια</em>:"
+
+#. (itstool) path: item/p
+#: C/annotations-save.page:31
+msgid "Click <guiseq><gui>File options</gui><gui>Save As…</gui></guiseq>"
+msgstr ""
+"Κάντε κλικ στο <guiseq><gui>Επιλογές αρχείου</gui><gui>Αποθήκευση ως…</gui></"
+"guiseq>"
+
+#. (itstool) path: item/p
+#: C/annotations-save.page:36
+msgid ""
+"Choose a name and folder in which to save the file, then click <gui>Save</"
+"gui>. The PDF will be saved in the folder you chose."
+msgstr ""
+"Επιλέξτε ένα όνομα και φάκελο για να αποθηκεύσετε το αρχείο και πατήστε "
+"<gui>Αποθήκευση</gui>. Το αρχείο PDF θα αποθηκευτεί στο φάκελο που επιλέξατε."
+
+#. (itstool) path: page/p
+#: C/annotations-save.page:42
+msgid ""
+"Annotations are added according to the PDF specification. Therefore, most "
+"PDF readers should be able to read them. Adobe Reader is known to work."
+msgstr ""
+"Τα σχόλια προστίθενται σύμφωνα με την προδιαγραφή PDF. Συνεπώς, οι "
+"περισσότεροι αναγνώστες PDF πρέπει να μπορούν να τα διαβάσουν. Το Adobe "
+"Reader δουλεύει επιτυχώς."
+
+#. (itstool) path: info/desc
+#: C/annotations-navigate.page:7
+msgid "How to navigate to annotations."
+msgstr "Μπορείτε να περιηγηθείτε στα σχόλια."
+
+#. (itstool) path: page/title
+#: C/annotations-navigate.page:21
+msgid "Annotation navigation"
+msgstr "Περιήγηση στα σχόλια"
+
+#. (itstool) path: page/p
+#: C/annotations-navigate.page:22
+msgid ""
+"If you have created annotations on your document, you can use the side pane "
+"to display the list of all the annotations in the document. The list "
+"indicates the type, page number and author of the annotation."
+msgstr ""
+"Αν έχετε δημιουργήσει σχόλια στο έγγραφό σας, μπορείτε να χρησιμοποιήσετε "
+"την πλευρική στήλη για να εμφανίσετε τη λίστα όλων των σχολίων στο έγγραφο. "
+"Η λίστα υποδεικνύει τον τύπο, τον αριθμό σελίδας και τον συντάκτη του "
+"σχολίου."
+
+#. (itstool) path: page/p
+#: C/annotations-navigate.page:25
+msgid ""
+"To quickly navigate to the location of a particular annotation, click on the "
+"arrow to the left of the page number. You will see a list of annotations on "
+"that page. Click on the annotation you are interested in, and <app>Document "
+"Viewer</app> will navigate to the location of the annotation in the document."
+msgstr ""
+"Για να μεταβείτε γρήγορα στην τοποθεσία ενός συγκεκριμένου σχολίου, κάντε "
+"κλικ στο βέλος στα αριστερά του αριθμού σελίδας. Θα δείτε μια λίστα με τα "
+"σχόλια αυτής της σελίδας. Κάντε κλικ στο σχόλιο που σας ενδιαφέρει και η "
+"<app>Προβολή εγγράφων</app> θα σας μεταφέρει στη θέση του σχολίου μέσα στο "
+"έγγραφο."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/annotations-navigate.page:28
+msgctxt "_"
+msgid ""
+"external ref='figures/annotations-nav-to-page.png' "
+"md5='c45d82e4fac0e7bc8218e5b5b8fdabce'"
+msgstr ""
+"external ref='figures/annotations-nav-to-page.png' "
+"md5='c45d82e4fac0e7bc8218e5b5b8fdabce'"
+
+#. (itstool) path: info/desc
+#: C/print-booklet.page:8
+msgid "How to print a booklet."
+msgstr "Πως να εκτυπώσετε ένα φυλλάδιο."
+
+#. (itstool) path: page/title
+#: C/print-booklet.page:21
+msgid "Printing a booklet"
+msgstr "Εκτύπωση φυλλαδίου"
+
+#. (itstool) path: page/p
+#: C/print-booklet.page:23
+msgid ""
+"If you are printing a booklet (which will perhaps be bound or stapled in the "
+"middle of each page), select the type of printer you will be using for "
+"printing from the list below. Then select the number of printed pages your "
+"booklet will have."
+msgstr ""
+"Εάν εκτυπώνετε ένα φυλλάδιο (που ίσως συνδεθεί ή συρραφεί στη μέση κάθε "
+"σελίδας), επιλέξτε τον τύπο του εκτυπωτή που θα χρησιμοποιήσετε για εκτύπωση "
+"από την παρακάτω λίστα. Έπειτα επιλέξτε τον αριθμό των τυπωμένων σελίδων που "
+"θα έχει το φυλλάδιο."
+
+#. (itstool) path: section/title
+#: C/print-booklet.page:28
+msgid "Printer allows single-sided printing"
+msgstr "Ο εκτυπωτής επιτρέπει εκτύπωση μονής όψης"
+
+#. (itstool) path: section/title
+#: C/print-booklet.page:32
+msgid "Printer allows double-sided printing"
+msgstr "Ο εκτυπωτής επιτρέπει εκτύπωση διπλής όψης"
+
+#. (itstool) path: info/desc
+#: C/noprint.page:9
+msgid "The author may have put printing restrictions on the document."
+msgstr "Ο συγγραφέας μπορεί να έχει θέσει περιορισμούς εκτύπωσης στο έγγραφο."
+
+#. (itstool) path: page/title
+#: C/noprint.page:23
+msgid "I can't print a document"
+msgstr "Αδυναμία εκτύπωσης εγγράφου"
+
+#. (itstool) path: section/title
+#: C/noprint.page:25
+msgid "Possible reasons for printing failure"
+msgstr "Πιθανές αιτίες για αποτυχία εκτύπωσης"
+
+#. (itstool) path: section/p
+#: C/noprint.page:26
+msgid "A document might not print because of:"
+msgstr "Ένα έγγραφο μπορεί να μην εκτυπωθεί εξαιτίας:"
+
+#. (itstool) path: item/p
+#: C/noprint.page:28
+msgid "Printer problems or,"
+msgstr "Προβλημάτων εκτυπωτή ή,"
+
+#. (itstool) path: item/p
+#: C/noprint.page:29
+msgid "PDF printing restrictions."
+msgstr "περιορισμούς εκτύπωσης PDF."
+
+#. (itstool) path: section/title
+#: C/noprint.page:35
+msgid "Printer problems"
+msgstr "Προβλήματα εκτυπωτή"
+
+#. (itstool) path: section/p
+#: C/noprint.page:36
+msgid ""
+"There are many reasons why your printer might not be working. For example, "
+"it could be out of paper or ink, or unplugged or damaged."
+msgstr ""
+"Υπάρχουν πολλοί λόγοι αδυναμίας του εκτυπωτή σας να δουλέψει. Για "
+"παράδειγμα, μπορεί να έχει τελειώσει το μελάνι ή το χαρτί, να μην είναι "
+"συνδεδεμένος ή να έχει βλάβη."
+
+#. (itstool) path: section/p
+#: C/noprint.page:41
+msgid "To check if your printer is printing correctly:"
+msgstr "Για να ελέγξετε αν ο εκτυπωτής σας τυπώνει σωστά:"
+
+#. (itstool) path: item/p
+#: C/noprint.page:44
+msgid ""
+"Open the <gui href=\"help:gnome-help/shell-"
+"introduction#activities\">Activities</gui> overview and start typing "
+"<gui>Settings</gui>."
+msgstr ""
+"Ανοίξτε την επισκόπηση <gui href=\"help:gnome-help/shell-"
+"introduction#activities\">Δραστηριότητες</gui> και ξεκινήστε να "
+"πληκτρολογείτε <gui>Ρυθμίσεις</gui>."
+
+#. (itstool) path: item/p
+#: C/noprint.page:48
+msgid "Click on <gui>Settings</gui>."
+msgstr "Κάντε κλικ στις <gui>Ρυθμίσεις</gui>."
+
+#. (itstool) path: item/p
+#: C/noprint.page:51
+msgid "Click <gui>Printers</gui> in the sidebar."
+msgstr "Κάντε κλικ στην επιλογή <gui>Εκτυπωτές</gui> στην πλευρική στήλη."
+
+#. (itstool) path: media/span
+#: C/noprint.page:54
+msgid "settings"
+msgstr "ρυθμίσεις"
+
+#. (itstool) path: item/p
+#: C/noprint.page:54
+msgid "Click the <_:media-1/> button next to the printer."
+msgstr "Κάντε κλικ στο κουμπί <_:media-1/> δίπλα στον εκτυπωτή."
+
+#. (itstool) path: item/p
+#: C/noprint.page:58
+msgid "Select <gui style=\"menuitem\">Printing Options</gui>."
+msgstr "Επιλέξτε <gui style=\"menuitem\">Επιλογές εκτύπωσης</gui>."
+
+#. (itstool) path: item/p
+#: C/noprint.page:61
+msgid "Click on <gui>Test Page</gui>. A page should be sent to your printer."
+msgstr ""
+"Κάντε κλικ στο <gui>Δοκιμαστική σελίδα</gui>. Μια σελίδα θα πρέπει να σταλεί "
+"στον εκτυπωτή σας."
+
+#. (itstool) path: note/p
+#: C/noprint.page:63
+msgid ""
+"If this fails, see <link href=\"help:gnome-help/printing\">Printing help</"
+"link>. You may also need to see your printer's manual to see what else you "
+"can do."
+msgstr ""
+"Αν αυτό αποτύχει, δείτε το <link href=\"help:gnome-help/printing\">Βοήθεια "
+"εκτύπωσης</link>. Ίσως χρειαστείτε να δείτε το εγχειρίδιο του εκτυπωτή σας "
+"για να δείτε τι άλλο μπορείτε να κάνετε."
+
+#. (itstool) path: section/title
+#: C/noprint.page:74
+msgid "PDF printing restrictions"
+msgstr "Περιορισμοί εκτύπωσης PDF"
+
+#. (itstool) path: section/p
+#: C/noprint.page:75
+msgid ""
+"Some PDF documents have a setting which prevents you from printing them. "
+"Authors can set this printing restriction when they write a document. "
+"<app>Document Viewer</app> overrides this restriction by default, but you "
+"may want to check that it hasn't been disabled:"
+msgstr ""
+"Ορισμένα έγγραφα PDF έχουν μια ρύθμιση που εμποδίζει την εκτύπωσή τους. Οι "
+"δημιουργοί μπορούν να θέσουν αυτόν τον περιορισμό εκτύπωσης όταν "
+"συγγράφουν ένα έγγραφο. Η <app>Προβολή εγγράφων</app> παρακάμπτει αυτόν τον "
+"περιορισμό από προεπιλογή, αλλά μπορεί να θέλετε να βεβαιωθείτε ότι η "
+"δυνατότητα αυτή δεν έχει απενεργοποιηθεί:"
+
+#. (itstool) path: note/p
+#: C/noprint.page:83
+msgid ""
+"You need to have <app>dconf Editor</app> installed on your computer to "
+"change this setting."
+msgstr ""
+"Πρέπει να έχετε εγκατεστημένο τον <app>Επεξεργαστή dconf</app> στον "
+"υπολογιστή σας για να αλλάξετε αυτή τη ρύθμιση."
+
+#. (itstool) path: if/p
+#: C/noprint.page:86
+msgid ""
+"<link style=\"button\" action=\"install:dconf-editor\">Install <app>dconf "
+"Editor</app></link>"
+msgstr ""
+"<link style=\"button\" action=\"install:dconf-editor\">Εγκατάσταση του "
+"<app>Επεξεργαστή dconf</app></link>"
+
+#. (itstool) path: item/p
+#: C/noprint.page:93
+msgid ""
+"Open the <gui href=\"help:gnome-help/shell-"
+"introduction#activities\">Activities</gui> overview and start typing "
+"<gui>dconf Editor</gui>."
+msgstr ""
+"Ανοίξτε την επισκόπηση <gui href=\"help:gnome-help/shell-"
+"introduction#activities\">Δραστηριότητες</gui> και ξεκινήστε να "
+"πληκτρολογείτε <gui>Επεξεργαστής dconf</gui>."
+
+#. (itstool) path: item/p
+#: C/noprint.page:97
+msgid "Click on <gui>dconf Editor</gui>."
+msgstr "Κάντε κλικ στον <gui>Επεξεργαστή dconf</gui>."
+
+#. (itstool) path: item/p
+#: C/noprint.page:100
+msgid "Browse to <sys>/org/gnome/papers</sys>."
+msgstr "Περιηγηθείτε στη διαδρομή <sys>/org/gnome/papers</sys>."
+
+#. (itstool) path: item/p
+#: C/noprint.page:103
+msgid "Make sure that the <gui>override-restrictions</gui> option is checked."
+msgstr ""
+"Βεβαιωθείτε ότι η επιλογή <gui>override-restrictions</gui> είναι επιλεγμένη."
+
+#. (itstool) path: item/p
+#: C/noprint.page:108
+msgid ""
+"Go back to <app>Document Viewer</app> and try to print the document again."
+msgstr ""
+"Επιστρέψτε στην <app>Προβολή εγγράφων</app> και προσπαθήστε να εκτυπώσετε "
+"ξανά το έγγραφο."
+
+#. (itstool) path: info/desc
+#: C/documentation.page:7
+msgid "Contact the Documentation Team."
+msgstr "Επικοινωνήστε με την ομάδα τεκμηρίωσης."
+
+#. (itstool) path: page/title
+#: C/documentation.page:18
+msgid "Help write documentation"
+msgstr "Βοήθεια συγγραφής τεκμηρίωσης"
+
+#. (itstool) path: page/p
+#: C/documentation.page:20
+msgid ""
+"The <app>Document Viewer</app> documentation is maintained by a volunteer "
+"community. You are welcome to participate."
+msgstr ""
+"Η τεκμηρίωση της <app>Προβολής εικόνων</app> συντηρείται από μια εθελοντική "
+"κοινότητα. Είσαστε καλοδεχούμενοι να συμμετάσχετε."
+
+#. (itstool) path: page/p
+#: C/documentation.page:23
+msgid ""
+"To contribute to the Documentation Project, feel free to get in touch with "
+"us in <link href=\"https://matrix.to/#/#docs:gnome.org\">#docs:gnome.org</"
+"link> on <link xref=\"help:gnome-help/help-matrix\">Matrix</link> or <link "
+"href=\"https://web.libera.chat/#gnome-docs\">#gnome-docs</link> on "
+"irc.libera.chat, or via <link href=\"https://discourse.gnome.org/tag/"
+"documentation\">GNOME Discourse</link>."
+msgstr ""
+"Για να συνεισφέρετε στο Έργο Τεκμηρίωσης (Documentation Project), μη "
+"διστάσετε να επικοινωνήσετε μαζί μας στο <link href=\"https://matrix.to/#/"
+"#docs:gnome.org\">#docs:gnome.org</link> στο <link xref=\"help:gnome-help/"
+"help-matrix\">Matrix</link> ή στο <link href=\"https://web.libera.chat/"
+"#gnome-docs\">#gnome-docs</link> στο irc.libera.chat, ή μέσω του <link "
+"href=\"https://discourse.gnome.org/tag/documentation\">GNOME Discourse</"
+"link>."
+
+#. (itstool) path: page/p
+#: C/documentation.page:30
+msgid ""
+"Our <link href=\"https://live.gnome.org/DocumentationProject/"
+"Contributing\">wiki</link> page contains useful information."
+msgstr ""
+"Η σελίδα μας στο <link href=\"https://live.gnome.org/DocumentationProject/"
+"Contributing\">wiki</link> περιέχει χρήσιμες πληροφορίες."
+
+#. (itstool) path: info/desc
+#: C/duplex-12pages.page:8
+msgid "Print a 12 page booklet."
+msgstr "Εκτυπώσετε ένα φυλλάδιο 12 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-12pages.page:21
+msgid "12-page booklet"
+msgstr "12σέλιδο φυλλάδιο"
+
+#. (itstool) path: info/title
+#: C/singlesided-5-8pages.page:7
+msgctxt "sort"
+msgid "05-Page or 4-Page Booklet"
+msgstr "05-σέλιδο ή 4-σέλιδο φυλλάδιο"
+
+#. (itstool) path: info/desc
+#: C/singlesided-5-8pages.page:8
+msgid "Print a 5, 6, 7 or 8 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 5, 6, 7 ή 8 σελίδων."
+
+#. (itstool) path: page/title
+#: C/singlesided-5-8pages.page:21
+msgid "5-page to 8-page booklet"
+msgstr "Φυλλάδιο 5 έως 8 σελίδων"
+
+#. (itstool) path: page/p
+#: C/singlesided-5-8pages.page:23
+msgid ""
+"If you have a 5, 6 or 7 page PDF document you should add the appropriate "
+"number of blank pages to make it 8-pages. To do so, you can:"
+msgstr ""
+"Εάν έχετε ένα έγγραφο PDF 5, 6 ή 7 σελίδων πρέπει να προσθέσετε τον "
+"κατάλληλο αριθμό κενών σελίδων για να γίνει 8σέλιδο. Για να γίνει αυτό, "
+"μπορείτε:"
+
+#. (itstool) path: info/title
+#: C/duplex-3pages.page:7
+msgctxt "sort"
+msgid "03-Page Booklet"
+msgstr "03-σέλιδο φυλλάδιο"
+
+#. (itstool) path: info/desc
+#: C/duplex-3pages.page:8
+msgid "Print a 3 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 3 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-3pages.page:22
+msgid "3-page booklet"
+msgstr "3σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/p
+#: C/duplex-3pages.page:34
+msgid ""
+"Under <em>Range</em>, choose <gui>Pages</gui>. Type the numbers of the pages "
+"in this order: 3, 2, 1"
+msgstr ""
+"Στο <em>Εύρος</em>, επιλέξτε <gui>Σελίδες</gui>. Πληκτρολογήστε τους "
+"αριθμούς των σελίδων με αυτή τη σειρά: 3, 2, 1"
+
+#. (itstool) path: note/p
+#: C/duplex-3pages.page:61
+msgid ""
+"It is easier to print a 4-page booklet. You may wish to add a blank page to "
+"your PDF document to make it 4-pages. To do so, you can:"
+msgstr ""
+"Είναι ευκολότερο να εκτυπώσετε ένα 4σέλιδο φυλλάδιο. Μπορεί να θέλετε να "
+"προσθέσετε μια κενή σελίδα στο PDF έγγραφό σας για να το κάνετε 4σέλιδο. Για "
+"να γίνει αυτό, μπορείτε:"
+
+#. (itstool) path: item/p
+#: C/duplex-3pages.page:77
+msgid ""
+"Follow the steps for printing a <link xref=\"duplex-4page\">4-page booklet</"
+"link>."
+msgstr ""
+"Ακολουθήστε τα βήματα για εκτύπωση ενός <link xref=\"duplex-4page\">4-"
+"σέλιδου φυλλαδίου</link>."
+
+#. (itstool) path: info/desc
+#: C/introduction.page:18
+msgid "Introduction to the <em>Papers Document Viewer</em>."
+msgstr "Εισαγωγή στην <em>Προβολή εγγράφων Papers</em>."
+
+#. (itstool) path: page/title
+#: C/introduction.page:21
+msgid "Introduction"
+msgstr "Εισαγωγή"
+
+#. (itstool) path: page/p
+#: C/introduction.page:23
+msgid ""
+"<app>Papers</app> is a document viewer. See <link xref=\"formats\"/> for a "
+"list of file types you can view."
+msgstr ""
+"Το <app>Papers</app> είναι μια εφαρμογή προβολής εγγράφων. Δείτε το <link "
+"xref=\"formats\"/> για μια λίστα με τους τύπους αρχείων που μπορείτε να "
+"προβάλετε."
+
+#. (itstool) path: info/title
+#: C/index.page:7
+msgctxt "link:trail"
+msgid "Papers Document Viewer"
+msgstr "Προβολή εγγράφων Papers"
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "link"
+msgid "Papers Document Viewer"
+msgstr "Προβολή εγγράφων Papers"
+
+#. (itstool) path: info/title
+#: C/index.page:9
+msgctxt "text"
+msgid "Papers Document Viewer"
+msgstr "Προβολή εγγράφων Papers"
+
+#. (itstool) path: info/desc
+#: C/index.page:24
+msgid ""
+"<app>Document Viewer</app>, formally known as <app>Papers</app>, is made for "
+"viewing PDF documents. Learn how to get started with <app>Papers</app> and "
+"its features."
+msgstr ""
+"Η <app>Προβολή εγγράφων</app>, επίσημα γνωστή ως <app>Papers</app>, είναι "
+"σχεδιασμένη για την προβολή εγγράφων PDF. Μάθετε πώς να ξεκινήσετε με το "
+"<app>Papers</app> και τις λειτουργίες του."
+
+#. (itstool) path: page/title
+#: C/index.page:30
+msgid "<_:media-1/> Document Viewer Help"
+msgstr "<_:media-1/> Βοήθεια Προβολή εγγράφων Evince"
+
+#. (itstool) path: section/title
+#: C/index.page:36
+msgid "Reading documents"
+msgstr "Ανάγνωση εγγράφων"
+
+#. (itstool) path: section/title
+#: C/index.page:40
+msgid "Presentations and other supported formats"
+msgstr "Παρουσιάσεις και άλλες υποστηριζόμενες μορφές"
+
+#. (itstool) path: section/title
+#: C/index.page:44
+msgid "Printing"
+msgstr "Εκτύπωση"
+
+#. (itstool) path: section/title
+#: C/index.page:48
+msgid "Annotations and bookmarks"
+msgstr "Σχόλια και σελιδοδείκτες"
+
+#. (itstool) path: section/title
+#: C/index.page:52
+msgid "Interactive forms"
+msgstr "Διαδραστικές φόρμες"
+
+#. (itstool) path: section/title
+#: C/index.page:56
+msgid "Frequently asked questions"
+msgstr "Συχνές ερωτήσεις"
+
+#. (itstool) path: section/title
+#: C/index.page:60
+msgid "Advanced"
+msgstr "Προχωρημένα"
+
+#. (itstool) path: section/title
+#: C/index.page:64
+msgid "Tips and tricks"
+msgstr "Συμβουλές και κόλπα"
+
+#. (itstool) path: section/title
+#: C/index.page:68
+msgid "Get involved"
+msgstr "Συμμετοχή"
+
+#. (itstool) path: info/title
+#: C/duplex-9pages.page:7
+msgctxt "sort"
+msgid "09-Page Booklet"
+msgstr "09-σέλιδο φυλλάδιο"
+
+#. (itstool) path: info/desc
+#: C/duplex-9pages.page:8
+msgid "Print a 9 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 9 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-9pages.page:21
+msgid "9-page booklet"
+msgstr "9-σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/p
+#: C/duplex-9pages.page:90
+msgid ""
+"In the <gui>General</gui> tab enter 3 in the <gui>Pages</gui> selection."
+msgstr ""
+"Στην καρτέλα <gui>Γενικά</gui> εισάγετε 3 στην επιλογή <gui>Σελίδες</gui>."
+
+#. (itstool) path: item/p
+#: C/duplex-9pages.page:107 C/duplex-5pages.page:106
+msgid ""
+"Once page 3 has printed, place the paper back in the printer taking care to "
+"orient it correctly (pages 4 and 9 will be printed on the other side)."
+msgstr ""
+"Μόλις εκτυπωθεί η σελίδα 3, τοποθετήστε το χαρτί πίσω στον εκτυπωτή, "
+"λαμβάνοντας υπόψη τον σωστό προσανατολισμό (οι σελίδες 4 και 9 θα τυπωθούν "
+"στην άλλη πλευρά)."
+
+#. (itstool) path: item/p
+#: C/duplex-9pages.page:115 C/duplex-5pages.page:114
+msgid ""
+"In the <gui>General</gui> tab enter pages 4, 9 in the <gui>Pages</gui> "
+"selection."
+msgstr ""
+"Στην καρτέλα <gui>Γενικά</gui> εισάγετε τις σελίδες 4, 9 στην επιλογή "
+"<gui>Σελίδες</gui>."
+
+#. (itstool) path: item/p
+#: C/duplex-9pages.page:133
+msgid "Enter pages 8, 5, 6, 7 in the <gui>Pages</gui> selection menu."
+msgstr ""
+"Εισαγάγετε τις σελίδες 8, 5, 6, 7 στο μενού επιλογής <gui>Σελίδες</gui>."
+
+#. (itstool) path: note/p
+#: C/duplex-9pages.page:145
+msgid ""
+"It is easier to print a 12-page booklet. You may wish to add 3 blank pages "
+"to your PDF document to make it 12-pages. To do so, you can:"
+msgstr ""
+"Είναι ευκολότερο να εκτυπώσετε ένα 12σέλιδο φυλλάδιο. Μπορεί να θέλετε να "
+"προσθέσετε 3 κενές σελίδες στο έγγραφο PDF σας για να το κάνετε 12σέλιδο. "
+"Για να το κάνετε αυτό, μπορείτε:"
+
+#. (itstool) path: credit/years
+#: C/print-pagescaling.page:14 C/print-differentsize.page:19
+msgid "2015"
+msgstr "2015"
+
+#. (itstool) path: info/desc
+#: C/print-pagescaling.page:19
+msgid "Shrink or expand the document to fit the paper size."
+msgstr ""
+"Συρρικνώστε ή μεγεθύνετε ένα έγγραφο για να χωρέσει στο μέγεθος του χαρτιού."
+
+#. (itstool) path: page/title
+#: C/print-pagescaling.page:22
+msgid "Scale page for printing"
+msgstr "Κλιμάκωση σελίδας για εκτύπωση"
+
+#. (itstool) path: page/p
+#: C/print-pagescaling.page:24 C/print-differentsize.page:30
+msgid ""
+"If you want to change the paper size of your document (for example, print a "
+"US Letter-sized PDF on A4 paper), you can change the printing format for the "
+"document."
+msgstr ""
+"Αν επιθυμείτε να αλλάξετε το μέγεθος χαρτιού του εγγράφου σας (για "
+"παράδειγμα, εκτύπωση ενός PDF μεγέθους US Letter σε μέγεθος Α4), μπορείτε να "
+"αλλάξετε τη μορφή εκτύπωσης του εγγράφου."
+
+#. (itstool) path: item/p
+#: C/print-pagescaling.page:30
+msgid ""
+"Open the menu at the top-right of the window, then select <gui "
+"style=\"menuitem\">Print…</gui>."
+msgstr ""
+"Ανοίξτε το μενού πάνω δεξιά του παραθύρου, και έπειτα επιλέξτε <gui "
+"style=\"menuitem\">Εκτύπωση…</gui>."
+
+#. (itstool) path: item/p
+#: C/print-pagescaling.page:34
+msgid "Select the <gui style=\"tab\">Page Handling</gui> tab."
+msgstr "Επιλέξτε την καρτέλα <gui style=\"tab\">Διαχείριση σελίδας</gui>."
+
+#. (itstool) path: item/p
+#: C/print-pagescaling.page:37
+msgid "Choose a <em>Page Scaling</em> from the drop-down list."
+msgstr "Επιλέξτε μια <em>Κλιμάκωση σελίδας</em> από την αναπτυσσόμενη λίστα."
+
+#. (itstool) path: item/p
+#: C/print-pagescaling.page:40
+msgid "<em>None</em>: do not perform page scaling."
+msgstr "<em>Καμία</em>: να μην πραγματοποιηθεί κλιμάκωση σελίδας."
+
+#. (itstool) path: item/p
+#: C/print-pagescaling.page:43
+msgid ""
+"<em>Shrink to Printable Area</em>: document pages larger than the printable "
+"area are reduced to fit the printable area of the printer page."
+msgstr ""
+"<em>Συρρίκνωση στην εκτυπώσιμη περιοχή</em>: οι σελίδες του εγγράφου που "
+"είναι μεγαλύτερες από την εκτυπώσιμη περιοχή της σελίδας του εκτυπωτή "
+"σμικρύνονται για να χωρέσουν."
+
+#. (itstool) path: item/p
+#: C/print-pagescaling.page:48
+msgid ""
+"<em>Fit to Printable Area</em>: document pages are enlarged or reduced as "
+"required to fit the printable area of the printer page."
+msgstr ""
+"<em>Προσαρμογή στην εκτυπώσιμη περιοχή</em>: οι σελίδες του εγγράφουν "
+"μεγεθύνονται ή σμικρύνονται ανάλογα, για να χωρέσουν στην εκτυπώσιμη περιοχή "
+"της σελίδας του εκτυπωτή."
+
+#. (itstool) path: item/p
+#: C/print-pagescaling.page:55
+msgid "Click <gui>Print</gui> to print your document."
+msgstr "Κάντε κλικ στην <gui>Εκτύπωση</gui> για να εκτυπωθεί το έγγραφο σας."
+
+#. (itstool) path: info/desc
+#: C/opening.page:25
+msgid "How to open a document."
+msgstr "Πως να ανοίξετε ένα έγγραφο."
+
+#. (itstool) path: page/title
+#: C/opening.page:28
+msgid "Open a document"
+msgstr "Άνοιγμα εγγράφου"
+
+#. (itstool) path: page/p
+#: C/opening.page:30
+msgid "You can open a document using any one of the following ways:"
+msgstr ""
+"Μπορείτε να ανοίξετε ένα έγγραφο χρησιμοποιώντας έναν από τους ακόλουθους "
+"τρόπους:"
+
+#. (itstool) path: item/p
+#: C/opening.page:34
+msgid ""
+"Double-click on the file in <app>Files</app> or your <em>file manager</em>."
+msgstr ""
+"Διπλό κλικ στο εικονίδιο του αρχείου στα <app>Αρχεία</app> ή στον "
+"<app>διαχειριστή αρχείων</app> σας."
+
+#. (itstool) path: note/p
+#: C/opening.page:37
+msgid ""
+"Double clicking PDF, .djvu, and Comic Book Archive files opens them in "
+"<app>Document Viewer</app> by default."
+msgstr ""
+"Με διπλό κλικ, τα αρχεία PDF, .djvu και Comic Book Archive ανοίγουν στην "
+"<app>Προβολή εγγράφων</app> από προεπιλογή."
+
+#. (itstool) path: item/p
+#: C/opening.page:42
+msgid ""
+"Right-click on a file icon in <app>Files</app> and click <guiseq><gui>Open "
+"With</gui><gui>Document Viewer</gui></guiseq>."
+msgstr ""
+"Κάντε δεξί κλικ σε ένα εικονίδιο αρχείου στα <app>Αρχεία</app> και επιλέξτε "
+"<guiseq><gui>Άνοιγμα με</gui><gui>Προβολή εγγράφων</gui></guiseq>."
+
+#. (itstool) path: page/p
+#: C/opening.page:47
+msgid "If an empty <app>Document Viewer</app> window is already open you can:"
+msgstr ""
+"Αν ένα κενό παράθυρο της <app>Προβολής εγγράφων</app> είναι ήδη ανοιχτό, "
+"μπορείτε:"
+
+#. (itstool) path: item/p
+#: C/opening.page:51
+msgid ""
+"Drag a file into the window from <app>Files</app>. The new file will open in "
+"the same window."
+msgstr ""
+"Να σύρετε ένα αρχείο μέσα στο παράθυρο από τα <app>Αρχεία</app>. Το νέο "
+"αρχείο θα ανοίξει στο ίδιο παράθυρο."
+
+#. (itstool) path: item/p
+#: C/opening.page:55
+msgid ""
+"Press the <gui>Open…</gui> button in the top-left corner of the window. In "
+"the <gui>Open Document</gui> dialog, choose the file which you wish to open, "
+"and click <gui>Open</gui>. The file will open in the same window."
+msgstr ""
+"Πατήστε το κουμπί <gui>Άνοιγμα…</gui> στην πάνω αριστερή γωνία του "
+"παραθύρου. Στο παράθυρο διαλόγου <gui>Άνοιγμα εγγράφου</gui>, επιλέξτε το "
+"αρχείο που θέλετε να ανοίξετε και πατήστε <gui>Άνοιγμα</gui>. Το αρχείο θα "
+"ανοίξει στο ίδιο παράθυρο."
+
+#. (itstool) path: page/p
+#: C/opening.page:62
+msgid ""
+"If a document is already opened in a <app>Document Viewer</app> window you "
+"can:"
+msgstr ""
+"Αν ένα έγγραφο είναι ήδη ανοιχτό σε ένα παράθυρο της <app>Προβολής "
+"εγγράφων</app>, μπορείτε:"
+
+#. (itstool) path: item/p
+#: C/opening.page:66
+msgid ""
+"Drag a file into the window from <app>Files</app>. The new file will open in "
+"a new window."
+msgstr ""
+"Να σύρετε ένα αρχείο μέσα στο παράθυρο από τα <app>Αρχεία</app>. Το νέο "
+"αρχείο θα ανοίξει σε νέο παράθυρο."
+
+#. (itstool) path: item/p
+#: C/opening.page:70
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>O</key></keyseq>. In the <gui>Open "
+"Document</gui> dialog, choose the file which you wish to open, and click "
+"<gui>Open</gui>. The file will open in a new window."
+msgstr ""
+"Πατήστε <keyseq><key>Ctrl</key><key>O</key></keyseq>. Στο παράθυρο διαλόγου "
+"<gui>Άνοιγμα εγγράφου</gui>, επιλέξτε το αρχείο που θέλετε να ανοίξετε και "
+"πατήστε <gui>Άνοιγμα</gui>. Το αρχείο θα ανοίξει σε νέο παράθυρο."
+
+#. (itstool) path: info/desc
+#: C/duplex-10pages.page:8
+msgid "Print a 10 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 10 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-10pages.page:21
+msgid "10-page booklet"
+msgstr "10σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/p
+#: C/duplex-10pages.page:36
+msgid "Type the numbers of the pages in this order: 10, 3, 4, 9, 8, 5, 6, 7, 2"
+msgstr ""
+"Πληκτρολογήσετε τους αριθμούς των υπόλοιπων σελίδων με αυτήν τη σειρά: 10, "
+"3, 4, 9, 8, 5, 6, 7, 2"
+
+#. (itstool) path: note/p
+#: C/duplex-10pages.page:94
+msgid ""
+"It is easier to print a 12-page booklet. You may wish to add 2 blank pages "
+"to your PDF document to make it 12-pages. To do so, you can:"
+msgstr ""
+"Είναι ευκολότερο να εκτυπώσετε ένα φυλλάδιο 12 σελίδων. Μπορεί να θέλετε να "
+"προσθέσετε 2 κενές σελίδες στο PDF έγγραφό σας για να το κάνετε 12σέλιδο. "
+"Για να γίνει αυτό, μπορείτε:"
+
+#. (itstool) path: info/desc
+#: C/singlesided-13-16pages.page:8
+msgid "Print a 13, 14, 15 or 16 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 13, 14, 15 ή 16 σελίδων."
+
+#. (itstool) path: page/title
+#: C/singlesided-13-16pages.page:21
+msgid "13-page to 16-page booklet"
+msgstr "Φυλλάδιο 13 έως 16 σελίδων"
+
+#. (itstool) path: page/p
+#: C/singlesided-13-16pages.page:23
+msgid ""
+"If you have a 13, 14 or 15 page PDF document you should add the appropriate "
+"number of blank pages to make it 16-pages. To do so, you can:"
+msgstr ""
+"Εάν έχετε ένα έγγραφο PDF 13, 14 ή 15 σελίδων πρέπει να προσθέσετε τον "
+"κατάλληλο αριθμό κενών σελίδων για να γίνει 16σέλιδο. Για να γίνει αυτό, "
+"μπορείτε:"
+
+#. (itstool) path: info/desc
+#: C/openerror.page:7
+msgid "Error When Opening A File."
+msgstr "Σφάλμα κατά το άνοιγμα αρχείου."
+
+#. (itstool) path: page/title
+#: C/openerror.page:22
+msgid "Why can't I open a file?"
+msgstr "Γιατί δεν μπορώ να ανοίξω ένα αρχείο;"
+
+#. (itstool) path: page/p
+#: C/openerror.page:24
+msgid ""
+"If you try to open a document of a format that <app>Document Viewer</app> "
+"does not recognize, you will get an \"Unable to open document\" error "
+"message. Click <gui>Close</gui> to return to the <app>Document Viewer</app> "
+"window."
+msgstr ""
+"Αν προσπαθήσετε να ανοίξετε ένα έγγραφο μιας μορφής που η <app>Προβολή "
+"εγγράφων</app> δεν αναγνωρίζει, θα λάβετε ένα μήνυμα σφάλματος «Αδυναμία "
+"ανοίγματος εγγράφου». Κάντε κλικ στο <gui>Κλείσιμο</gui> για να επιστρέψετε "
+"στο παράθυρο της <app>Προβολής εγγράφων</app>."
+
+#. (itstool) path: info/title
+#: C/singlesided-3-4pages.page:7
+msgctxt "sort"
+msgid "03-Page or 4-Page Booklet"
+msgstr "03-σέλιδο ή 4-σέλιδο φυλλάδιο"
+
+#. (itstool) path: info/desc
+#: C/singlesided-3-4pages.page:8
+msgid "Print a 3 or 4 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 3 ή 4 σελίδων."
+
+#. (itstool) path: page/title
+#: C/singlesided-3-4pages.page:21
+msgid "3-page or 4-page booklet"
+msgstr "Φυλλάδιο 3 ή 4 σελίδων"
+
+#. (itstool) path: page/p
+#: C/singlesided-3-4pages.page:23
+msgid ""
+"If you have a 3-Page PDF document you should add a blank page to make it 4-"
+"pages. To do so, you can:"
+msgstr ""
+"Εάν έχετε ένα έγγραφο PDF 3 σελίδων πρέπει να προσθέσετε μια κενή σελίδα για "
+"να γίνει 4-σέλιδο. Για να γίνει αυτό, μπορείτε:"
+
+#. (itstool) path: info/desc
+#: C/forms-saving.page:7
+msgid ""
+"Make sure you save the form, otherwise all of the information you entered "
+"will be lost."
+msgstr ""
+"Βεβαιωθείτε ότι αποθηκεύσατε το έντυπο, αλλιώς όλες οι πληροφορίες που "
+"εισάγατε θα χαθούν."
+
+#. (itstool) path: page/title
+#: C/forms-saving.page:27
+msgid "Saving a form"
+msgstr "Αποθήκευση εντύπου"
+
+#. (itstool) path: page/p
+#: C/forms-saving.page:29
+msgid ""
+"After you have filled it out, you may wish to save your form in one of two "
+"ways:"
+msgstr ""
+"Αφού την συμπληρώσετε, μπορείτε να θέλετε να αποθηκεύσετε το έντυπό σας με "
+"έναν από τους παρακάτω δύο τρόπους:"
+
+#. (itstool) path: item/p
+#: C/forms-saving.page:34
+msgid ""
+"To save a copy that can be edited in the future (form remains interactive):"
+msgstr ""
+"Για αποθήκευση αντιγράφου που μπορεί να επεξεργαστεί στο μέλλον (η φόρμα "
+"παραμένει διαδραστική):"
+
+#. (itstool) path: item/p
+#: C/forms-saving.page:39
+msgid ""
+"Click the <gui>File options</gui> menu in the top right corner and select "
+"<gui>Save As…</gui> or press <keyseq><key>Ctrl</key><key>S</key></keyseq> on "
+"your keyboard."
+msgstr ""
+"Κάντε κλικ στο μενού <gui>Επιλογές αρχείου</gui> στην πάνω δεξιά γωνία και "
+"επιλέξτε <gui>Αποθήκευση ως…</gui> ή πατήστε <keyseq><key>Ctrl</"
+"key><key>S</key></keyseq> στο πληκτρολόγιό σας."
+
+#. (itstool) path: item/p
+#: C/forms-saving.page:44
+msgid ""
+"Choose a name and folder to save the file in, then click <gui>Save</gui>. "
+"The PDF will be saved in the folder you chose."
+msgstr ""
+"Επιλέξτε ένα όνομα και έναν φάκελο για να αποθηκεύσετε το αρχείο και στη "
+"συνέχεια κάντε κλικ στο <gui>Αποθήκευση</gui>. Το PDF θα αποθηκευτεί στον "
+"φάκελο που επιλέξατε."
+
+#. (itstool) path: item/p
+#: C/forms-saving.page:51
+msgid ""
+"To save a copy that can no longer be edited (for example, to e-mail the form "
+"or submit it on-line):"
+msgstr ""
+"Για αποθήκευση αντιγράφου που δεν μπορεί πια να επεξεργαστεί (για "
+"παράδειγμα, αποστολή του εντύπου μηνύματος ή δικτυακής υποβολής):"
+
+#. (itstool) path: item/p
+#: C/forms-saving.page:56
+msgid ""
+"Click the <gui>File options</gui> menu in the top right corner and select "
+"<gui>Print</gui> or press <keyseq><key>Ctrl</key><key>P</key></keyseq> on "
+"your keyboard."
+msgstr ""
+"Κάντε κλικ στο μενού <gui>Επιλογές αρχείου</gui> στην πάνω δεξιά γωνία και "
+"επιλέξτε <gui>Εκτύπωση</gui> ή πατήστε <keyseq><key>Ctrl</key><key>P</key></"
+"keyseq> στο πληκτρολόγιό σας."
+
+#. (itstool) path: item/p
+#: C/forms-saving.page:61
+msgid ""
+"Select <gui>Print to File</gui> and choose PDF as the <gui>Output format</"
+"gui>."
+msgstr ""
+"Επιλέξτε <gui>Εκτύπωση σε αρχείο</gui> και επιλέξτε PDF ως <gui>Μορφή "
+"εξόδου</gui>."
+
+#. (itstool) path: item/p
+#: C/forms-saving.page:67
+msgid ""
+"Choose a name and folder to save the file in, then click <gui>Print</gui>. "
+"The PDF will be saved in the folder you chose."
+msgstr ""
+"Επιλέξτε ένα όνομα και φάκελο για να αποθηκεύσετε το αρχείο και πατήστε "
+"<gui>Εκτύπωση</gui>. Το αρχείο PDF θα αποθηκευτεί στο φάκελο που επιλέξατε."
+
+#. (itstool) path: note/p
+#: C/forms-saving.page:77
+msgid "Copies of encrypted files can't be saved or printed."
+msgstr ""
+"Αντίγραφα των κρυπτογραφημένων αρχείων δεν μπορούν να αποθηκευτούν ή να "
+"τυπωθούν."
+
+#. (itstool) path: info/desc
+#: C/formats.page:8
+msgid "PDF, DejaVu and many others are."
+msgstr "PDF, DejaVu και πολλές άλλες υποστηρίζονται."
+
+#. (itstool) path: page/title
+#: C/formats.page:25
+msgid "Supported formats"
+msgstr "Υποστηριζόμενες μορφές"
+
+#. (itstool) path: page/p
+#: C/formats.page:27
+msgid "<app>Document Viewer</app> supports the following formats:"
+msgstr "Η <app>Προβολή εγγράφων</app> υποστηρίζει τις ακόλουθες μορφές:"
+
+#. (itstool) path: item/p
+#: C/formats.page:31
+msgid "Comic Book Archive (.cb7, .cbr, .cbt, and .cbz)"
+msgstr "Αρχειοθήκη Comic Book (.cb7, .cbr, .cbt και .cbz)"
+
+#. (itstool) path: note/p
+#: C/formats.page:36
+msgid ""
+"In some Linux distributions, not all formats are supported by default, so "
+"you might not be able to view all the formats listed above."
+msgstr ""
+"Σε μερικές διανομές Linux, δεν υποστηρίζονται όλες οι μορφές από προεπιλογή, "
+"έτσι ίσως δεν μπορείτε να δείτε όλες τις παραπάνω αναφερόμενες μορφές."
+
+#. (itstool) path: note/p
+#: C/formats.page:39
+msgid ""
+"Support for a format is called a <em>backend</em>. If you get the error "
+"\"Unable to Open Document\", you may wish to check whether the backend "
+"package for the format is installed."
+msgstr ""
+"Η υποδομή για μια μορφή καλείται <em>σύστημα υποστήριξης</em>. Εάν πάρετε το "
+"σφάλμα \"Αδυναμία ανοίγματος εγγράφου\", μπορεί να θελήσετε να ελέγξετε εάν "
+"το υποστηρικτικό πακέτο για την μορφή έχει εγκατασταθεί."
+
+#. (itstool) path: info/desc
+#: C/print-differentsize.page:24
+msgid "Printing a document on paper of a different size or orientation."
+msgstr ""
+"Εκτυπώστε ένα έγγραφο σε χαρτί διαφορετικού μεγέθους ή προσανατολισμού."
+
+#. (itstool) path: page/title
+#: C/print-differentsize.page:28
+msgid "Changing the paper size when printing"
+msgstr "Αλλαγή του μεγέθους χαρτιού κατά την εκτύπωση"
+
+#. (itstool) path: item/p
+#: C/print-differentsize.page:39
+msgid "Select the <gui>Page Setup</gui> tab."
+msgstr "Επιλέξτε την καρτέλα <gui>Διαμόρφωση σελίδας</gui>."
+
+#. (itstool) path: item/p
+#: C/print-differentsize.page:42
+msgid ""
+"Under the <em>Paper</em> column, choose your <em>Paper size</em> from the "
+"drop-down list."
+msgstr ""
+"Στη στήλη <em>Χαρτί</em>, επιλέξτε το <em>Μέγεθος χαρτιού</em> σας από την "
+"αναπτυσσόμενη λίστα."
+
+#. (itstool) path: item/p
+#: C/print-differentsize.page:46
+msgid "Click <gui>Print</gui> and your document should print."
+msgstr ""
+"Κάντε κλικ στο <gui>Εκτύπωση</gui> και το έγγραφό σας θα πρέπει να εκτυπωθεί."
+
+#. (itstool) path: page/p
+#: C/print-differentsize.page:50
+msgid ""
+"You can also use the <em>Orientation</em> menu to choose a different "
+"orientation:"
+msgstr ""
+"Μπορείτε επίσης να χρησιμοποιήσετε το μενού <em>Προσανατολισμός</em> για να "
+"επιλέξετε διαφορετικό προσανατολισμό:"
+
+#. (itstool) path: item/p
+#: C/print-differentsize.page:55
+msgid "<gui>Portrait</gui>"
+msgstr "<gui>Κάθετα</gui>"
+
+#. (itstool) path: item/p
+#: C/print-differentsize.page:58
+msgid "<gui>Landscape</gui>"
+msgstr "<gui>Οριζόντια</gui>"
+
+#. (itstool) path: item/p
+#: C/print-differentsize.page:61
+msgid "<gui>Reverse portrait</gui>"
+msgstr "<gui>Αντίστροφα κάθετα</gui>"
+
+#. (itstool) path: item/p
+#: C/print-differentsize.page:64
+msgid "<gui>Reverse landscape</gui>"
+msgstr "<gui>Αντίστροφα οριζόντια</gui>"
+
+#. (itstool) path: info/desc
+#: C/duplex-14pages.page:8
+msgid "Print a 14 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 14 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-14pages.page:21
+msgid "14-page booklet"
+msgstr "14σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/p
+#: C/duplex-14pages.page:35
+msgid ""
+"Type the numbers of the pages in this order: 14, 3, 4, 13, 12, 5, 6, 11, 10, "
+"7, 8, 9, 2"
+msgstr ""
+"Πληκτρολογήσετε τους αριθμούς των σελίδων με αυτήν τη σειρά: 14, 3, 4, 13, "
+"12, 5, 6, 11, 10, 7, 8, 9, 2"
+
+#. (itstool) path: note/p
+#: C/duplex-14pages.page:93
+msgid ""
+"It is easier to print a 16-page booklet. You may wish to add 2 blank pages "
+"to your PDF document to make it 16-pages. To do so, you can:"
+msgstr ""
+"Είναι ευκολότερο να εκτυπώσετε ένα 16σέλιδο φυλλάδιο. Μπορεί να θέλετε να "
+"προσθέσετε 2 κενές σελίδες στο PDF έγγραφό σας για να το κάνετε 16σέλιδο. "
+"Για να γίνει αυτό, μπορείτε:"
+
+#. (itstool) path: info/desc
+#: C/bug-filing.page:7
+msgid "How and where to report problems."
+msgstr "Πως και που να αναφέρετε προβλήματα."
+
+#. (itstool) path: page/title
+#: C/bug-filing.page:19
+msgid "File a bug against <app>Document Viewer</app>"
+msgstr "Υποβολή σφάλματος για την <app>Προβολή εγγράφων</app>"
+
+#. (itstool) path: page/p
+#: C/bug-filing.page:20
+msgid ""
+"<app>Document Viewer</app> is maintained by a volunteer community. You are "
+"welcome to participate. If you notice a problem you can file a <em>bug "
+"report</em>. To file a bug, go to <link href=\"https://gitlab.gnome.org/"
+"GNOME/papers/issues/\"/>."
+msgstr ""
+"Η <app>Προβολή εγγράφων</app> συντηρείται από μια εθελοντική κοινότητα. "
+"Είστε ευπρόσδεκτοι να συμμετάσχετε. Εάν παρατηρήσετε κάποιο πρόβλημα, "
+"μπορείτε να υποβάλετε μια <em>αναφορά σφάλματος</em>. Για να αναφέρετε ένα "
+"σφάλμα, μεταβείτε στο <link href=\"https://gitlab.gnome.org/GNOME/papers/"
+"issues/\"/>."
+
+#. (itstool) path: page/p
+#: C/bug-filing.page:23
+msgid ""
+"This is a bug tracking system where users and developers can file details "
+"about bugs, crashes and request enhancements."
+msgstr ""
+"Αυτό είναι ένα σύστημα παρακολούθησης σφαλμάτων όπου οι χρήστες και οι "
+"προγραμματιστές μπορούν να καταχωρίζουν λεπτομέρειες για σφάλματα, "
+"καταρρεύσεις και να αιτούνται βελτιώσεις."
+
+#. (itstool) path: page/p
+#: C/bug-filing.page:26
+msgid ""
+"To participate you need an account which will give you the ability to gain "
+"access, file bugs, and make comments. Also, you need to register so you can "
+"receive updates by e-mail about the status of your bug. If you don't already "
+"have an account, just click on the <gui>Sign in / Register</gui> link to "
+"create one."
+msgstr ""
+"Για να συμμετάσχετε χρειάζεστε έναν λογαριασμό που θα σας δώσει τη "
+"δυνατότητα να αποκτήσετε πρόσβαση, να υποβάλετε σφάλματα και να κάνετε "
+"σχόλια. Επίσης, πρέπει να εγγραφείτε ώστε να λαμβάνετε ενημερώσεις μέσω "
+"ηλεκτρονικού ταχυδρομείου για την κατάσταση του σφάλματός σας. Εάν δεν έχετε "
+"ήδη λογαριασμό, κάντε κλικ στον σύνδεσμο <gui>Sign in / Register</gui> για "
+"να δημιουργήσετε έναν."
+
+#. (itstool) path: page/p
+#: C/bug-filing.page:29
+msgid ""
+"Once you have an account, log in, and click on <gui>New issue</gui>. Before "
+"reporting a bug, please read the <link href=\"https://wiki.gnome.org/"
+"GettingInTouch/BugReportingGuidelines\">bug writing guidelines</link>, and "
+"please <link href=\"https://gitlab.gnome.org/GNOME/papers/issues\">browse</"
+"link> for the bug to see if it already exists."
+msgstr ""
+"Μόλις αποκτήσετε λογαριασμό, συνδεθείτε και κάντε κλικ στο <gui>New issue</"
+"gui>. Πριν αναφέρετε ένα σφάλμα, παρακαλούμε διαβάστε τις <link href="
+"\"https://wiki.gnome.org/GettingInTouch/BugReportingGuidelines\">οδηγίες "
+"συγγραφής σφάλματος</link> και <link href=\"https://gitlab.gnome.org/GNOME/"
+"papers/issues\">περιηγηθείτε</link> στα υπάρχοντα σφάλματα για να δείτε αν "
+"έχει ήδη αναφερθεί."
+
+#. (itstool) path: page/p
+#: C/bug-filing.page:33
+msgid ""
+"If you are requesting a new feature, choose <gui>1. Feature</gui> in the "
+"<gui>Labels</gui> menu. Fill in the Title and Description sections and click "
+"<gui>Submit Issue</gui>."
+msgstr ""
+"Αν αιτείστε μια νέα λειτουργία, επιλέξτε <gui>1. Feature</gui> στο μενού "
+"<gui>Labels</gui>. Συμπληρώστε τις ενότητες Title (Τίτλος) και Description "
+"(Περιγραφή) και κάντε κλικ στο <gui>Submit Issue</gui>."
+
+#. (itstool) path: page/p
+#: C/bug-filing.page:37
+msgid ""
+"Your report will be given an ID number, and its status will be updated as it "
+"is being dealt with."
+msgstr ""
+"Στην αναφορά σας θα δοθεί ένας αριθμός ταυτότητας και η κατάστασή της θα "
+"ενημερωθεί καθώς επεξεργάζεται."
+
+#. (itstool) path: info/title
+#: C/duplex-5pages.page:7
+msgctxt "sort"
+msgid "05-Page Booklet"
+msgstr "05-σέλιδο φυλλάδιο"
+
+#. (itstool) path: info/desc
+#: C/duplex-5pages.page:8
+msgid "Print a 5 page booklet."
+msgstr "Εκτύπωση φυλλαδίου 5 σελίδων."
+
+#. (itstool) path: page/title
+#: C/duplex-5pages.page:21
+msgid "5-page booklet"
+msgstr "5σέλιδο φυλλάδιο"
+
+#. (itstool) path: item/p
+#: C/duplex-5pages.page:90
+msgid ""
+"In the <gui>General</gui> tab enter the page number in the <gui>Pages</gui> "
+"selection."
+msgstr ""
+"Στην καρτέλα <gui>Γενικά</gui>, εισαγάγετε τον αριθμό σελίδας στην επιλογή "
+"<gui>Σελίδες</gui>."
+
+#. (itstool) path: note/p
+#: C/duplex-5pages.page:129
+msgid ""
+"It is easier to print a 8-page booklet. You may wish to add 3 blank pages to "
+"your PDF document to make it 8-pages. To do so, you can:"
+msgstr ""
+"Είναι ευκολότερο να εκτυπώσετε ένα 8σέλιδο φυλλάδιο. Μπορεί να θέλετε να "
+"προσθέσετε 3 κενές σελίδες στο έγγραφο PDF σας για να το κάνετε 8σέλιδο. "
+"Για να το κάνετε αυτό, μπορείτε:"
+
+#. (itstool) path: info/desc
+#: C/editing.page:7
+msgid "You can't use <app>Document Viewer</app> to edit files."
+msgstr ""
+"Δεν μπορείτε να χρησιμοποιήσετε την <app>Προβολή εγγράφων</app> για την "
+"επεξεργασία αρχείων."
+
+#. (itstool) path: page/title
+#: C/editing.page:21
+msgid "Can I edit documents in Document Viewer?"
+msgstr "Μπορώ να επεξεργαστώ έγγραφα στην Προβολή εγγράφων;"
+
+#. (itstool) path: page/p
+#: C/editing.page:24
+msgid ""
+"<app>Document Viewer</app> can't be used to make changes to documents. You "
+"need to use the appropriate editing application for the type of file you "
+"want to change."
+msgstr ""
+"Η <app>Προβολή εγγράφων</app> δεν μπορεί να χρησιμοποιηθεί για την πραγματοποίηση "
+"αλλαγών σε έγγραφα. Θα πρέπει να χρησιμοποιήσετε την κατάλληλη εφαρμογή "
+"επεξεργασίας για τον τύπο του αρχείου που θέλετε να τροποποιήσετε."
+
+#. (itstool) path: note/p
+#: C/editing.page:30
+msgid ""
+"PDF files are not usually intended to be edited, but PDF editing software is "
+"available. Try <app>LibreOffice Draw</app> or <app>Okular</app>, for "
+"example. Furthermore, <app>pdfarranger</app> allows rearranging or removing "
+"pages and merging files."
+msgstr ""
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/annotations-navigate.png' "
+#~ "md5='6655cfb976ffea53c622b41cbf439747'"
+#~ msgstr ""
+#~ "external ref='figures/annotations-navigate.png' "
+#~ "md5='6655cfb976ffea53c622b41cbf439747'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/list-add-tabs.png' "
+#~ "md5='1bbd81be2223f1b8434dcf746670f5d7'"
+#~ msgstr ""
+#~ "external ref='figures/list-add-tabs.png' "
+#~ "md5='1bbd81be2223f1b8434dcf746670f5d7'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/add-text-annotation.png' "
+#~ "md5='1add21cd2ec02d5fcc5b06d0e6546901'"
+#~ msgstr ""
+#~ "external ref='figures/add-text-annotation.png' "
+#~ "md5='1add21cd2ec02d5fcc5b06d0e6546901'"
+
+#~ msgid "Select <gui>Annotations</gui> from the drop-down menu."
+#~ msgstr "Επιλέξτε <gui>Σχόλια</gui> από το αναπτυσσόμενο μενού."
+
+#~ msgid ""
+#~ "You should now see <gui>List</gui> and <gui>Add</gui> tabs under the drop-"
+#~ "down menu."
+#~ msgstr ""
+#~ "Θα πρέπει τώρα να βλέπετε τις καρτέλες <gui>Λίστα</gui> και "
+#~ "<gui>Προσθήκη</gui> κάτω από το αναπτυσσόμενο μενού."
+
+#~ msgid "Select the <gui>Add</gui> tab."
+#~ msgstr "Επιλέξτε την καρτέλα <gui>Προσθήκη</gui>."
+
+#~ msgid ""
+#~ "When you open a file, you should see a side pane on the left side of the "
+#~ "window. If you do not have a visible side pane, press the <key>F9</key> "
+#~ "key."
+#~ msgstr ""
+#~ "Όταν ανοίγετε ένα αρχείο, θα πρέπει να έχετε μια πλευρική στήλη στη "
+#~ "αριστερή πλευρά του παραθύρου. Αν δεν έχετε μια ορατή πλευρική στήλη, "
+#~ "πατήστε το πλήκτρο <key>F9</key>."
+
+#~ msgid ""
+#~ "At the top of this side pane, there is a dropdown menu. To work with "
+#~ "bookmarks, select the <gui>Bookmarks</gui> option from this dropdown menu."
+#~ msgstr ""
+#~ "Στην κορυφή αυτής της πλευρικής στήλης, υπάρχει ένα αναδυόμενο μενού. Για "
+#~ "να δουλέψετε με τους σελιδοδείκτες, επιλέξτε την ρύθμιση "
+#~ "<gui>Σελιδοδείκτες</gui> από αυτό το αναδυόμενο μενού."
+
+#~ msgid ""
+#~ "To file your bug, choose the component in the <gui>Component</gui> menu. "
+#~ "If you are not sure which component your bug pertains to, choose "
+#~ "<gui>general</gui>."
+#~ msgstr ""
+#~ "Για αποστολή του σφάλματός σας, επιλέξτε το συστατικό στο μενού "
+#~ "<gui>Component</gui>. Εάν δεν είστε σίγουρος σε ποιο συστατικό αναφέρεται "
+#~ "το σφάλμα σας, επιλέξτε <gui>general</gui>."
+
+#~ msgid "You can convert a document to PDF by \"printing\" it to a file."
+#~ msgstr ""
+#~ "Μπορείτε να μετατρέψετε ένα έγγραφο σε PDF \"εκτυπώνοντας\" το σε αρχείο."
+
+#~ msgid "Converting a document to PDF"
+#~ msgstr "Μετατροπή εγγράφου σε PDF"
+
+#~ msgid ""
+#~ "You can convert documents of the following format types into PDF format:"
+#~ msgstr "Μπορείτε να μετατρέψετε έγγραφα των ακόλουθων μορφών σε μορφή PDF:"
+
+#~ msgid "Device Independent file format (.dvi)"
+#~ msgstr "Device Independent file format (.dvi)"
+
+#~ msgid "PostScript (.ps)"
+#~ msgstr "PostScript (.ps)"
+
+#~ msgid ""
+#~ "This works by opening the file in <app>Document Viewer</app> and "
+#~ "\"printing\" the document as a PDF file."
+#~ msgstr ""
+#~ "Αυτό γίνεται ανοίγοντας το αρχείο στην <app>Προβολή εγγράφων</app> και "
+#~ "την \"εκτύπωση\" του εγγράφου ως αρχείο PDF."
+
+#~ msgid ""
+#~ "Choose a name and folder in which to save the file, then click "
+#~ "<gui>Print</gui>. The PDF will be saved in the folder you chose."
+#~ msgstr ""
+#~ "Επιλέξτε ένα όνομα και φάκελο για να αποθηκεύσετε το αρχείο και πατήστε "
+#~ "<gui>Εκτύπωση</gui>. Το αρχείο PDF θα αποθηκευτεί στο φάκελο που "
+#~ "επιλέξατε."
+
+#~ msgid ""
+#~ "You can't select text in PostScript or .dvi files, but you usually can do "
+#~ "this in PDF files. Converting .dvi or PostScript files to PDF will not "
+#~ "make the text selectable. This is because the text itself isn't stored in "
+#~ "the file (it's just an image of what the text looks like), so there is no "
+#~ "way to recover it and put it in the PDF. You can use <em>Optical "
+#~ "Character Recognition</em> (OCR) software to extract the text from files "
+#~ "if you need to."
+#~ msgstr ""
+#~ "Δεν μπορείτε να επιλέξετε κείμενο σε αρχεία PostScript ή .dvi, αλλά "
+#~ "μπορείτε συνήθως να το κάνετε σε αρχεία PDF. Η μετατροπή αρχείων "
+#~ "PostScript ή .dvi σε PDF δεν θα κάνει επιλέξιμο το κείμενο. Αυτό επειδή "
+#~ "το κείμενο αυτό καθαυτό δεν αποθηκεύεται στο αρχείο (είναι απλώς μια "
+#~ "εικόνα του πως εμφανίζεται το κείμενο), έτσι δεν υπάρχει τρόπος ανάκτησής "
+#~ "του και τοποθέτησής του στο PDF. Μπορείτε να χρησιμοποιήσετε λογισμικό "
+#~ "<em>Οπτικής αναγνώρισης χαρακτήρων </em> (OCR) για να εξάγετε το κείμενο "
+#~ "από τα αρχεία αν υπάρχει ανάγκη."
+
+#~ msgid "You can convert a document to PostScript."
+#~ msgstr "Μπορείτε να μετατρέψετε ένα έγγραφο σε PostScript."
+
+#~ msgid "Converting a document to PostScript"
+#~ msgstr "Μετατροπή εγγράφου σε PostScript"
+
+#~ msgid ""
+#~ "You can convert documents of the following format types to PostScript "
+#~ "files:"
+#~ msgstr ""
+#~ "Μπορείτε να μετατρέψετε έγγραφα των ακόλουθων μορφών σε αρχεία PostScript:"
+
+#~ msgid ""
+#~ "This works by opening the file in <app>Document Viewer</app> and "
+#~ "\"printing\" the document as a PostScript file."
+#~ msgstr ""
+#~ "Αυτό γίνεται ανοίγοντας το αρχείο στην <app>Προβολή εγγράφων</app> και "
+#~ "την \"εκτύπωση\" του εγγράφου ως αρχείο PostScript."
+
+#~ msgid ""
+#~ "Click the <gui>File options</gui> menu in the top right corner and select "
+#~ "<gui>Print</gui> or press <keyseq><key>Ctrl</key><key>P</key></keyseq> "
+#~ "and go to the <gui>General</gui> tab."
+#~ msgstr ""
+#~ "Κάντε κλικ στο μενού <gui>Επιλογές αρχείου</gui> στην πάνω δεξιά γωνία "
+#~ "και επιλέξτε <gui>Εκτύπωση</gui> ή πατήστε <keyseq><key>Ctrl</key><key>P</"
+#~ "key></keyseq> και πηγαίνετε στην καρτέλα <gui>Γενικά</gui>."
+
+#~ msgid ""
+#~ "Select <gui>Print to File</gui> and choose PostScript as the <gui>Output "
+#~ "format</gui>."
+#~ msgstr ""
+#~ "Επιλέξτε <gui>Εκτύπωση σε αρχείο</gui> και επιλέξτε PostScript ως "
+#~ "<gui>Μορφή εξόδου</gui>."
+
+#~ msgid ""
+#~ "Choose a name and folder in which to save the file, then click "
+#~ "<gui>Print</gui>. The PostScript file will be saved in the folder you "
+#~ "chose."
+#~ msgstr ""
+#~ "Επιλέξτε ένα όνομα και φάκελο για να αποθηκεύσετε το αρχείο και πατήστε "
+#~ "<gui>Εκτύπωση</gui>. Το αρχείο PostScript θα αποθηκευτεί στο φάκελο που "
+#~ "επιλέξατε."
+
+#~ msgid "Save current settings as default for new documents."
+#~ msgstr "Αποθήκευση τρεχουσών ρυθμίσεων ως προεπιλογής για νέα έγγραφα."
+
+#~ msgid "Sindhu S"
+#~ msgstr "Sindhu S"
+
+#~ msgid "Change default settings"
+#~ msgstr "Αλλαγή προεπιλεγμένων ρυθμίσεων"
+
+#~ msgid ""
+#~ "When a document is opened for the first time, default settings, such as "
+#~ "zoom and page view preferences, are applied. Any changes you make to "
+#~ "these settings are saved for the document."
+#~ msgstr ""
+#~ "Όταν ένα έγγραφο ανοίγεται για πρώτη φορά, οι προεπιλεγμένες ρυθμίσεις, "
+#~ "όπως εστίαση και προτιμήσεις προβολής σελίδας, εφαρμόζονται. Οποιεσδήποτε "
+#~ "αλλαγές κάνετε σε αυτές τις ρυθμίσεις αποθηκεύονται για το έγγραφο."
+
+#~ msgid ""
+#~ "You can save the settings which you are currently using as default for "
+#~ "all new documents by selecting <guiseq><gui style=\"menu\">Edit</gui> "
+#~ "<gui style=\"menuitem\">Save Current Settings as Default</gui></guiseq> "
+#~ "or press <keyseq><key>Ctrl</key><key>T</key></keyseq>."
+#~ msgstr ""
+#~ "Μπορείτε να αποθηκεύσετε τις ρυθμίσεις που χρησιμοποιείτε προς το παρόν "
+#~ "ως προεπιλογή για όλα τα νέα έγγραφα επιλέγοντας <guiseq><gui "
+#~ "style=\"menu\">Επεξεργασία</gui> <gui style=\"menuitem\">Αποθήκευση "
+#~ "τρεχουσών ρυθμίσεων ως προεπιλογή</gui></guiseq> ή πατήστε "
+#~ "<keyseq><key>Ctrl</key><key>T</key></keyseq>."
+
+#~ msgid ""
+#~ "The new default settings do not override settings of previously opened "
+#~ "documents, they are applied only to documents opened for the first time."
+#~ msgstr ""
+#~ "Οι νέες προεπιλεγμένες ρυθμίσεις δεν αντικαθιστούν τις ρυθμίσεις των "
+#~ "προηγουμένως ανοικτών εγγράφων, εφαρμόζονται μόνο σε έγγραφα ανοικτά για "
+#~ "πρώτη φορά."
+
+#~ msgid ""
+#~ "To contribute to the Documentation Project, feel free to get in touch "
+#~ "with us using <link href=\"https://cbe003.chat.mibbit.com/?"
+#~ "url=irc%3A%2F%2Firc.gnome.org%2Fdocs\">irc</link>, or via our <link "
+#~ "href=\"http://mail.gnome.org/mailman/listinfo/gnome-doc-list\">mailing "
+#~ "list</link>."
+#~ msgstr ""
+#~ "Για συμμετοχή στο έργο τεκμηρίωσης, επικοινωνήστε μαζί μας "
+#~ "χρησιμοποιώντας το <link href=\"https://cbe003.chat.mibbit.com/?"
+#~ "url=irc%3A%2F%2Firc.gnome.org%2Fdocs\">irc</link>, ή μέσα από την <link "
+#~ "href=\"http://mail.gnome.org/mailman/listinfo/gnome-doc-list\">λίστα "
+#~ "αλληλογραφίας μας</link>."
+
+#~ msgid "Click <guiseq><gui>File</gui><gui>Print</gui></guiseq>."
+#~ msgstr ""
+#~ "Κάντε κλικ στο <guiseq><gui>Αρχείο</gui><gui>Εκτύπωση</gui></guiseq>."
+
+#~ msgid "Click <guiseq><gui>File</gui><gui>Print</gui></guiseq> again."
+#~ msgstr "Πατήστε <guiseq><gui>Αρχείο</gui><gui>Εκτύπωση</gui></guiseq> ξανά."
+
+#~ msgid "Choose the General tab."
+#~ msgstr "Επιλέξτε την καρτέλα γενικά."
+
+#~ msgid ""
+#~ "Choose the <gui>Page Setup</gui> tab and in the <gui>Page ordering</gui> "
+#~ "menu, select <gui>Left to right</gui>."
+#~ msgstr ""
+#~ "Επιλέξτε την καρτέλα <gui>Διαμόρφωση σελίδας</gui> και στο μενού "
+#~ "<gui>Σειρά σελίδων</gui>, <gui>Αριστερά προς τα δεξιά</gui>."
+
+#~ msgid ""
+#~ "To print page 3, click <guiseq><gui>File</gui><gui>Print</gui></guiseq> "
+#~ "again."
+#~ msgstr ""
+#~ "Για να εκτυπώσετε τη σελίδα 3, κάντε κλικ στο <guiseq><gui>Αρχείο</"
+#~ "gui><gui>Εκτύπωση</gui></guiseq> ξανά."
+
+#~ msgid ""
+#~ "In the <gui>Page Setup</gui> tab, set the <gui>Page ordering</gui> to "
+#~ "<gui>Right to left</gui>."
+#~ msgstr ""
+#~ "Στην καρτέλα <gui>Διαμόρφωση σελίδας</gui>, ορίστε τη <gui>Σειρά σελίδων</"
+#~ "gui> στο <gui>Δεξιά προς τα αριστερά</gui>."
+
+#~ msgid ""
+#~ "In the <gui>Page Setup</gui> tab set <gui>Page ordering</gui> to "
+#~ "<gui>Left to right</gui>."
+#~ msgstr ""
+#~ "Στην καρτέλα <gui>Διαμόρφωση σελίδας</gui>, ορίστε τη <gui>Σειρά σελίδων</"
+#~ "gui> στο <gui>Αριστερά προς τα δεξιά</gui>."
+
+#~ msgid ""
+#~ "Once page 3 has printed, place the paper back in the printer (taking care "
+#~ "to orient it correctly (pages 4 and 9 will be printed on the other side)."
+#~ msgstr ""
+#~ "Μόλις εκτυπωθεί η σελίδα 3, τοποθετήστε το χαρτί πίσω στον εκτυπωτή, "
+#~ "λαμβάνοντας υπόψη τον σωστό προσανατολισμό (οι σελίδες 4 και 9 θα "
+#~ "τυπωθούν στην άλλη πλευρά)."
+
+#~ msgid ""
+#~ "In the <gui>Page ordering</gui> menu, change the selection to <gui>Left "
+#~ "to right</gui>."
+#~ msgstr ""
+#~ "Στο μενού <gui>Σειρά σελίδων</gui>, αλλάξτε την επιλογή σε <gui>Αριστερά "
+#~ "προς τα δεξιά</gui>."
+
+#~ msgid ""
+#~ "Click <guiseq><gui>File</gui><gui>Print</gui></guiseq> again and choose "
+#~ "the General tab."
+#~ msgstr ""
+#~ "Πατήστε <guiseq><gui>Αρχείο</gui><gui>Εκτύπωση</gui></guiseq> ξανά και "
+#~ "επιλέξτε την καρτέλα γενικά."
+
+#~ msgid ""
+#~ "In the <gui>General</gui> tab enter pages 4,9 in the <gui>Pages</gui> "
+#~ "selection."
+#~ msgstr ""
+#~ "Στην καρτέλα <gui>Γενικά</gui> εισάγετε τις σελίδες 4, 9 στην επιλογή "
+#~ "<gui>Σελίδες</gui>."
+
+#~ msgid ""
+#~ "Enter pages 8, 5, 6, 7 in the <gui>Pages</gui> selection menu and set "
+#~ "<gui>Page ordering</gui> to <gui>Left to right</gui>."
+#~ msgstr ""
+#~ "Εισάγετε τις σελίδες 8, 5, 6, 7 στο μενού επιλογής <gui>Σελίδες</gui> και "
+#~ "ορίστε <gui>Σειρά σελίδων</gui> σε <gui>Αριστερά προς τα δεξιά</gui>."
+
+#~ msgid ""
+#~ "PDF and PostScript (.ps) files are not usually intended to be edited, but "
+#~ "PDF editing software is available. Try <link href=\"http://"
+#~ "pdfedit.petricek.net/en/index.html\">pdfedit</link>, for example."
+#~ msgstr ""
+#~ "Τα αρχεία PDF και PostScript (.ps) δεν προορίζονται συνήθως για "
+#~ "επεξεργασία, αλλά υπάρχει λογισμικό επεξεργασίας PDF. Δοκιμάστε το <link "
+#~ "href=\"http://pdfedit.petricek.net/en/index.html\">pdfedit</link>, για "
+#~ "παράδειγμα."
+
+#~ msgid "Open XML Paper Specification (.oxps, .xps)"
+#~ msgstr "Open XML Paper Specification (.oxps, .xps)"
+
+#~ msgid "SyncTeX"
+#~ msgstr "SyncTeX"
+
+#~ msgid "Creative Commons Attribution-Share Alike 3.0 United States License"
+#~ msgstr "Άδεια Creative Commons Attribution-Share Alike 3.0 United States"
+
+#~ msgid "This work is licensed under a <_:link-1/>."
+#~ msgstr "Αυτό το έργο έχει αδειοδοτηθεί υπό την <_:link-1/>."
+
+#~ msgid ""
+#~ "As a special exception, the copyright holders give you permission to "
+#~ "copy, modify, and distribute the example code contained in this document "
+#~ "under the terms of your choosing, without restriction."
+#~ msgstr ""
+#~ "Ως ειδική εξαίρεση, οι πνευματικοί ιδιοκτήτες σας επιτρέπουν να "
+#~ "αντιγράψετε, να τροποποιήσετε και να αναδιανείμετε τα παραδείγματα "
+#~ "πηγαίου κώδικα που περιλαμβάνονται σ' αυτό το έγγραφο υπό τους όρους της "
+#~ "επιλογής σας, χωρίς περιορισμό."
+
+#~ msgid "Creative Commons Attribution-ShareAlike 3.0 Unported License"
+#~ msgstr "Άδεια Creative Commons Attribution-ShareAlike 3.0 Unported"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/zoom.png' md5='561963b44d8e90a2a8ac409b8e35aee7'"
+#~ msgstr ""
+#~ "external ref='figures/zoom.png' md5='561963b44d8e90a2a8ac409b8e35aee7'"
+
+#~ msgid ""
+#~ "Click the <gui>&lt;</gui> or <gui>&gt;</gui> buttons on the <link "
+#~ "xref=\"toolbar\">toolbar</link>."
+#~ msgstr ""
+#~ "Κάντε κλικ στα κουμπιά <gui>&lt;</gui> ή <gui>&gt;</gui> στην <link "
+#~ "xref=\"toolbar\">εργαλειοθήκη</link>."
+
+#~ msgid ""
+#~ "Click the <gui>File options</gui> menu in the top right corner and select "
+#~ "<gui>First Page</gui>. You can also press <keyseq><key>Ctrl</"
+#~ "key><key>Home</key></keyseq> on your keyboard."
+#~ msgstr ""
+#~ "Κάντε κλικ στο μενού <gui>Επιλογές αρχείου</gui> στην πάνω δεξιά γωνία "
+#~ "και επιλέξτε <gui>Πρώτη σελίδα</gui>. Μπορείτε επίσης να πατήσετε "
+#~ "<keyseq><key>Ctrl</key><key>Home</key></keyseq> στο πληκτρολόγιό σας."
+
+#~ msgid ""
+#~ "Click the <gui>File options</gui> menu in the top right corner and select "
+#~ "<gui>Last Page</gui> or press <keyseq><key>Ctrl</key><key>End</key></"
+#~ "keyseq> on your keyboard."
+#~ msgstr ""
+#~ "Κάντε κλικ στο μενού <gui>Επιλογές αρχείου</gui> στην πάνω δεξιά γωνία "
+#~ "και επιλέξτε <gui>Τελευταία σελίδα</gui> ή πατήστε <keyseq><key>Ctrl</"
+#~ "key><key>End</key></keyseq> στο πληκτρολόγιό σας."
+
+#~ msgid ""
+#~ "To make the side pane visible, click the <gui>View options</gui> button "
+#~ "in the top-right corner and select <gui>Side Pane</gui>, or press "
+#~ "<key>F9</key> on the keyboard. You should see a preview of all of the "
+#~ "pages in the document."
+#~ msgstr ""
+#~ "Για να κάνετε την πλευρική στήλη ορατή, κάντε κλικ στο κουμπί "
+#~ "<gui>Εμφάνιση επιλογών</gui> στην πάνω δεξιά γωνία και επιλέξτε "
+#~ "<gui>Πλευρική στήλη</gui>, ή πατήστε το <key>F9</key> στο πληκτρολόγιο. "
+#~ "Θα πρέπει να δείτε μια προεπισκόπηση όλων των σελίδων στο έγγραφο."
+
+#~ msgid ""
+#~ "Click the <gui>View options</gui> button in the top-right corner and "
+#~ "select <gui>Zoom In</gui> or use the keyboard shortcuts "
+#~ "<keyseq><key>Ctrl</key><key>+</key></keyseq> to zoom in."
+#~ msgstr ""
+#~ "Κάντε κλικ στο κουμπί <gui>Εμφάνιση επιλογών</gui> στην πάνω δεξιά γωνία "
+#~ "και επιλέξτε <gui>Μεγέθυνση</gui> ή χρησιμοποιήστε τη συντόμευση "
+#~ "πληκτρολογίου <keyseq><key>Ctrl</key><key>+</key></keyseq> για μεγέθυνση."
+
+#~ msgid ""
+#~ "Click the <gui>View options</gui> button in the top-right corner and "
+#~ "select <gui>Zoom Out</gui> or use the keyboard shortcuts "
+#~ "<keyseq><key>Ctrl</key><key>-</key></keyseq> to zoom out."
+#~ msgstr ""
+#~ "Κάντε κλικ στο κουμπί <gui>Εμφάνιση επιλογών</gui> στην πάνω δεξιά γωνία "
+#~ "και επιλέξτε <gui>Σμίκρυνση</gui> ή χρησιμοποιήστε τη συντόμευση "
+#~ "πληκτρολογίου <keyseq><key>Ctrl</key><key>-</key></keyseq> για σμίκρυνση."
+
+#~ msgid "Alternatively, you can do one of the following:"
+#~ msgstr "Εναλλακτικά, μπορείτε να κάνετε ένα από τα ακόλουθα:"
+
+#~ msgid ""
+#~ "Click the <gui>View options</gui> button in the top-right corner and "
+#~ "select <gui>Fullscreen</gui> or press <key>F11</key>."
+#~ msgstr ""
+#~ "Κάντε κλικ στο κουμπί <gui>Εμφάνιση επιλογών</gui> στην πάνω δεξιά γωνία "
+#~ "και επιλέξτε <gui>Πλήρης οθόνη</gui> ή πατήστε το <key>F11</key>."
+
+#~ msgid ""
+#~ "Or disable <gui>Fullscreen</gui> by clicking the <gui>View options</gui> "
+#~ "button in the top-right corner and select <gui>Fullscreen</gui>."
+#~ msgstr ""
+#~ "Ή απενεργοποιήστε την <gui>Πλήρη οθόνη</gui> κάνοντας κλικ στο κουμπί "
+#~ "<gui>Επιλογές προβολής</gui> στην πάνω δεξιά γωνία και επιλέξτε "
+#~ "<gui>Πλήρης οθόνη</gui>."
+
+#~ msgid "Click your name on the topbar and select <gui>System Settings</gui>."
+#~ msgstr ""
+#~ "Πατήστε το όνομά σας στην επάνω γραμμή και επιλέξτε <gui>Ρυθμίσεις "
+#~ "συστήματος</gui>."
+
+#~ msgid "Click on your printer in the list."
+#~ msgstr "Κλικ στον εκτυπωτή σας στη λίστα."
+
+#~ msgid ""
+#~ "Type <input>dconf-editor</input> into the text box and click <gui>Run</"
+#~ "gui>. The Configuration Editor will open."
+#~ msgstr ""
+#~ "Πληκτρολογήστε <input>dconf-editor</input> στο πλαίσιο κειμένου και "
+#~ "πατήστε <gui>Εκτέλεση</gui>. Θα ανοίξει ο επεξεργαστής ρυθμίσεων."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/reverse-collate.png' "
+#~ "md5='2e84b930fa1913123b740f8b0997255e'"
+#~ msgstr ""
+#~ "external ref='figures/reverse-collate.png' "
+#~ "md5='2e84b930fa1913123b740f8b0997255e'"
+
+#~ msgid "Reverse"
+#~ msgstr "Αντίστροφη σειρά"
+
+#~ msgid ""
+#~ "Printers usually print the first page first, and the last page last, so "
+#~ "the pages end up in reverse order when you pick them up."
+#~ msgstr ""
+#~ "Οι εκτυπωτές συνήθως τυπώνουν την πρώτη σελίδα πρώτα και την τελευταία "
+#~ "σελίδα στο τέλος, έτσι οι σελίδες καταλήγουν με αντίστροφη σειρά όταν τις "
+#~ "παίρνετε."
+
+#~ msgid "To reverse the order:"
+#~ msgstr "Για να αντιστρέψετε τη σειρά:"
+
+#~ msgid "<guiseq><gui>File</gui><gui>Print</gui></guiseq>"
+#~ msgstr "<guiseq><gui>Αρχείο</gui><gui>Εκτύπωση</gui></guiseq>"
+
+#~ msgid ""
+#~ "In the <gui>General</gui> tab of the Print window under <em>Copies</em>, "
+#~ "check <gui>Reverse</gui>. The last page will be printed first, and so on."
+#~ msgstr ""
+#~ "Στην καρτέλα <gui>Γενικά</gui> του παραθύρου εκτύπωσης στο <em>αντίγραφα</"
+#~ "em>, επιλέξτε <gui>Αντίστροφη σειρά</gui>. Η τελευταία σελίδα θα "
+#~ "εκτυπωθεί πρώτη και ούτω καθεξής."
+
+#~ msgid "Collate"
+#~ msgstr "Συρραφή"
+
+#~ msgid ""
+#~ "If you are printing more than one copy of the document, the print outs "
+#~ "will be grouped by page number by default. (e.g. The copies of page one "
+#~ "come out, then the copies of page two, etc.) Collating will make each "
+#~ "copy come out with its pages grouped together."
+#~ msgstr ""
+#~ "Αν εκτυπώνετε πάνω από ένα αντίγραφο του εγγράφου, τα αντίτυπα θα "
+#~ "ομαδοποιηθούν κατά αριθμό σελίδας ως προεπιλογή. (π.χ. Τα αντίτυπα της "
+#~ "σελίδας ένα βγαίνουν πρώτα, μετά της σελίδας δύο, κλπ) Η συρραφή θα κάνει "
+#~ "κάθε αντίτυπο να βγαίνει με τις σελίδες του ομαδοποιημένες."
+
+#~ msgid "To collate:"
+#~ msgstr "Για συρραφή:"
+
+#~ msgid "Click <guiseq><gui>File</gui><gui>Print</gui></guiseq>"
+#~ msgstr ""
+#~ "Κάντε κλικ στο <guiseq><gui>Αρχείο</gui><gui>Εκτύπωση</gui></guiseq>"
+
+#~ msgid ""
+#~ "In the <gui>General</gui> tab of the Print window under <em>Copies</em> "
+#~ "check <gui>Collate</gui>."
+#~ msgstr ""
+#~ "Στην καρτέλα <gui>Γενικά</gui> του παραθύρου εκτύπωση στο <em>Αντίγραφα</"
+#~ "em> επιλέξτε <gui>Συρραφή</gui>."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/print-select.png' "
+#~ "md5='e38a5749ed445a812346602ad58b88b4'"
+#~ msgstr ""
+#~ "external ref='figures/print-select.png' "
+#~ "md5='e38a5749ed445a812346602ad58b88b4'"
+
+#~ msgid "To only print certain pages from the document:"
+#~ msgstr "Για να εκτυπώσετε συγκεκριμένες μόνο σελίδες από το έγγραφο:"
+
+#~ msgid ""
+#~ "In the <gui>General</gui> tab in the Print window choose <gui>Pages</gui> "
+#~ "from the <gui>Range</gui> section."
+#~ msgstr ""
+#~ "Στην καρτέλα <gui>Γενικά</gui> στο παράθυρο εκτύπωση επιλέξτε "
+#~ "<gui>Σελίδες</gui> από την ενότητα <gui>Εύρος</gui>."
+
+#~ msgid ""
+#~ "Type the numbers of the pages you want to print in the textbox, separated "
+#~ "by commas. Use a dash to denote a range of pages."
+#~ msgstr ""
+#~ "Πληκτρολογήστε τους αριθμούς των σελίδων, που θέλετε να εκτυπώσετε, στο "
+#~ "πεδίο κειμένου, διαχωρισμένους με κόμματα. Χρησιμοποιήστε μια παύλα για "
+#~ "να δηλώσετε εύρος σελίδων."
+
+#~ msgid ""
+#~ "For example, if you enter \"1,3,5-7,9\" in the <gui>Pages</gui> textbox, "
+#~ "pages 1,3,5,6,7 and 9 will be printed."
+#~ msgstr ""
+#~ "Για παράδειγμα, εάν εισάγετε \"1,3,5-7,9\" στο πλαίσιο κειμένου "
+#~ "<gui>Σελίδες</gui>, θα τυπωθούν οι σελίδες 1,3,5,6,7 και 9."
+
+#~ msgid ""
+#~ "See a list of all shortcuts, and learn how to create your own custom "
+#~ "shortcuts."
+#~ msgstr ""
+#~ "Δείτε μια λίστα όλων των συντομεύσεων και μάθετε πως να δημιουργήσετε τις "
+#~ "δικές σας προσαρμοσμένες συντομεύσεις."
+
+#~ msgid "Taufan Lubis"
+#~ msgstr "Taufan Lubis"
+
+#~ msgid "Ronaldi Santosa"
+#~ msgstr "Ronaldi Santosa"
+
+#~ msgid "Ibnu Amansyah"
+#~ msgstr "Ibnu Amansyah"
+
+#~ msgid "Keyboard shortcuts"
+#~ msgstr "Συντομεύσεις πληκτρολογίου"
+
+#~ msgid "Default shortcuts"
+#~ msgstr "Προεπιλεγμένες συντομεύσεις"
+
+#~ msgid "Opening, closing, saving and printing"
+#~ msgstr "Άνοιγμα, κλείσιμο, αποθήκευση και εκτύπωση"
+
+#~ msgid "Open a document."
+#~ msgstr "Άνοιγμα εγγράφου."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>O</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>O</key></keyseq>"
+
+#~ msgid "Open a copy of the current document."
+#~ msgstr "Άνοιγμα αντιγράφου του τρέχοντος εγγράφου."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>"
+
+#~ msgid "Save a copy of the current document with a new file name."
+#~ msgstr "Αποθήκευση αντιγράφου του τρέχοντος εγγράφου με νέο όνομα αρχείου."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>S</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>S</key></keyseq>"
+
+#~ msgid "Print the current document."
+#~ msgstr "Εκτύπωση του τρέχοντος εγγράφου."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+
+#~ msgid "Close the current document window."
+#~ msgstr "Κλείσιμο του παραθύρου του τρέχοντος εγγράφου."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>W</key></keyseq>"
+
+#~ msgid "Reload the document (effectively closes and re-opens the document)."
+#~ msgstr ""
+#~ "Επαναφόρτωση εγγράφου (στην πράξη κλείνει και ξανανοίγει το έγγραφο)."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+
+#~ msgid "Moving around the document"
+#~ msgstr "Μετακίνηση μέσα σε έγγραφο"
+
+#~ msgid "Move up/down a page."
+#~ msgstr "Μετακίνηση πάνω/κάτω μια σελίδα."
+
+#~ msgid "Arrow keys"
+#~ msgstr "Πλήκτρα βέλους"
+
+#~ msgid "Move up/down a page several lines at a time."
+#~ msgstr "Μετακίνηση πάνω/κάτω μιας σελίδας πολλές γραμμές τη φορά."
+
+#~ msgid "<key>Page Up</key> / <key>Page Down</key>"
+#~ msgstr "<key>Page Up</key> / <key>Page Down</key>"
+
+#~ msgid "Go to the previous/next page."
+#~ msgstr "Μετάβαση στην προηγούμενη/επόμενη σελίδα."
+
+#~ msgid ""
+#~ "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq> / <keyseq><key>Ctrl</"
+#~ "key><key>Page Down</key></keyseq>"
+#~ msgstr ""
+#~ "<keyseq><key>Ctrl</key><key>Page Up</key></keyseq> / <keyseq><key>Ctrl</"
+#~ "key><key>Page Down</key></keyseq>"
+
+#~ msgid "Go to page number."
+#~ msgstr "Μετάβαση σε σελίδα."
+
+#~| msgid "<keyseq><key>Ctrl</key><key>Shift</key><key>G</key></keyseq>"
+#~ msgid ""
+#~ "<keyseq><key>Ctrl</key><key>L</key></keyseq> followed by the page number "
+#~ "and <key>Enter</key>"
+#~ msgstr ""
+#~ "<keyseq><key>Ctrl</key><key>L</key></keyseq> ακολοθούμενη από τον αριθμό "
+#~ "της σελίδας και <key>Enter</key>"
+
+#~ msgid ""
+#~ "Go to the beginning of a page (beginning of the document if "
+#~ "<guiseq><gui>View</gui> <gui>Continuous</gui></guiseq> is selected)."
+#~ msgstr ""
+#~ "Μετάβαση στην αρχή μιας σελίδας (αρχή του εγγράφου αν επιλεχθεί το "
+#~ "<guiseq><gui>Προβολή</gui><gui>Συνεχής</gui></guiseq>)."
+
+#~ msgid "<key>Home</key>"
+#~ msgstr "<key>Home</key>"
+
+#~ msgid ""
+#~ "Go to the end of a page (end of the document if <guiseq><gui>View</"
+#~ "gui><gui>Continuous</gui></guiseq> is selected)."
+#~ msgstr ""
+#~ "Μετάβαση στο τέλος μιας σελίδας (τέλος του εγγράφου αν επιλεχθεί το "
+#~ "<guiseq><gui>Προβολή</gui><gui>Συνεχής</gui></guiseq>)."
+
+#~ msgid "<key>End</key>"
+#~ msgstr "<key>End</key>"
+
+#~ msgid "Go to the beginning of the document."
+#~ msgstr "Μετάβαση στην αρχή του εγγράφου."
+
+#~ msgid "Go to the end of the document."
+#~ msgstr "Μετάβαση στο τέλος του εγγράφου."
+
+#~ msgid "Selecting and copying text"
+#~ msgstr "Επιλογή και αντιγραφή κειμένου"
+
+#~ msgid "Copy highlighted text."
+#~ msgstr "Αντιγραφή επισημασμένου κειμένου."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>C</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>C</key></keyseq>"
+
+#~ msgid "Select all the text in a document."
+#~ msgstr "Επιλογή όλου του κειμένου ενός εγγράφου."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>A</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>A</key></keyseq>"
+
+#~ msgid "Finding text"
+#~ msgstr "Εύρεση κειμένου"
+
+#~ msgid ""
+#~ "Show the toolbar that lets you search for words in the document. The "
+#~ "search box is automatically highlighted when you press this, and the "
+#~ "search will start as soon as you type some text."
+#~ msgstr ""
+#~ "Εμφάνιση της εργαλειοθήκης που σας επιτρέπει να αναζητήσετε λέξεις στο "
+#~ "έγγραφο. Το πεδίο αναζήτησης επισημαίνεται αυτόματα όταν το πατήσετε και "
+#~ "η αναζήτηση θα αρχίσει αμέσως μόλις πληκτρολογήσετε κάποιο κείμενο."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>F</key></keyseq>"
+
+#~ msgid "Go to the next search result."
+#~ msgstr "Μετάβαση στο επόμενο αποτέλεσμα της αναζήτησης."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>G</key></keyseq>"
+
+#~ msgid "Go to the previous search result."
+#~ msgstr "Μετάβαση στο προηγούμενο αποτέλεσμα της αναζήτησης."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>Shift</key><key>G</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>Shift</key><key>G</key></keyseq>"
+
+#~ msgid "Rotating and zooming"
+#~ msgstr "Περιστροφή και εστίαση"
+
+#~ msgid "Rotate the pages 90 degrees counter-clockwise."
+#~ msgstr "Περιστροφή των σελίδων 90 μοίρες αριστερόστροφα."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>Left arrow</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>Αριστερό βέλος</key></keyseq>"
+
+#~ msgid "Rotate the pages 90 degrees clockwise."
+#~ msgstr "Περιστροφή των σελίδων 90 μοίρες δεξιόστροφα."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>Right arrow</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>Δεξί βέλος</key></keyseq>"
+
+#~ msgid "Zoom in."
+#~ msgstr "Μεγέθυνση."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>+</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>+</key></keyseq>"
+
+#~ msgid "Zoom out."
+#~ msgstr "Σμίκρυνση."
+
+#~ msgid "<keyseq><key>Ctrl</key><key>-</key></keyseq>"
+#~ msgstr "<keyseq><key>Ctrl</key><key>-</key></keyseq>"
+
+#~ msgid "Create your own custom shortcuts"
+#~ msgstr "Δημιουργήστε τις δικές σας προσαρμοσμένες συντομεύσεις"
+
+#~ msgid "Enable the /desktop/gnome/interface/can_change_accels flag in gconf:"
+#~ msgstr ""
+#~ "Ενεργοποιήστε τη σημαία /desktop/gnome/interface/can_change_accels στο "
+#~ "gconf:"
+
+#~ msgid ""
+#~ "Press <keyseq><key>Alt</key><key>F2</key></keyseq>. The Run Application "
+#~ "dialogue opens."
+#~ msgstr ""
+#~ "Πατήστε <keyseq><key>Alt</key><key>F2</key></keyseq>. Ανοίγει ο διάλογος "
+#~ "εκτέλεσης εφαρμογής."
+
+#~ msgid "In the textbox, type 'gconf-editor'."
+#~ msgstr "Στο πεδίο κειμένου, πληκτρολογήστε 'gconf-editor'."
+
+#~ msgid ""
+#~ "In the Configuration Editor select <guiseq><gui>desktop</gui><gui>gnome</"
+#~ "gui><gui>interface</gui></guiseq>."
+#~ msgstr ""
+#~ "Στον επεξεργαστή διαμόρφωσης επιλέξτε <guiseq><gui>desktop</"
+#~ "gui><gui>gnome</gui><gui>interface</gui></guiseq>."
+
+#~ msgid ""
+#~ "Check the value box for <gui>can_change_accels</gui> in the right side of "
+#~ "the window."
+#~ msgstr ""
+#~ "Σημειώστε το πλαίσιο τιμής για το <gui>can_change_accels</gui> στη δεξιά "
+#~ "πλευρά του παραθύρου."
+
+#~ msgid "You can add/change the shortcut as follows:"
+#~ msgstr "Μπορείτε να προσθέσετε/αλλάξετε τη συντόμευση ως εξής:"
+
+#~ msgid "Open the <app>document viewer</app>."
+#~ msgstr "Άνοιγμα της <app>προβολής εγγράφων</app>."
+
+#~ msgid ""
+#~ "Hover the pointer over the menu item you want to change/create the "
+#~ "shortcut for."
+#~ msgstr ""
+#~ "Αιώρηση του δείκτη πάνω το στοιχείο του μενού για το οποίο θέλετε να "
+#~ "αλλάξετε/δημιουργήσετε συντόμευση."
+
+#~ msgid ""
+#~ "Enter the shortcut you want on the keyboard, e.g. <keyseq><key>Ctrl</"
+#~ "key><key>Shift</key><key>T</key></keyseq>."
+#~ msgstr ""
+#~ "Εισάγετε τη συντόμευση που επιθυμείτε στο πληκτρολόγιο, π.χ. "
+#~ "<keyseq><key>Ctrl</key><key>Shift</key><key>T</key></keyseq>."
+
+#~ msgid "Close the <app>document viewer</app>."
+#~ msgstr "Κλείσιμο της <app>προβολής εγγράφων</app>."
+
+#~ msgid "Repeat steps 1-3."
+#~ msgstr "Επαναλάβετε τα βήματα 1-3."
+
+#~ msgid ""
+#~ "Uncheck the value box for <gui>can_change_accels</gui> in the right side "
+#~ "of the window."
+#~ msgstr ""
+#~ "Αποεπιλέξτε το πλαίσιο τιμής για το <gui>can_change_accels</gui> στη "
+#~ "δεξιά πλευρά του παραθύρου."
+
+#~ msgid ""
+#~ "The next time the <app>document viewer</app> launches, your custom "
+#~ "shortcut key will be preserved."
+#~ msgstr ""
+#~ "Την επόμενη φορά που θα εκκινήσει η <app>προβολή εγγράφων</app>, η "
+#~ "προσαρμοσμένη συντόμευση σας θα διατηρηθεί."
+
+#~ msgid "Note that this also works for many other Gnome applications as well."
+#~ msgstr "Σημειώστε ότι αυτό ισχύει και για πολλές άλλες εφαρμογές του Gnome."
+
+#~ msgid "Using SyncTeX with the LaTeX Beamer class."
+#~ msgstr "Χρήση SyncTeX με την κλάση LaTeX Beamer."
+
+#~ msgid "Beamer with SyncTeX"
+#~ msgstr "Beamer με SyncTeX"
+
+#~ msgid "Beamer is a LaTeX class for creating slides for presentations."
+#~ msgstr ""
+#~ "Beamer είναι μια κλάση LaTeX για δημιουργία διαφανειών παρουσιάσεων."
+
+#~ msgid ""
+#~ "You can perform forward and backward search in a <em>Beamer-LaTeX</em> "
+#~ "presentation in a similar fashion to <link xref=\"synctex-"
+#~ "search\">searching</link> through other TeX files compiled with SyncTeX. "
+#~ "However the search brings you to the corresponding frame (slide), not "
+#~ "necessarily the associated line of text. This difference is outlined in "
+#~ "detail below."
+#~ msgstr ""
+#~ "Μπορείτε να εκτελέσετε αναζήτηση προς τα εμπρός και προς τα πίσω σε μια "
+#~ "παρουσίαση <em>Beamer-LaTeX</em> με παρόμοιο τρόπο με την <link "
+#~ "xref=\"synctex-search\">αναζήτηση</link> μέσα από άλλα αρχεία TeX "
+#~ "μεταγλωττισμένα με SyncTeX. Όμως η αναζήτηση εμφανίζει το αντίστοιχο "
+#~ "πλαίσιο (διαφάνεια), όχι αναγκαστικά τη συνδεμένη γραμμή ή κείμενο. Αυτή "
+#~ "η διαφορά περιγράφεται με λεπτομέρειες παρακάτω."
+
+#~ msgid ""
+#~ "Forward search: from Beamer-LaTeX source to PDF (<app>gedit</app> to the "
+#~ "<app>document viewer</app>)"
+#~ msgstr ""
+#~ "Αναζήτηση προς τα εμπρός: από πηγή Beamer-LaTeX σε PDF (από <app>gedit</"
+#~ "app> στην <app>προβολή εγγράφων</app>)"
+
+#~ msgid ""
+#~ "With <link xref=\"synctex-search#forward-search\">forward search</link>, "
+#~ "you can click on a specific line of Beamer-LaTeX source code. The "
+#~ "<em>top</em> of the corresponding slide in the PDF will be outlined in "
+#~ "red. This will often be the <em>frametitle</em>."
+#~ msgstr ""
+#~ "Με <link xref=\"synctex-search#forward-search\">αναζήτηση προς τα εμπρός</"
+#~ "link>, μπορείτε να πατήσετε σε μια συγκεκριμένη γραμμή του πηγαίου κώδικα "
+#~ "Beamer-LaTeX. Η <em>κορυφή</em> της αντίστοιχης διαφάνειας στο PDF θα "
+#~ "περιγραφεί με κόκκινο. Αυτός θα είναι συχνά ο <em>τίτλος πλαισίου</em>."
+
+#~ msgid ""
+#~ "Backward search: from PDF to Beamer-LaTeX source (from the <app>document "
+#~ "viewer</app> to <app>gedit</app>)"
+#~ msgstr ""
+#~ "Αναζήτηση προς τα πίσω: από PDF σε πηγή Beamer-LaTeX (από την "
+#~ "<app>προβολή εγγράφων</app> στο <app>gedit</app>)"
+
+#~ msgid ""
+#~ "With <link xref=\"synctex-search#backward-search\">backward search</"
+#~ "link>, you click on some text in a frame, and the corresponding line of "
+#~ "LaTex code that ends that particular frame is highlighted. This will "
+#~ "usually be the line:"
+#~ msgstr ""
+#~ "Με <link xref=\"synctex-search#backward-search\">αναζήτηση προς τα πίσω</"
+#~ "link>, πατήστε κάποιο κείμενο στο πλαίσιο και η αντίστοιχη γραμμή του "
+#~ "κώδικα LaTex που λήγει σ' αυτό το συγκεκριμένο πλαίσιο επισημαίνεται. "
+#~ "Αυτό θα είναι συνήθως η γραμμή:"
+
+#, no-wrap
+#~ msgid "\\end{frame}"
+#~ msgstr "\\end{frame}"
+
+#~ msgid "corresponding to the frame you clicked on."
+#~ msgstr "που αντιστοιχεί στο πλαίσιο που πατήσατε."
+
+#~ msgid "How to compile your TeX document with SyncTeX"
+#~ msgstr "Πως να μεταγλωττίσετε το έγγραφό σας TeX με SyncTeX"
+
+#~ msgid "Compile TeX with SyncTeX"
+#~ msgstr "Μεταγλώττιση TeX με SyncTeX"
+
+#~ msgid ""
+#~ "Adding the line <em>\\synctex=1</em> in the preamble of your TeX file "
+#~ "will trigger synchronization with SyncTeX."
+#~ msgstr ""
+#~ "Προσθήκη της γραμμής <em>\\synctex=1</em> στο προοίμιο του αρχείου TeX θα "
+#~ "προκαλέσει συγχρονισμό με το SyncTeX."
+
+#, no-wrap
+#~ msgid ""
+#~ "\n"
+#~ "\\documentclass{article}\n"
+#~ "\\synctex=1\n"
+#~ "\\usepackage{fullpage}\n"
+#~ "\\begin{document}\n"
+#~ "...\n"
+#~ "\\end{document}\n"
+#~ msgstr ""
+#~ "\n"
+#~ "\\documentclass{article}\n"
+#~ "\\synctex=1\n"
+#~ "\\usepackage{fullpage}\n"
+#~ "\\begin{document}\n"
+#~ "...\n"
+#~ "\\end{document}\n"
+
+#~ msgid ""
+#~ "Alternatively, you can run the pdflatex command with the <em>-synctex=1</"
+#~ "em> option:"
+#~ msgstr ""
+#~ "Εναλλακτικά, μπορείτε να εκτελέσετε την εντολή pdflatex με την επιλογή "
+#~ "<em>-synctex=1</em>:"
+
+#, no-wrap
+#~ msgid "pdflatex -synctex=1 yourFile.tex"
+#~ msgstr "pdflatex -synctex=1 yourFile.tex"
+
+#~ msgid "Which editor can you use to edit your TEX file?"
+#~ msgstr ""
+#~ "Ποιον επεξεργαστή μπορείτε να χρησιμοποιήσετε για επεξεργασία αρχείου TEX;"
+
+#~ msgid "Supported editors"
+#~ msgstr "Υποστηριζόμενοι επεξεργαστές"
+
+#~ msgid "<app>gedit</app>"
+#~ msgstr "<app>gedit</app>"
+
+#~ msgid ""
+#~ "<link xref=\"synctex-search#forward-search\">Forward Search</link> (from "
+#~ "<app>gedit</app> to the <app>document viewer</app>) and <link "
+#~ "xref=\"synctex-search#backward-search\">Backward search</link> (from the "
+#~ "<app>document viewer</app> to <app>gedit</app>) are both supported."
+#~ msgstr ""
+#~ "<link xref=\"synctex-search#forward-search\">Aναζήτηση προς τα εμπρός</"
+#~ "link> (από <app>gedit</app> στην <app>προβολή εγγράφων</app>) και <link "
+#~ "xref=\"synctex-search#backward-search\">Αναζήτηση προς τα πίσω</link> "
+#~ "(από την <app>προβολή εγγράφων</app> σε <app>gedit</app>) υποστηρίζονται "
+#~ "και οι δυο."
+
+#~ msgid "Vim-latex"
+#~ msgstr "Vim-latex"
+
+#~ msgid ""
+#~ "The <app>gedit</app> plugin contains a python script (evince_dbus.py) "
+#~ "that can be used to get SyncTeX working with Vim. In order to use vim-"
+#~ "latex together with the <app>document viewer</app> you need to follow the "
+#~ "next steps:"
+#~ msgstr ""
+#~ "Το πρόσθετο <app>gedit</app> περιέχει μια δέσμη ενεργειών python "
+#~ "(evince_dbus.py) που μπορεί να χρησιμοποιηθεί για λήψη του SyncTeX που "
+#~ "δουλεύει με το Vim. Για να χρησιμοποιήσετε το vim-latex μαζί με την "
+#~ "<app>προβολή εγγράφων</app> χρειάζεστε να ακολουθήσετε τα επόμενα βήματα:"
+
+#~ msgid ""
+#~ "Copy the evince_dbus.py to some directory in your path and give it +x "
+#~ "permissions."
+#~ msgstr ""
+#~ "Αντιγράψτε το evince_dbus.py σε κάποιο κατάλογο στη διαδρομή σας και "
+#~ "δώστε του δικαιώματα +x."
+
+#~ msgid "Modify your ~/.vimrc file and add the following lines."
+#~ msgstr ""
+#~ "Τροποποιήστε το αρχείο σας ~/.vimrc και προσθέστε τις επόμενες γραμμές."
+
+#, no-wrap
+#~ msgid ""
+#~ "\n"
+#~ "let g:Tex_ViewRule_pdf = 'evince_dbus.py'\n"
+#~ "let g:Tex_DefaultTargetFormat = 'pdf'\n"
+#~ "let g:Tex_CompileRule_pdf = 'pdflatex --synctex=1 -interaction=nonstopmode $*'\n"
+#~ msgstr ""
+#~ "\n"
+#~ "let g:Tex_ViewRule_pdf = 'evince_dbus.py'\n"
+#~ "let g:Tex_DefaultTargetFormat = 'pdf'\n"
+#~ "let g:Tex_CompileRule_pdf = 'pdflatex --synctex=1 -interaction=nonstopmode $*'\n"
+
+#~ msgid ""
+#~ "Now you can use Forward search from vim-latex by typing \\ls. Backward "
+#~ "search is not yet supported."
+#~ msgstr ""
+#~ "Τώρα μπορείτε να χρησιμοποιήσετε την αναζήτηση προς τα εμπρός από το vim-"
+#~ "latex πληκτρολογώντας \\ls. Η αναζήτηση προς τα πίσω δεν υποστηρίζεται "
+#~ "ακόμα."
+
+#~ msgid "SyncTeX support is available."
+#~ msgstr "Η υποστήριξη SyncTeX είναι διαθέσιμη."
+
+#~ msgid "What is SyncTeX?"
+#~ msgstr "Τι είναι SyncTeX;"
+
+#~ msgid ""
+#~ "SyncTeX is a method that enables synchronization between a TeX source "
+#~ "file and the resulting PDF output."
+#~ msgstr ""
+#~ "SyncTeX είναι μια μέθοδος που ενεργοποιεί συγχρονισμό μεταξύ πηγαίου "
+#~ "αρχείου TeX και της τελικής εξόδου PDF."
+
+#~ msgid "Flip between the <app>document viewer</app> and <app>gedit</app>."
+#~ msgstr ""
+#~ "Εναλλαγή μεταξύ της <app>προβολής εγγράφων</app> και του <app>gedit</app>."
+
+#~ msgid "Search with SyncTeX"
+#~ msgstr "Αναζήτηση με SyncTeX"
+
+#~ msgid ""
+#~ "After you <link xref=\"synctex-compile\">compile your TeX file with "
+#~ "SyncTeX</link>, you will be able to search. SyncTeX even supports forward "
+#~ "and backward search from an included file."
+#~ msgstr ""
+#~ "Αφού <link xref=\"synctex-compile\">μεταγλωττίσετε το αρχείο σας TeX με "
+#~ "SyncTeX</link>, θα μπορείτε να αναζητήσετε. Το SyncTeX ακόμα υποστηρίζει "
+#~ "αναζήτηση προς τα εμπρός και προς τα πίσω από περιεχόμενο αρχείο."
+
+#~ msgid ""
+#~ "Forward search: from TeX to PDF (from <app>gedit</app> to the "
+#~ "<app>document viewer</app>)"
+#~ msgstr ""
+#~ "Αναζήτηση προς τα εμπρός: από TeX σε PDF (από <app>gedit</app> σε "
+#~ "<app>προβολή εγγράφων</app>)"
+
+#~ msgid ""
+#~ "Forward search allows you to click on a specific section of TeX source "
+#~ "code, and jump to the associated position in the PDF. To perform forward "
+#~ "search:"
+#~ msgstr ""
+#~ "Η αναζήτηση προς τα εμπρός επιτρέπει να κάνετε κλικ σε συγκεκριμένη "
+#~ "ενότητα του πηγαίου κώδικα TeX και να μεταβείτε στη συσχετισμένη θέση στο "
+#~ "PDF. Για εκτέλεση αναζήτησης προς τα εμπρός:"
+
+#~ msgid "Click on a line in the TeX file."
+#~ msgstr "Κλικ σε μια γραμμή στο αρχείο TeX."
+
+#~ msgid ""
+#~ "In <app>gedit</app>, click <guiseq><gui>Tools</gui> <gui>Forward Search</"
+#~ "gui></guiseq>. The corresponding line in the PDF will be outlined in red."
+#~ msgstr ""
+#~ "Στο <app>gedit</app>, κάντε κλικ στα <guiseq><gui>Εργαλεία</"
+#~ "gui><gui>Αναζήτηση προς τα εμπρός</gui></guiseq>. Η αντίστοιχη γραμμή στο "
+#~ "PDF θα περιγραφεί με κόκκινο."
+
+#~ msgid ""
+#~ "Alternatively, you can press <keyseq><key>Ctrl</key><key>Alt</key><key>F</"
+#~ "key></keyseq>, or <keyseq><key>Ctrl</key>left click</keyseq>. The "
+#~ "corresponding line in the PDF will be outlined in red."
+#~ msgstr ""
+#~ "Εναλλακτικά, μπορείτε να πατήστε <keyseq><key>Ctrl</key><key>Alt</"
+#~ "key><key>F</key></keyseq>, ή <keyseq><key>Ctrl</key>αριστερό κλικ</"
+#~ "keyseq>. Η αντίστοιχη γραμμή στο PDF θα περιγραφεί με κόκκινο."
+
+#~ msgid ""
+#~ "If the corresponding PDF file is not open, performing a forward search "
+#~ "will open the PDF in the <app>document viewer</app>."
+#~ msgstr ""
+#~ "Εάν το αντίστοιχο αρχείο PDF δεν είναι ανοικτό, εκτελώντας μια αναζήτηση "
+#~ "προς τα εμπρός θα ανοίξει το PDF στην <app>προβολή εγγράφων</app>."
+
+#~ msgid "If you have a complex project with several TeX files you can put"
+#~ msgstr "Εάν έχετε ένα σύνθετο έργο με πολλά αρχεία TeX μπορείτε να βάλετε"
+
+#, no-wrap
+#~ msgid "% mainfile: mainfile.tex"
+#~ msgstr "% mainfile: mainfile.tex"
+
+#~ msgid ""
+#~ "either in the first or last three lines of each included TeX file, and "
+#~ "forward search will work. Backward search should always work, even if you "
+#~ "don't add the modeline."
+#~ msgstr ""
+#~ "είτε στις πρώτες ή στις τελευταίες τρεις γραμμές καθενός περιεχομένου "
+#~ "αρχείου TeX και η αναζήτηση προς τα εμπρός θα δουλέψει. Η αναζήτηση προς "
+#~ "τα πίσω πρέπει να δουλεύει πάντα, ακόμα κι αν δεν προσθέτετε τη γραμμή "
+#~ "κατάστασης."
+
+#~ msgid ""
+#~ "Backward search: from PDF to TeX (from the <app>document viewer</app> to "
+#~ "<app>gedit</app>)"
+#~ msgstr ""
+#~ "Αναζήτηση προς τα πίσω: από PDF σε TeX (από την <app>προβολή εγγράφων</"
+#~ "app> στο <app>gedit</app>)"
+
+#~ msgid ""
+#~ "Backward search allows you to click on a specific line in the PDF file, "
+#~ "and jump to the associated line in the TeX source code."
+#~ msgstr ""
+#~ "Η αναζήτηση προς τα πίσω επιτρέπει να πατήσετε σε μια συγκεκριμένη γραμμή "
+#~ "στο αρχείο PDF και να μεταβείτε σε συσχετισμένη γραμμή στον πηγαίο κώδικα "
+#~ "TeX."
+
+#~ msgid ""
+#~ "You can perform a backward search by pressing <keyseq><key>Ctrl</key>left "
+#~ "click</keyseq> in the <app>document viewer</app>. The corresponding line "
+#~ "in the TeX source code will be highlighted."
+#~ msgstr ""
+#~ "Μπορείτε να εκτελέσετε μια αναζήτηση προς τα πίσω πατώντας "
+#~ "<keyseq><key>Ctrl</key>αριστερό κλικ</keyseq> στην <app>προβολή εγγράφων</"
+#~ "app>. Η αντίστοιχη γραμμή στον πηγαίο κώδικα TeX θα επισημανθεί."
+
+#~ msgid "How to add support for SyncTeX."
+#~ msgstr "Πως να προσθέσετε υποστήριξη για SyncTeX."
+
+#~ msgid "Set-up SyncTeX"
+#~ msgstr "Εγκατάσταση SyncTeX"
+
+#~ msgid ""
+#~ "The following packages need to be installed in order to add support for "
+#~ "SyncTeX:"
+#~ msgstr ""
+#~ "Τα επόμενα πακέτα πρέπει να εγκατασταθούν για προσθήκη υποστήριξης στο "
+#~ "SyncTeX:"
+
+#~ msgid "texlive-extra-utils"
+#~ msgstr "texlive-extra-utils"
+
+#~ msgid "gedit-plugins"
+#~ msgstr "gedit-plugins"
+
+#~ msgid "In <app>gedit</app>, enable the SyncTeX Plugin:"
+#~ msgstr "Στο <app>gedit</app>, ενεργοποιήστε το πρόσθετο SyncTeX:"
+
+#~ msgid ""
+#~ "Click <guiseq><gui>Edit</gui><gui>Preferences</gui><gui>Plugins</gui></"
+#~ "guiseq> tab."
+#~ msgstr ""
+#~ "Κάντε κλικ στην καρτέλα <guiseq><gui>Επεξεργασία</gui><gui>Προτιμήσεις</"
+#~ "gui><gui>Πρόσθετα</gui></guiseq>."
+
+#~ msgid "Check <gui>SyncTeX</gui>."
+#~ msgstr "Σημειώστε <gui>SyncTeX</gui>."
+
+#~ msgid ""
+#~ "<link xref=\"toolbar#view\">Show, hide</link> or <link "
+#~ "xref=\"toolbar#edit\">edit</link> the toolbar."
+#~ msgstr ""
+#~ "<link xref=\"toolbar#view\">Προβολή, απόκρυψη</link> ή <link "
+#~ "xref=\"toolbar#edit\">επεξεργασία</link> της εργαλειοθήκης."
+
+#~ msgid "Toolbar"
+#~ msgstr "Εργαλειοθήκη"
+
+#~ msgid ""
+#~ "<gui>∧</gui> and <gui>∨</gui> for <link xref=\"movingaround#between-"
+#~ "pages\">moving</link> from page to page."
+#~ msgstr ""
+#~ "<gui>∧</gui> και <gui>∨</gui> για <link xref=\"movingaround#between-"
+#~ "pages\">μετακίνηση</link> από σελίδα σε σελίδα."
+
+#~ msgid ""
+#~ "The 'page select' <link xref=\"movingaround#between-pages\">tool.</link>"
+#~ msgstr ""
+#~ "Το <link xref=\"movingaround#between-pages\">εργαλείο.</link> 'επιλογή "
+#~ "σελίδας'"
+
+#~ msgid ""
+#~ "<gui>&lt;</gui> and <gui>&gt;</gui> for moving between history items."
+#~ msgstr ""
+#~ "<gui>&lt;</gui> και <gui>&gt;</gui> για μετακίνηση μεταξύ στοιχείων "
+#~ "ιστορικού."
+
+#~ msgid "You can't remove annotations."
+#~ msgstr "Αδυναμία αφαίρεσης σχολίων."
+
+#~ msgid ""
+#~ "You can't remove an annotation in the <app>document viewer</app> at this "
+#~ "time."
+#~ msgstr ""
+#~ "Δεν μπορείτε να αφαιρέσετε ένα σχόλιο από την <app>προβολή εγγράφων</app> "
+#~ "αυτή τη στιγμή."
+
+#~ msgid "Scalable Vector Graphics (.svg)"
+#~ msgstr "Scalable Vector Graphics (.svg)"
+
+#~ msgid "Other Image Files (.gif, .jpeg, .png)"
+#~ msgstr "Άλλα αρχεία εικόνων (.gif, .jpeg, .png)"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/evince-trail.png' "
+#~ "md5='a1a70d04c37f05937d0b3e7a0705d2d4'"
+#~ msgstr ""
+#~ "external ref='figures/evince-trail.png' "
+#~ "md5='a1a70d04c37f05937d0b3e7a0705d2d4'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/evincelogo.png' "
+#~ "md5='a5856135b500d4c4b74a052eef6e09d2'"
+#~ msgstr ""
+#~ "external ref='figures/evincelogo.png' "
+#~ "md5='a5856135b500d4c4b74a052eef6e09d2'"
+
+#~ msgid ""
+#~ "<media type=\"image\" src=\"figures/evincelogo.png\">Evince logo</"
+#~ "media>Evince document viewer"
+#~ msgstr ""
+#~ "<media type=\"image\" src=\"figures/evincelogo.png\">Λογότυπο του Evince "
+#~ "</media>Προβολή εγγράφων Evince"
+
+#~ msgid ""
+#~ "Click <guiseq><gui>File</gui><gui>Print</gui></guiseq> and go to the "
+#~ "<gui>General</gui> tab."
+#~ msgstr ""
+#~ "Πατήστε <guiseq><gui>Αρχείο</gui><gui>Εκτύπωση</gui></guiseq> και "
+#~ "πηγαίνετε στην καρτέλα <gui>Γενικά</gui>."
+
+#~ msgid "To hide the search bar, click anywhere in the document."
+#~ msgstr "Για απόκρυψη της γραμμής αναζήτησης, κλικ οπουδήποτε στο έγγραφο."
+
+#~ msgid "Use the Go Menu:"
+#~ msgstr "Χρησιμοποιήστε το μενού μετάβαση:"
+
+#~ msgid "<guiseq><gui>Go</gui><gui>Next Page</gui></guiseq>"
+#~ msgstr "<guiseq><gui>Μετάβαση</gui><gui>Επόμενη σελίδα</gui></guiseq>"
+
+#~ msgid "<guiseq><gui>Go</gui><gui>Previous Page</gui></guiseq>"
+#~ msgstr "<guiseq><gui>Μετάβαση</gui><gui>Προηγούμενη σελίδα</gui></guiseq>"
+
+#~ msgid ""
+#~ "or click the <gui>Leave Fullscreen</gui> button at the top of the screen."
+#~ msgstr ""
+#~ "ή κλικ στο κουμπί <gui>Έξοδος από πλήρη οθόνη</gui> στην κορυφή της "
+#~ "οθόνης."
+
+#~ msgid "Opening a document"
+#~ msgstr "Άνοιγμα εγγράφου"
+
+#~ msgid "There are two types of passwords:"
+#~ msgstr "Υπάρχουν δύο τύποι κωδικών:"
+
+#~ msgid "The <em>user password</em> is needed to view the document."
+#~ msgstr ""
+#~ "Ο <em>κωδικός χρήστη</em> είναι απαραίτητος για την προβολή του εγγράφου."
+
+#~ msgid ""
+#~ "The <em>master password</em> is required to print the document as well as "
+#~ "view it."
+#~ msgstr ""
+#~ "Ο <em>κύριος κωδικός</em> είναι απαραίτητος και για την εκτύπωση και την "
+#~ "προβολή του εγγράφου."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/synctex_screencast.ogv' "
+#~ "md5='358d317b4fc69fc7e5c5d4d14f07b6a5'"
+#~ msgstr ""
+#~ "external ref='figures/synctex_screencast.ogv' "
+#~ "md5='358d317b4fc69fc7e5c5d4d14f07b6a5'"
+
+#~ msgid "Video Demonstration"
+#~ msgstr "Επίδειξη βίντεο"
+
+#~ msgid "Press <keyseq><key>Ctrl</key>click</keyseq> to sync."
+#~ msgstr "Πατήστε <keyseq><key>Ctrl</key>κλικ</keyseq> για συγχρονισμό."
+
+#~ msgid ""
+#~ "The <app>document viewer</app> does not have a bookmark system. However, "
+#~ "you can use <link xref=\"annotations\">annotations</link> like bookmarks."
+#~ msgstr ""
+#~ "Η <app>Προβολή εγγράφων</app> δεν έχει σύστημα σελιδοδεικτών. Όμως, "
+#~ "μπορείτε να χρησιμοποιήσετε τα <link xref=\"annotations\">σχόλια</link> "
+#~ "ως σελιδοδείκτες."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/evince-toolbar-default.png' "
+#~ "md5='2a826732c770c08b11684e28e259bb31'"
+#~ msgstr ""
+#~ "external ref='figures/evince-toolbar-default.png' "
+#~ "md5='2a826732c770c08b11684e28e259bb31'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/evince-toolbar-editor.png' "
+#~ "md5='e6c66f764c39ab5ba01441d970425cd9'"
+#~ msgstr ""
+#~ "external ref='figures/evince-toolbar-editor.png' "
+#~ "md5='e6c66f764c39ab5ba01441d970425cd9'"
+
+#~ msgid "Show or hide the toolbar"
+#~ msgstr "Εμφάνιση ή απόκρυψη της εργαλειοθήκης"
+
+#~ msgid "Click <guiseq><gui>View</gui><gui>Toolbar</gui></guiseq>."
+#~ msgstr ""
+#~ "Kλικ στο <guiseq><gui>Προβολή</gui><gui>Εργαλειοθήκη</gui></guiseq>."
+
+#~ msgid "The default toolbar contains only a basic set of tools:"
+#~ msgstr ""
+#~ "Η προεπιλεγμένη εργαλειοθήκη περιέχει μόνο ένα βασικό σύνολο εργαλείων:"
+
+#~ msgid ""
+#~ "You can <link xref=\"toolbar#modify\">modify</link> the toolbar if you "
+#~ "prefer a different set."
+#~ msgstr ""
+#~ "Μπορείτε να <link xref=\"toolbar#modify\">τροποποιήσετε</link> την "
+#~ "εργαλειοθήκη εάν προτιμάτε ένα διαφορετικό σύνολο."
+
+#~ msgid "Add, remove and rearrange the tools in the toolbar."
+#~ msgstr "Προσθήκη, αφαίρεση και αναδιάταξη των εργαλείων στην εργαλειοθήκη."
+
+#~ msgid "<link xref=\"toolbar#view\">Show</link> the toolbar."
+#~ msgstr "<link xref=\"toolbar#view\">Εμφάνιση</link> της εργαλειοθήκης."
+
+#~ msgid "Click <guiseq><gui>Edit</gui><gui>Toolbar</gui></guiseq>."
+#~ msgstr ""
+#~ "Κλικ στο <guiseq><gui>Επεξεργασία</gui><gui>Εργαλειοθήκη</gui></guiseq>."
+
+#~ msgid ""
+#~ "The <gui>toolbar editor</gui> contains the items that are not in the "
+#~ "toolbar and the separator item."
+#~ msgstr ""
+#~ "Ο <gui>επεξεργαστής εργαλειοθήκης</gui> περιέχει τα στοιχεία που δεν "
+#~ "είναι στην εργαλειοθήκη και το στοιχείο διαχωριστή."
+
+#~ msgid "To add new items to the toolbar:"
+#~ msgstr "Για προσθήκη νέων στοιχείων στην εργαλειοθήκη:"
+
+#~ msgid "drag them from the toolbar editor to the toolbar."
+#~ msgstr "σύρτε τα από τον επεξεργαστή εργαλειοθήκης στην εργαλειοθήκη."
+
+#~ msgid "To remove items from the toolbar:"
+#~ msgstr "Για αφαίρεση στοιχείων από την εργαλειοθήκη:"
+
+#~ msgid "drag them from the toolbar to the toolbar editor."
+#~ msgstr "σύρτε τα από την εργαλειοθήκη στον επεξεργαστή εργαλειοθήκης."
+
+#~ msgid "To rearrange items on the toolbar:"
+#~ msgstr "Για αναδιάταξη στοιχείων στην εργαλειοθήκη:"
+
+#~ msgid "drag them to their new position on the toolbar."
+#~ msgstr "σύρτε τα στη νέα τους θέση στην εργαλειοθήκη."
+
+#~ msgid ""
+#~ "When you have finish editing the toolbar, click <gui>Close</gui> in the "
+#~ "toolbar editor window."
+#~ msgstr ""
+#~ "Όταν τελειώσετε την επεξεργασία της εργαλειοθήκης, κλικ στο "
+#~ "<gui>Κλείσιμο</gui> στο παράθυρο επεξεργαστή εργαλειοθήκης."

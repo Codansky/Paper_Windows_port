@@ -1,0 +1,307 @@
+image.symbolic-circular {
+  background-color: color-mix(in srgb, currentColor 8%, transparent);
+  min-width: 32px;
+  min-height: 32px;
+  border-radius: 50%;
+  -gtk-icon-style: symbolic;
+}
+
+#pps-loading-message {
+    background-color: var(--window-bg-color);
+    color: var(--window-fg-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content-view .document-page {
+    border-radius: 0;
+}
+
+
+.zoom-overlay button.circular {
+    padding: 3px;
+}
+
+pps-view:focus {
+    outline: 2px solid color-mix(in srgb, var(--accent-color) 50%, transparent);
+    outline-offset: 2px;
+}
+
+pps-view {
+    color: black;
+}
+
+pps-view.inverted {
+    color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* FIXME: in dark mode, buttons background are not opaque and
+    they can not be overlaid properly over the document. This should be solved
+    in adwaita */
+    .zoom-overlay > button, .zoom-overlay > * > button, .box-circular {
+        background-color: rgb(from color-mix(in srgb, var(--window-bg-color) 92%, white 8%) r g b / 100%);
+    }
+    .box-circular.expanded > revealer > box > menubutton > button:hover,
+    .box-circular.expanded > button:hover {
+        background-color: rgb(from color-mix(in srgb, var(--window-bg-color) 85%, white 15%) r g b / 100%);
+    }
+}
+
+.box-circular {
+    border-radius:9999px;
+    padding: 0px;
+    margin-bottom:2px;
+}
+.box-circular > revealer > box {
+    padding: 3px;
+}
+
+.box-circular > button {
+    padding: 3px;
+}
+
+.box-circular.expanded > button {
+    border-radius:50px;
+    padding:0;
+    margin-right:7px;
+    margin-left: 6px;
+}
+
+.padded > * > * {
+    padding:6px;
+}
+
+pps-view .document-page {
+    background-color: white;
+    padding: 0;
+}
+
+pps-view .document-page.inverted {
+    background-color: black;
+}
+
+.inverted-color {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.signature-preview {
+    margin: 6px;
+    margin-left: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .signature-preview {
+        filter: invert(1);
+    }
+}
+
+pps-presentation-view {
+    background-color: black;
+}
+
+pps-presentation-view.white-mode {
+    background-color: white;
+}
+
+.toolbar.nested {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.content-view .combo {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+pps-sidebar-thumbnails child.activatable picture {
+    border: 1px solid var(--shade-color);
+    background-clip: content-box;
+    background-color: #ffffff;
+}
+
+pps-sidebar-thumbnails child.activatable picture.inverted-color {
+    /* The border gets inverted too and becomes light otherwise */
+    border: 1px solid white;
+}
+
+pps-sidebar-thumbnails picture {
+    border-radius: 6px;
+}
+
+pps-sidebar-thumbnails.columns-1 gridview > child {
+    padding: 12px 12px 6px;
+    border-radius: 12px;
+}
+
+pps-sidebar-thumbnails.columns-2 gridview > child {
+    padding: 8px 8px 6px;
+    border-radius: 6px;
+}
+
+window.pps-annotation-window, pps-sidebar-annotations-row {
+    --annotation-color: var(--yellow-4);
+    --annotation-fg-color: oklab(from var(--annotation-color) round(1 - l, 1) 0 0);
+}
+
+pps-sidebar-annotations-row {
+    padding: 8px 0;
+}
+
+pps-sidebar-annotations-row .annotation-content {
+    padding: 6px;
+    border-radius: 6px;
+    background-color: var(--annotation-color);
+    color: var(--annotation-fg-color);
+}
+
+pps-sidebar-annotations-row .reference-bar {
+    padding: 0 3px;
+    border-radius: 3px;
+    background-color: var(--annotation-color);
+}
+
+window.pps-annotation-window {
+    background-color: var(--annotation-color);
+}
+
+window.pps-annotation-window headerbar {
+    background-color: var(--annotation-color);
+    color: var(--annotation-fg-color);
+    box-shadow: none;
+    font-weight: 800;
+    font-size: larger;
+}
+
+window.pps-annotation-window text {
+    background-color: var(--annotation-color);
+    color: var(--annotation-fg-color);
+}
+
+window.pps-annotation-window label {
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+
+window.pps-annotation-window textview {
+    background-color: var(--annotation-color);
+    color: var(--annotation-fg-color);
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+}
+
+.color-button {
+    border-radius: 9999px;
+    padding: 3px;
+    background: var(--accent-bg-color);
+    min-width: 24px;
+    min-height: 24px;
+    outline: none;
+    background-clip: content-box;
+    box-shadow: none;
+}
+
+.color-button:checked {
+    box-shadow: 0 0 0 3px var(--accent-bg-color);
+}
+
+.accent-button:focus:focus-visible {
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-color) 30%, transparent);
+}
+
+.accent-button:checked:focus-visible {
+    box-shadow: 0 0 0 3px var(--accent-bg-color),
+                0 0 0 6px color-mix(in srgb, var(--accent-color) 30%, transparent);
+}
+
+#color-button-yellow {
+    --accent-bg-color: var(--yellow-4);
+}
+
+#color-button-black {
+    --accent-bg-color: black;
+}
+
+#color-button-orange {
+    --accent-bg-color: var(--orange-3);
+}
+
+#color-button-red {
+    --accent-bg-color: var(--red-2);
+}
+
+#color-button-purple {
+    --accent-bg-color: var(--purple-2);
+}
+
+#color-button-blue {
+    --accent-bg-color: var(--blue-3);
+}
+
+#color-button-green {
+    --accent-bg-color: var(--green-3);
+}
+
+#text-highlight > image {
+    background-color: var(--annot-textmarkup-color);
+    background-clip: content-box;
+}
+
+#text-strikethrough {
+  -gtk-icon-palette: error var(--annot-textmarkup-color);
+}
+
+#text-underline {
+  -gtk-icon-palette: error var(--annot-textmarkup-color);
+}
+
+#text-squiggly {
+  -gtk-icon-palette: error var(--annot-textmarkup-color);
+}
+/* Inline annot editing */
+.annot-remove-button {
+    padding:0;
+    border-radius:1000px;
+    color: transparent;
+}
+.overlay-annot-box {
+    --half-padding: 12px;
+    margin: var(--half-padding);
+    padding: var(--half-padding);
+    border-radius:4px;
+    border: 2px dashed transparent;
+}
+
+.overlay-annot-wrapper:hover .overlay-annot-box {
+    border-color: alpha(var(--accent-bg-color), 0.5);
+}
+.overlay-annot-wrapper:hover .annot-remove-button {
+    color:alpha(var(--accent-bg-color), 0.5);
+    background-color: var(--accent-fg-color);
+}
+.overlay-annot-wrapper:focus-within .annot-remove-button {
+    color:var(--accent-bg-color);
+    background-color: var(--accent-fg-color);
+}
+.annot-remove-button:hover {
+    color: lighter(var(--accent-bg-color));
+}
+.overlay-annot-wrapper:focus-within .overlay-annot-box {
+    border-color:var(--accent-bg-color);
+}
+.overlay-annot-box:disabled {
+    border-color: transparent;
+}
+.dotbox {
+    background-color:var(--accent-bg-color);
+    border-radius: 2px;
+    min-height:16px;
+    min-width: 16px;
+}
+.dotbox:disabled {
+    background-color: transparent;
+}
+.nobold-label {
+    font-weight: normal;
+}

@@ -1,0 +1,12 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $PpsPropertiesSignatures: Adw.Bin {
+  child: Box {
+    orientation: vertical;
+
+    Adw.PreferencesPage signatures_page {
+      // Signature groups will be added dynamically in Rust code
+    }
+  };
+}

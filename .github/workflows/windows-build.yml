@@ -1,0 +1,80 @@
+name: Windows build
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [ main, master ]
+
+defaults:
+  run:
+    shell: msys2 {0}
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+        shell: pwsh
+
+      - name: Set up MSYS2 (MinGW64)
+        uses: msys2/setup-msys2@v2
+        with:
+          msystem: MINGW64
+          update: true
+          install: >-
+            git
+            mingw-w64-x86_64-toolchain
+            mingw-w64-x86_64-rust
+            mingw-w64-x86_64-meson
+            mingw-w64-x86_64-ninja
+            mingw-w64-x86_64-pkgconf
+            mingw-w64-x86_64-cmake
+            mingw-w64-x86_64-gtk4
+            mingw-w64-x86_64-libadwaita
+            mingw-w64-x86_64-adwaita-icon-theme
+            mingw-w64-x86_64-poppler
+            mingw-w64-x86_64-cairo
+            mingw-w64-x86_64-gdk-pixbuf2
+            mingw-w64-x86_64-libarchive
+            mingw-w64-x86_64-libtiff
+            mingw-w64-x86_64-appstream
+            mingw-w64-x86_64-blueprint-compiler
+            mingw-w64-x86_64-gettext-tools
+
+      - name: Configure (Meson)
+        run: |
+          meson setup builddir \
+            --prefix="$(pwd)/dist/papers" \
+            --buildtype=release \
+            -Dnautilus=false \
+            -Dthumbnailer=false \
+            -Dintrospection=disabled \
+            -Ddocumentation=false \
+            -Duser_doc=false \
+            -Dtests=false \
+            -Dfile_tests=false \
+            -Dsysprof=disabled \
+            -Dkeyring=disabled \
+            -Dgtk_unix_print=disabled
+
+      - name: Build
+        run: ninja -C builddir
+
+      - name: Install to staging prefix
+        run: ninja -C builddir install
+
+      - name: Bundle runtime (DLLs + shared data)
+        run: bash windows/package.sh
+
+      - name: Zip portable folder
+        run: |
+          cd dist
+          7z a -r ../Papers-Windows.zip papers Papers.bat
+        shell: pwsh
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Papers-Windows
+          path: Papers-Windows.zip

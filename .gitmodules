@@ -1,0 +1,15 @@
+[submodule "rust/gir-files"]
+	path = rust/gir-files
+	url = https://github.com/gtk-rs/gir-files
+	branch = master
+	update = none
+[submodule "rust/gir"]
+	path = rust/gir
+	url = https://github.com/gtk-rs/gir
+	branch = master
+	update = none
+[submodule "test-data"]
+	path = test-data
+	url = https://gitlab.gnome.org/lbaudin/papers-test-data
+	branch = main
+	update = none
