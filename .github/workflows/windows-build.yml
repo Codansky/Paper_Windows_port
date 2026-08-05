@@ -71,7 +71,7 @@ jobs:
         run: |
           cd dist
           7z a -r ../Papers-Windows.zip papers Papers.bat
-        shell: pwsh
+      
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
